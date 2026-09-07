@@ -1,0 +1,16 @@
+# 原始代理设置备份 Tue  1 Sep 2026 22:01:06 CST
+-- getwebproxy --
+Enabled: Yes
+Server: 127.0.0.1
+Port: 7897
+Authenticated Proxy Enabled: 0
+-- getsecurewebproxy --
+Enabled: Yes
+Server: 127.0.0.1
+Port: 7897
+Authenticated Proxy Enabled: 0
+-- getsocksfirewallproxy --
+Enabled: Yes
+Server: 127.0.0.1
+Port: 7897
+Authenticated Proxy Enabled: 0

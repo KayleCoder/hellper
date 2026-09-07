@@ -1,0 +1,2984 @@
+[22:01:24.170] Loading script pipeline/wx_credential.py
+[22:01:24.172] HTTP(S) proxy (upstream mode) listening at *:8080.
+[22:03:19.568][127.0.0.1:53911] client connect
+[22:03:19.578][127.0.0.1:53911] server connect 127.0.0.1:7897
+[22:03:20.156][127.0.0.1:53914] client connect
+[22:03:20.157][127.0.0.1:53915] client connect
+[22:03:20.161][127.0.0.1:53914] server connect 127.0.0.1:7897
+[22:03:20.161][127.0.0.1:53915] server connect 127.0.0.1:7897
+127.0.0.1:53915: GET http://detectportal.firefox.com/success.txt?ipv6
+              << 200 OK 8b
+[22:03:20.589][127.0.0.1:53915] server disconnect 127.0.0.1:7897
+[22:03:20.590][127.0.0.1:53915] client disconnect
+127.0.0.1:53914: GET http://detectportal.firefox.com/success.txt?ipv4
+              << 200 OK 8b
+[22:03:20.596][127.0.0.1:53914] server disconnect 127.0.0.1:7897
+[22:03:20.596][127.0.0.1:53914] client disconnect
+127.0.0.1:53911: GET https://mp.weixin.qq.com/ HTTP/2.0
+     << HTTP/2.0 200 OK 58.0k
+[22:03:20.756][127.0.0.1:53911] client disconnect
+[22:03:20.757][127.0.0.1:53911] server disconnect 127.0.0.1:7897
+[22:03:58.736][127.0.0.1:53971] client connect
+[22:03:58.754][127.0.0.1:53971] server connect 127.0.0.1:7897
+127.0.0.1:53971: GET https://mmwxalite.wxqcloud.qq.com/liteapp/wxalite7f2b75…
+              << 200 OK 516k
+[22:04:05.825][127.0.0.1:53988] client connect
+[22:04:05.837][127.0.0.1:53988] server connect 127.0.0.1:7897
+[22:04:10.342][127.0.0.1:54010] client connect
+[22:04:10.346][127.0.0.1:54011] client connect
+[22:04:10.355][127.0.0.1:54012] client connect
+[22:04:10.355][127.0.0.1:54010] server connect 127.0.0.1:7897
+[22:04:10.356][127.0.0.1:54011] server connect 127.0.0.1:7897
+[22:04:10.360][127.0.0.1:54012] server connect 127.0.0.1:7897
+[22:04:10.374][127.0.0.1:54016] client connect
+[22:04:10.375][127.0.0.1:54017] client connect
+[22:04:10.392][127.0.0.1:54018] client connect
+[22:04:10.403][127.0.0.1:54019] client connect
+[22:04:10.405][127.0.0.1:54022] client connect
+[22:04:10.405][127.0.0.1:54016] server connect 127.0.0.1:7897
+[22:04:10.405][127.0.0.1:54017] server connect 127.0.0.1:7897
+[22:04:10.407][127.0.0.1:54018] server connect 127.0.0.1:7897
+[22:04:10.409][127.0.0.1:54019] server connect 127.0.0.1:7897
+[22:04:10.410][127.0.0.1:54022] server connect 127.0.0.1:7897
+[22:04:10.530][127.0.0.1:54028] client connect
+[22:04:10.535][127.0.0.1:54028] server connect 127.0.0.1:7897
+[22:04:10.567][127.0.0.1:54030] client connect
+[22:04:10.574][127.0.0.1:54030] server connect 127.0.0.1:7897
+127.0.0.1:54016: GET http://wxapp.tc.qq.com/270/20304/stodownload?m=c6537d84…
+              << 200 OK 4.4k
+127.0.0.1:54017: GET http://wxapp.tc.qq.com/275/20304/stodownload?m=5c050189…
+              << 200 OK 26.4k
+[22:04:11.082][127.0.0.1:54079] client connect
+[22:04:11.082][127.0.0.1:54080] client connect
+[22:04:11.085][127.0.0.1:54079] server connect 127.0.0.1:7897
+[22:04:11.086][127.0.0.1:54080] server connect 127.0.0.1:7897
+127.0.0.1:54018: GET http://wxapp.tc.qq.com/270/20304/stodownload?m=1d75f9d8…
+              << 200 OK 43.3k
+[22:04:11.113][127.0.0.1:54087] client connect
+[22:04:11.118][127.0.0.1:54087] server connect 127.0.0.1:7897
+127.0.0.1:54011: GET https://findermp.video.qq.com/251/20304/stodownload?enc…
+              << 200 OK 38.4k
+127.0.0.1:54019: GET https://res.wx.qq.com/a/fed_upload/4e09c767-7238-4dab-b…
+              << 200 OK 299b
+127.0.0.1:54022: GET https://findermp.video.qq.com/292/20350/stodownload?enc…
+              << 200 OK 73.8k
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_2_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_4_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54011: GET https://findermp.video.qq.com/251/20350/stodownload?enc…
+              << 200 OK 66.8k
+127.0.0.1:54010: GET https://findermp.video.qq.com/251/20304/stodownload?enc…
+              << 200 OK 139k
+[22:04:11.463][127.0.0.1:54098] client connect
+[22:04:11.468][127.0.0.1:54098] server connect 127.0.0.1:7897
+[22:04:11.512][127.0.0.1:54100] client connect
+[22:04:11.517][127.0.0.1:54100] server connect 127.0.0.1:7897
+[22:04:11.551][127.0.0.1:54102] client connect
+[22:04:11.581][127.0.0.1:54102] server connect 127.0.0.1:7897
+127.0.0.1:54028: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:04:11.600][127.0.0.1:54028] client disconnect
+[22:04:11.601][127.0.0.1:54028] server disconnect 127.0.0.1:7897
+127.0.0.1:54079: GET https://wx.qlogo.cn/finderhead/ver_1/QP8qKdFY79BCLSjbib… HTTP/2.0
+     << HTTP/2.0 200 OK 5.9k
+[22:04:11.817][127.0.0.1:54102] client disconnect
+[22:04:11.818][127.0.0.1:54102] server disconnect 127.0.0.1:7897
+[22:04:11.863][127.0.0.1:54100] client disconnect
+[22:04:11.863][127.0.0.1:54100] server disconnect 127.0.0.1:7897
+127.0.0.1:54087: GET https://wyw-pics.wxqcloud.qq.com.cn/businessType-6/2026… HTTP/2.0
+     << HTTP/2.0 200 OK 102k
+[22:04:12.146][127.0.0.1:54098] client disconnect
+[22:04:12.146][127.0.0.1:54098] server disconnect 127.0.0.1:7897
+127.0.0.1:54087: GET https://wyw-pics.wxqcloud.qq.com.cn/businessType-6/2026… HTTP/2.0
+     << HTTP/2.0 200 OK 77.6k
+127.0.0.1:54087: GET https://wyw-pics.wxqcloud.qq.com.cn/businessType-6/2025… HTTP/2.0
+     << HTTP/2.0 200 OK 334k
+127.0.0.1:54087: GET https://wyw-pics.wxqcloud.qq.com.cn/businessType-6/2025… HTTP/2.0
+     << HTTP/2.0 200 OK 321k
+127.0.0.1:54087: GET https://wyw-pics.wxqcloud.qq.com.cn/businessType-6/2025… HTTP/2.0
+     << HTTP/2.0 200 OK 344k
+127.0.0.1:54087: GET https://wyw-pics.wxqcloud.qq.com.cn/businessType-6/2025… HTTP/2.0
+     << HTTP/2.0 200 OK 355k
+[22:04:12.491][127.0.0.1:54109] client connect
+[22:04:12.493][127.0.0.1:54110] client connect
+[22:04:12.503][127.0.0.1:54109] server connect 127.0.0.1:7897
+[22:04:12.510][127.0.0.1:54110] server connect 127.0.0.1:7897
+[22:04:12.567][127.0.0.1:54114] client connect
+[22:04:12.572][127.0.0.1:54114] server connect 127.0.0.1:7897
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=239069_31_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54114: GET https://mmbiz.qpic.cn/sz_mmbiz_jpg/Lia0oGfsbLdT4cY9mX0w…
+              << 200 OK 6.6k
+127.0.0.1:54012: GET https://mmbiz.qpic.cn/mmbiz_jpg/0YAZsvhpnKfKXOicvnvOcdD…
+              << 200 OK 130k
+[22:04:13.426][127.0.0.1:54129] client connect
+[22:04:13.429][127.0.0.1:54129] server connect 127.0.0.1:7897
+[22:04:13.470][127.0.0.1:54136] client connect
+[22:04:13.477][127.0.0.1:54136] server connect 127.0.0.1:7897
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_2_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_4_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54129: GET https://wxsmw.wxs.qq.com/131/20210/snssvpdownload/SH/re…
+              << 304 Not Modified 0b
+[22:04:14.202][127.0.0.1:54129] server disconnect 127.0.0.1:7897
+[22:04:14.203][127.0.0.1:54129] client disconnect
+127.0.0.1:54110: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:04:14.219][127.0.0.1:54139] client connect
+[22:04:14.229][127.0.0.1:54139] server connect 127.0.0.1:7897
+[22:04:14.460][127.0.0.1:54016] client disconnect
+[22:04:14.461][127.0.0.1:54017] client disconnect
+[22:04:14.461][127.0.0.1:54018] client disconnect
+[22:04:14.462][127.0.0.1:54022] client disconnect
+[22:04:14.462][127.0.0.1:54011] client disconnect
+[22:04:14.462][127.0.0.1:54010] client disconnect
+[22:04:14.462][127.0.0.1:54080] client disconnect
+[22:04:14.463][127.0.0.1:54114] client disconnect
+[22:04:14.463][127.0.0.1:54012] client disconnect
+[22:04:14.463][127.0.0.1:54019] client disconnect
+[22:04:14.464][127.0.0.1:54079] client disconnect
+[22:04:14.464][127.0.0.1:54087] client disconnect
+[22:04:14.465][127.0.0.1:54016] server disconnect 127.0.0.1:7897
+[22:04:14.466][127.0.0.1:54017] server disconnect 127.0.0.1:7897
+[22:04:14.466][127.0.0.1:54018] server disconnect 127.0.0.1:7897
+[22:04:14.467][127.0.0.1:54022] server disconnect 127.0.0.1:7897
+[22:04:14.467][127.0.0.1:54011] server disconnect 127.0.0.1:7897
+[22:04:14.468][127.0.0.1:54010] server disconnect 127.0.0.1:7897
+[22:04:14.468][127.0.0.1:54080] server disconnect 127.0.0.1:7897
+[22:04:14.469][127.0.0.1:54114] server disconnect 127.0.0.1:7897
+[22:04:14.470][127.0.0.1:54012] server disconnect 127.0.0.1:7897
+[22:04:14.471][127.0.0.1:54019] server disconnect 127.0.0.1:7897
+[22:04:14.472][127.0.0.1:54079] server disconnect 127.0.0.1:7897
+[22:04:14.472][127.0.0.1:54087] server disconnect 127.0.0.1:7897
+127.0.0.1:54109: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=239069_31_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54136: GET https://wxa.wxs.qq.com/images/wxapp/mini_program_white_… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:53971: GET https://mmwxalite.wxqcloud.qq.com/liteapp/wxalite7f2b75…
+              << 304 Not Modified 0b
+[22:04:15.138][127.0.0.1:53971] server disconnect 127.0.0.1:7897
+[22:04:15.140][127.0.0.1:53971] client disconnect
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/wapcommreport?uin=MTI4NzU1N… HTTP/2.0
+     << HTTP/2.0 200 OK 46b
+[22:04:16.368][127.0.0.1:54158] client connect
+[22:04:16.379][127.0.0.1:54158] server connect 127.0.0.1:7897
+[22:04:16.388][127.0.0.1:54160] client connect
+[22:04:16.394][127.0.0.1:54160] server connect 127.0.0.1:7897
+127.0.0.1:54030: POST https://mp.weixin.qq.com/mp/wapcommreport?uin=MTI4NzU1N… HTTP/2.0
+     << HTTP/2.0 200 OK 46b
+127.0.0.1:54160: GET https://mmbiz.qpic.cn/sz_mmbiz_jpg/XTbUnunLwfuDhtNJDTd6…
+              << 200 OK 20.9k
+127.0.0.1:54158: GET https://findermp.video.qq.com/251/20302/stodownload?enc…
+              << 200 OK 929k
+[22:04:19.018][127.0.0.1:54174] client connect
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=366926_29_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54030: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=366926_35_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:19.454][127.0.0.1:54174] client disconnect
+[22:04:19.455][127.0.0.1:54158] client disconnect
+[22:04:19.457][127.0.0.1:54158] server disconnect 127.0.0.1:7897
+[22:04:19.457][127.0.0.1:54160] client disconnect
+[22:04:19.457][127.0.0.1:54139] client disconnect
+[22:04:19.458][127.0.0.1:54030] client disconnect
+[22:04:19.458][127.0.0.1:54136] client disconnect
+[22:04:19.459][127.0.0.1:54160] server disconnect 127.0.0.1:7897
+[22:04:19.461][127.0.0.1:54139] server disconnect 127.0.0.1:7897
+[22:04:19.462][127.0.0.1:54030] server disconnect 127.0.0.1:7897
+[22:04:19.463][127.0.0.1:54136] server disconnect 127.0.0.1:7897
+[22:04:19.517][127.0.0.1:54177] client connect
+[22:04:19.530][127.0.0.1:54177] server connect 127.0.0.1:7897
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=366926_0_1&… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[credential] ✓ 已截获 biz=MzAwMDc1OTgyOQ==  uin=MTI4NzU1NTEwMQ==  key=daf9bdc5abc4…
+[credential]   → wx_credential.json；接着跑：
+[credential]   python3 pipeline/wx_hist.py --from wx_credential.json > s2/all.txt
+127.0.0.1:54177: GET https://mp.weixin.qq.com/s?__biz=MzAwMDc1OTgyOQ==&mid=2… HTTP/2.0
+     << HTTP/2.0 200 OK 728k
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=366926_1_1&… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:23.492][127.0.0.1:54184] client connect
+[22:04:23.496][127.0.0.1:54184] server connect 127.0.0.1:7897
+127.0.0.1:54184: GET http://mmbiz.qpic.cn/mmbiz_png/0icCFdJLzK2weSEzbdYJEJTr…
+              << 304 Not Modified 0b
+[22:04:23.893][127.0.0.1:54187] client connect
+[22:04:23.894][127.0.0.1:54188] client connect
+[22:04:23.907][127.0.0.1:54187] server connect 127.0.0.1:7897
+[22:04:23.908][127.0.0.1:54188] server connect 127.0.0.1:7897
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_2_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_6_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=125617_13_1 HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/geticon?biz=MzAwMDc1OTgyOQ=… HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/frontendcommstore?operate_t… HTTP/2.0
+     << HTTP/2.0 200 OK 43b
+127.0.0.1:54177: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/relatedsearchword?action=ge… HTTP/2.0
+     << HTTP/2.0 200 OK 44b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/audiolyrics?appmsgid=224760… HTTP/2.0
+     << HTTP/2.0 200 OK 44b
+127.0.0.1:54188: GET https://res.wx.qq.com/op_res/RCdSzC74aDD_QnWHvT8sNtESWC…
+              << 304 Not Modified 0b
+[22:04:24.435][127.0.0.1:54188] server disconnect 127.0.0.1:7897
+[22:04:24.436][127.0.0.1:54188] client disconnect
+[22:04:24.453][127.0.0.1:53988] client disconnect
+[22:04:24.454][127.0.0.1:53988] server disconnect 127.0.0.1:7897
+[22:04:24.455][127.0.0.1:54184] client disconnect
+[22:04:24.456][127.0.0.1:54184] server disconnect 127.0.0.1:7897
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/tts?action=getttslistenitem… HTTP/2.0
+     << HTTP/2.0 200 OK 1.0k
+127.0.0.1:54177: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:24.949][127.0.0.1:54223] client connect
+127.0.0.1:54177: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:24.958][127.0.0.1:54224] client connect
+[22:04:24.982][127.0.0.1:54223] server connect 127.0.0.1:7897
+127.0.0.1:54177: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:24.987][127.0.0.1:54224] server connect 127.0.0.1:7897
+127.0.0.1:54187: GET https://res.wx.qq.com/op_res/opqv3ix6k9E4e64ZzO7uIqE3Zb…
+              << 304 Not Modified 0b
+[22:04:25.020][127.0.0.1:54187] server disconnect 127.0.0.1:7897
+[22:04:25.020][127.0.0.1:54187] client disconnect
+[22:04:25.290][127.0.0.1:54231] client connect
+[22:04:25.295][127.0.0.1:54231] server connect 127.0.0.1:7897
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/relatedsearchword?action=ge… HTTP/2.0
+     << HTTP/2.0 200 OK 77b
+[22:04:25.453][127.0.0.1:54234] client connect
+[22:04:25.462][127.0.0.1:54234] server connect 127.0.0.1:7897
+[22:04:25.492][127.0.0.1:54236] client connect
+[22:04:25.495][127.0.0.1:54237] client connect
+[22:04:25.501][127.0.0.1:54236] server connect 127.0.0.1:7897
+[22:04:25.507][127.0.0.1:54237] server connect 127.0.0.1:7897
+[22:04:25.763][127.0.0.1:54249] client connect
+[22:04:25.767][127.0.0.1:54249] server connect 127.0.0.1:7897
+[22:04:25.774][127.0.0.1:54251] client connect
+[22:04:25.776][127.0.0.1:54251] server connect 127.0.0.1:7897
+127.0.0.1:54177: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54237: GET https://wxsmw.wxs.qq.com/131/20210/snssvpdownload/SH/re…
+              << 304 Not Modified 0b
+[22:04:25.944][127.0.0.1:54237] server disconnect 127.0.0.1:7897
+[22:04:25.945][127.0.0.1:54237] client disconnect
+[22:04:26.296][127.0.0.1:54249] client disconnect
+[22:04:26.296][127.0.0.1:54249] server disconnect 127.0.0.1:7897
+127.0.0.1:54251: GET https://wxa.wxs.qq.com/images/wxapp/mini_program_white_… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54251: GET https://wxa.wxs.qq.com/images/factory/comment/dest-hint… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54251: GET https://wxa.wxs.qq.com/images/icon/icon_video_go.png HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54236: GET http://wxsmw.wxs.qq.com/131/20210/snssvpdownload/SH/res…
+              << 206 Partial Content 614k
+127.0.0.1:54223: POST https://cube.weixinbridge.com/cube/report/reportbizdata…
+              << 200 OK 58b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=115849_61_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=115849_61_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54177: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=115849_61_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:26.794][127.0.0.1:54231] client disconnect
+[22:04:26.796][127.0.0.1:54231] server disconnect 127.0.0.1:7897
+[22:04:27.060][127.0.0.1:54251] 127.0.0.1:54251: HTTP/2 protocol error: Received header value surrounded by whitespace b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 '
+[22:04:27.060][127.0.0.1:54251] client disconnect
+[22:04:27.061][127.0.0.1:54251] server disconnect 127.0.0.1:7897
+[22:04:27.061][127.0.0.1:54257] client connect
+[22:04:27.064][127.0.0.1:54257] server connect 127.0.0.1:7897
+127.0.0.1:54223: POST https://cube.weixinbridge.com/cube/report/reportbizdata…
+              << 200 OK 58b
+127.0.0.1:54234: GET https://badjs.weixinbridge.com/frontend/reportspeed?pid…
+              << 200 OK 0b
+[22:04:27.469][127.0.0.1:54257] 127.0.0.1:54257: HTTP/2 protocol error: Received header value surrounded by whitespace b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 '
+[22:04:27.469][127.0.0.1:54257] client disconnect
+[22:04:27.470][127.0.0.1:54257] server disconnect 127.0.0.1:7897
+[22:04:29.455][127.0.0.1:54236] client disconnect
+[22:04:29.456][127.0.0.1:54234] client disconnect
+[22:04:29.456][127.0.0.1:54236] server disconnect 127.0.0.1:7897
+[22:04:29.456][127.0.0.1:54234] server disconnect 127.0.0.1:7897
+[22:04:29.456][127.0.0.1:54223] client disconnect
+[22:04:29.456][127.0.0.1:54224] client disconnect
+[22:04:29.457][127.0.0.1:54177] client disconnect
+[22:04:29.457][127.0.0.1:54223] server disconnect 127.0.0.1:7897
+[22:04:29.457][127.0.0.1:54224] server disconnect 127.0.0.1:7897
+[22:04:29.458][127.0.0.1:54177] server disconnect 127.0.0.1:7897
+[22:04:30.531][127.0.0.1:54262] client connect
+[22:04:30.541][127.0.0.1:54262] server connect 127.0.0.1:7897
+[22:04:31.842][127.0.0.1:54267] client connect
+[22:04:31.846][127.0.0.1:54267] server connect 127.0.0.1:7897
+[22:04:32.288][127.0.0.1:54267] client disconnect
+[22:04:32.288][127.0.0.1:54267] server disconnect 127.0.0.1:7897
+127.0.0.1:54262: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:54262: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54262: POST https://mp.weixin.qq.com/mp/jsmonitor? HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:04:34.456][127.0.0.1:54262] client disconnect
+[22:04:34.456][127.0.0.1:54262] server disconnect 127.0.0.1:7897
+[22:04:40.359][127.0.0.1:54272] client connect
+[22:04:40.366][127.0.0.1:54272] server connect 127.0.0.1:7897
+127.0.0.1:54272: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:04:42.713][127.0.0.1:54272] client disconnect
+[22:04:42.714][127.0.0.1:54272] server disconnect 127.0.0.1:7897
+[22:04:49.498][127.0.0.1:54277] client connect
+[22:04:49.507][127.0.0.1:54277] server connect 127.0.0.1:7897
+127.0.0.1:54277: POST https://ab.chatgpt.com/v1/initialize?k=client-sYWqzCYMR… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:04:51.714][127.0.0.1:54280] client connect
+[22:04:51.716][127.0.0.1:54280] server connect 127.0.0.1:7897
+[22:04:52.021][127.0.0.1:54283] client connect
+[22:04:52.024][127.0.0.1:54283] server connect 127.0.0.1:7897
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+[22:04:53.040][127.0.0.1:54280] client disconnect
+[22:04:53.040][127.0.0.1:54280] server disconnect 127.0.0.1:7897
+[22:04:54.420][127.0.0.1:54296] client connect
+[22:04:54.423][127.0.0.1:54296] server connect 127.0.0.1:7897
+127.0.0.1:54296: POST https://chat.openai.com/ces/v1/telemetry/intake?ddforwa… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+[22:05:06.928][127.0.0.1:54305] client connect
+[22:05:06.940][127.0.0.1:54305] server connect 127.0.0.1:7897
+[22:05:07.046][127.0.0.1:54308] client connect
+[22:05:07.050][127.0.0.1:54308] server connect 127.0.0.1:7897
+[22:05:07.266][127.0.0.1:54305] Client TLS handshake failed. The client does not trust the proxy's certificate for mp.weixin.qq.com (tlsv1 alert unknown ca)
+[22:05:07.267][127.0.0.1:54305] client disconnect
+[22:05:07.267][127.0.0.1:54305] server disconnect 127.0.0.1:7897
+127.0.0.1:54277: POST https://ab.chatgpt.com/v1/initialize?k=client-sYWqzCYMR… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+127.0.0.1:54296: POST https://chat.openai.com/ces/v1/telemetry/intake?ddforwa… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+[22:05:29.951][127.0.0.1:54308] Server TLS handshake failed. connection closed
+[22:05:29.953][127.0.0.1:54308] Unable to establish TLS connection with server (connection closed). Trying to establish TLS with client anyway. If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.
+[22:05:29.958][127.0.0.1:54308] server disconnect 127.0.0.1:7897
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+[22:05:31.571][127.0.0.1:54329] client connect
+[22:05:31.574][127.0.0.1:54329] server connect 127.0.0.1:7897
+127.0.0.1:54329: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 44.0k
+[22:05:34.411][127.0.0.1:54329] server disconnect 127.0.0.1:7897
+[22:05:34.411][127.0.0.1:54329] client disconnect
+[22:05:36.424][127.0.0.1:54334] client connect
+[22:05:36.426][127.0.0.1:54334] server connect 127.0.0.1:7897
+127.0.0.1:54334: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 41.5k
+[22:05:39.003][127.0.0.1:54334] server disconnect 127.0.0.1:7897
+[22:05:39.004][127.0.0.1:54334] client disconnect
+[22:05:41.013][127.0.0.1:54339] client connect
+[22:05:41.017][127.0.0.1:54339] server connect 127.0.0.1:7897
+127.0.0.1:54339: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 20.3k
+[22:05:46.214][127.0.0.1:54339] server disconnect 127.0.0.1:7897
+[22:05:46.215][127.0.0.1:54339] client disconnect
+[22:05:47.370][127.0.0.1:54344] client connect
+[22:05:47.384][127.0.0.1:54344] server connect 127.0.0.1:7897
+127.0.0.1:54344: GET https://update.code.visualstudio.com/api/update/darwin-… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:05:48.237][127.0.0.1:54347] client connect
+[22:05:48.241][127.0.0.1:54347] server connect 127.0.0.1:7897
+127.0.0.1:54347: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 24.7k
+[22:05:51.219][127.0.0.1:54347] server disconnect 127.0.0.1:7897
+[22:05:51.222][127.0.0.1:54347] client disconnect
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+[22:05:53.231][127.0.0.1:54350] client connect
+[22:05:53.235][127.0.0.1:54350] server connect 127.0.0.1:7897
+127.0.0.1:54350: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 25.3k
+[22:05:55.205][127.0.0.1:54350] server disconnect 127.0.0.1:7897
+[22:05:55.205][127.0.0.1:54350] client disconnect
+[22:05:57.215][127.0.0.1:54365] client connect
+[22:05:57.220][127.0.0.1:54365] server connect 127.0.0.1:7897
+127.0.0.1:54365: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 23.1k
+[22:05:59.291][127.0.0.1:54365] server disconnect 127.0.0.1:7897
+[22:05:59.291][127.0.0.1:54365] client disconnect
+[22:06:01.298][127.0.0.1:54370] client connect
+[22:06:01.301][127.0.0.1:54370] server connect 127.0.0.1:7897
+[22:06:03.788][127.0.0.1:54373] client connect
+[22:06:03.795][127.0.0.1:54373] server connect 127.0.0.1:7897
+127.0.0.1:54370: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 23.8k
+[22:06:03.894][127.0.0.1:54370] server disconnect 127.0.0.1:7897
+[22:06:03.894][127.0.0.1:54370] client disconnect
+[22:06:04.110][127.0.0.1:54373] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for ab.chatgpt.com, this may indicate that the client does not trust the proxy's certificate.
+[22:06:04.111][127.0.0.1:54373] client disconnect
+[22:06:04.111][127.0.0.1:54373] server disconnect 127.0.0.1:7897
+[22:06:05.906][127.0.0.1:54376] client connect
+[22:06:05.909][127.0.0.1:54376] server connect 127.0.0.1:7897
+127.0.0.1:54376: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 23.0k
+[22:06:09.375][127.0.0.1:54376] server disconnect 127.0.0.1:7897
+[22:06:09.375][127.0.0.1:54376] client disconnect
+[22:06:11.386][127.0.0.1:54382] client connect
+[22:06:11.389][127.0.0.1:54382] server connect 127.0.0.1:7897
+127.0.0.1:54110: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54109: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:54382: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 25.2k
+[22:06:14.283][127.0.0.1:54382] server disconnect 127.0.0.1:7897
+[22:06:14.283][127.0.0.1:54382] client disconnect
+[22:06:16.297][127.0.0.1:54387] client connect
+[22:06:16.300][127.0.0.1:54387] server connect 127.0.0.1:7897
+127.0.0.1:54387: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 23.3k
+[22:06:19.520][127.0.0.1:54387] server disconnect 127.0.0.1:7897
+[22:06:19.520][127.0.0.1:54387] client disconnect
+[22:06:21.532][127.0.0.1:54390] client connect
+[22:06:21.536][127.0.0.1:54390] server connect 127.0.0.1:7897
+[22:06:22.219][127.0.0.1:54393] client connect
+[22:06:22.223][127.0.0.1:54393] server connect 127.0.0.1:7897
+[22:06:22.434][127.0.0.1:54396] client connect
+[22:06:22.437][127.0.0.1:54396] server connect 127.0.0.1:7897
+127.0.0.1:54393 -> tcp -> mtalk.google.com:5228
+[22:06:22.639][127.0.0.1:54399] client connect
+[22:06:22.642][127.0.0.1:54399] server connect 127.0.0.1:7897
+127.0.0.1:54393 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54396 -> tcp -> mtalk.google.com:5228
+127.0.0.1:54393 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54396 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54396 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54393 <- tcp <- mtalk.google.com:5228
+[22:06:23.336][127.0.0.1:54402] client connect
+[22:06:23.339][127.0.0.1:54402] server connect 127.0.0.1:7897
+127.0.0.1:54399 -> tcp -> mtalk.google.com:5228
+127.0.0.1:54402 -> tcp -> mtalk.google.com:5228
+127.0.0.1:54399 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54402 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54402 <- tcp <- mtalk.google.com:5228
+127.0.0.1:54390: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 23.2k
+[22:06:25.035][127.0.0.1:54390] server disconnect 127.0.0.1:7897
+[22:06:25.036][127.0.0.1:54390] client disconnect
+[22:06:27.053][127.0.0.1:54417] client connect
+[22:06:27.058][127.0.0.1:54417] server connect 127.0.0.1:7897
+[22:06:27.442][127.0.0.1:54420] client connect
+[22:06:27.445][127.0.0.1:54420] server connect 127.0.0.1:7897
+127.0.0.1:54420: POST https://api.segment.io/v1/batch HTTP/2.0
+     << HTTP/2.0 200 OK 21b
+127.0.0.1:54417: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 23.5k
+[22:06:29.032][127.0.0.1:54417] server disconnect 127.0.0.1:7897
+[22:06:29.032][127.0.0.1:54417] client disconnect
+127.0.0.1:54420: POST https://api.segment.io/v1/batch HTTP/2.0
+     << HTTP/2.0 200 OK 21b
+[22:06:31.041][127.0.0.1:54425] client connect
+[22:06:31.044][127.0.0.1:54425] server connect 127.0.0.1:7897
+127.0.0.1:54425: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 27.6k
+[22:06:33.121][127.0.0.1:54425] server disconnect 127.0.0.1:7897
+[22:06:33.122][127.0.0.1:54425] client disconnect
+[22:06:33.897][127.0.0.1:54428] client connect
+[22:06:33.900][127.0.0.1:54428] server connect 127.0.0.1:7897
+[22:06:35.132][127.0.0.1:54431] client connect
+[22:06:35.135][127.0.0.1:54431] server connect 127.0.0.1:7897
+127.0.0.1:54428: POST https://browser-intake-datadoghq.com/api/v2/logs?ddsour…
+              << 202 Accepted 53b
+127.0.0.1:54431: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 25.1k
+[22:06:37.372][127.0.0.1:54431] server disconnect 127.0.0.1:7897
+[22:06:37.372][127.0.0.1:54431] client disconnect
+[22:06:39.383][127.0.0.1:54436] client connect
+[22:06:39.385][127.0.0.1:54436] server connect 127.0.0.1:7897
+127.0.0.1:54436: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 26.9k
+[22:06:42.638][127.0.0.1:54436] server disconnect 127.0.0.1:7897
+[22:06:42.638][127.0.0.1:54436] client disconnect
+[22:06:44.648][127.0.0.1:54439] client connect
+[22:06:44.651][127.0.0.1:54439] server connect 127.0.0.1:7897
+127.0.0.1:54439: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.9k
+[22:06:46.801][127.0.0.1:54439] server disconnect 127.0.0.1:7897
+[22:06:46.801][127.0.0.1:54439] client disconnect
+[22:06:48.812][127.0.0.1:54444] client connect
+[22:06:48.815][127.0.0.1:54444] server connect 127.0.0.1:7897
+127.0.0.1:54444: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 26.3k
+[22:06:51.250][127.0.0.1:54444] server disconnect 127.0.0.1:7897
+[22:06:51.285][127.0.0.1:54444] client disconnect
+[22:06:53.333][127.0.0.1:54447] client connect
+[22:06:53.339][127.0.0.1:54447] server connect 127.0.0.1:7897
+127.0.0.1:54447: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 26.3k
+[22:06:55.447][127.0.0.1:54447] server disconnect 127.0.0.1:7897
+[22:06:55.448][127.0.0.1:54447] client disconnect
+[22:06:56.049][127.0.0.1:54462] client connect
+[22:06:56.052][127.0.0.1:54462] server connect 127.0.0.1:7897
+[22:06:56.818][127.0.0.1:54465] client connect
+[22:06:56.826][127.0.0.1:54465] server connect 127.0.0.1:7897
+[22:06:57.459][127.0.0.1:54470] client connect
+[22:06:57.466][127.0.0.1:54470] server connect 127.0.0.1:7897
+127.0.0.1:54462: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 97.7k
+127.0.0.1:54465: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:06:59.489][127.0.0.1:54465] client disconnect
+[22:06:59.490][127.0.0.1:54465] server disconnect 127.0.0.1:7897
+127.0.0.1:54470: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 25.4k
+[22:06:59.708][127.0.0.1:54470] server disconnect 127.0.0.1:7897
+[22:06:59.714][127.0.0.1:54470] client disconnect
+127.0.0.1:54462: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 102k
+[22:07:00.701][127.0.0.1:54477] client connect
+[22:07:00.705][127.0.0.1:54477] server connect 127.0.0.1:7897
+[22:07:01.721][127.0.0.1:54480] client connect
+[22:07:01.724][127.0.0.1:54480] server connect 127.0.0.1:7897
+127.0.0.1:54477: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54462: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 39.8k
+127.0.0.1:54477: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54480: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 25.9k
+[22:07:03.953][127.0.0.1:54480] server disconnect 127.0.0.1:7897
+[22:07:03.958][127.0.0.1:54480] client disconnect
+127.0.0.1:54477: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:04.498][127.0.0.1:54477] client disconnect
+[22:07:04.500][127.0.0.1:54477] server disconnect 127.0.0.1:7897
+127.0.0.1:54462: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 114k
+[22:07:05.968][127.0.0.1:54487] client connect
+[22:07:05.981][127.0.0.1:54487] server connect 127.0.0.1:7897
+127.0.0.1:54487: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.4k
+[22:07:08.314][127.0.0.1:54487] server disconnect 127.0.0.1:7897
+[22:07:08.315][127.0.0.1:54487] client disconnect
+127.0.0.1:54462: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 118k
+[22:07:10.335][127.0.0.1:54490] client connect
+[22:07:10.349][127.0.0.1:54490] server connect 127.0.0.1:7897
+[22:07:10.714][127.0.0.1:54495] client connect
+[22:07:10.726][127.0.0.1:54495] server connect 127.0.0.1:7897
+127.0.0.1:54495: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:11.618][127.0.0.1:54498] client connect
+[22:07:11.621][127.0.0.1:54498] server connect 127.0.0.1:7897
+127.0.0.1:54495: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:12.467][127.0.0.1:54503] client connect
+[22:07:12.473][127.0.0.1:54503] server connect 127.0.0.1:7897
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+127.0.0.1:54490: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.0k
+[22:07:12.878][127.0.0.1:54490] server disconnect 127.0.0.1:7897
+[22:07:12.879][127.0.0.1:54490] client disconnect
+127.0.0.1:54498: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:07:13.832][127.0.0.1:54498] client disconnect
+[22:07:13.832][127.0.0.1:54498] server disconnect 127.0.0.1:7897
+[22:07:14.495][127.0.0.1:54462] client disconnect
+[22:07:14.495][127.0.0.1:54462] server disconnect 127.0.0.1:7897
+[22:07:14.495][127.0.0.1:54495] client disconnect
+[22:07:14.496][127.0.0.1:54495] server disconnect 127.0.0.1:7897
+127.0.0.1:54503: POST https://assistant.lumii-ai.cn/api/auth/refresh HTTP/2.0
+     << HTTP/2.0 200 OK 77b
+[22:07:14.885][127.0.0.1:54514] client connect
+[22:07:14.889][127.0.0.1:54514] server connect 127.0.0.1:7897
+127.0.0.1:54514: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.4k
+[22:07:16.927][127.0.0.1:54514] server disconnect 127.0.0.1:7897
+[22:07:16.928][127.0.0.1:54514] client disconnect
+[22:07:18.235][127.0.0.1:54344] server disconnect 127.0.0.1:7897
+[22:07:18.275][127.0.0.1:54517] client connect
+[22:07:18.285][127.0.0.1:54517] server connect 127.0.0.1:7897
+[22:07:18.950][127.0.0.1:54522] client connect
+[22:07:18.955][127.0.0.1:54522] server connect 127.0.0.1:7897
+127.0.0.1:54517: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 115k
+127.0.0.1:54522: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.2k
+[22:07:20.873][127.0.0.1:54522] server disconnect 127.0.0.1:7897
+[22:07:20.884][127.0.0.1:54522] client disconnect
+127.0.0.1:54517: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 149k
+[22:07:22.719][127.0.0.1:54531] client connect
+[22:07:22.722][127.0.0.1:54531] server connect 127.0.0.1:7897
+[22:07:22.905][127.0.0.1:54534] client connect
+[22:07:22.908][127.0.0.1:54534] server connect 127.0.0.1:7897
+127.0.0.1:54531: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:24.502][127.0.0.1:54517] client disconnect
+[22:07:24.502][127.0.0.1:54531] client disconnect
+[22:07:24.502][127.0.0.1:54517] server disconnect 127.0.0.1:7897
+[22:07:24.503][127.0.0.1:54531] server disconnect 127.0.0.1:7897
+127.0.0.1:54534: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.2k
+[22:07:25.555][127.0.0.1:54534] server disconnect 127.0.0.1:7897
+[22:07:25.556][127.0.0.1:54534] client disconnect
+[22:07:26.324][127.0.0.1:54547] client connect
+[22:07:26.331][127.0.0.1:54547] server connect 127.0.0.1:7897
+[22:07:27.572][127.0.0.1:54552] client connect
+[22:07:27.577][127.0.0.1:54552] server connect 127.0.0.1:7897
+[22:07:27.728][127.0.0.1:54555] client connect
+[22:07:27.735][127.0.0.1:54555] server connect 127.0.0.1:7897
+127.0.0.1:54547: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 75.0k
+127.0.0.1:54555: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:29.496][127.0.0.1:54555] client disconnect
+[22:07:29.496][127.0.0.1:54555] server disconnect 127.0.0.1:7897
+[22:07:29.750][127.0.0.1:54558] client connect
+[22:07:29.753][127.0.0.1:54558] server connect 127.0.0.1:7897
+127.0.0.1:54547: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 101k
+127.0.0.1:54552: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.7k
+[22:07:29.800][127.0.0.1:54552] server disconnect 127.0.0.1:7897
+[22:07:29.802][127.0.0.1:54552] client disconnect
+127.0.0.1:54558: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:31.821][127.0.0.1:54564] client connect
+[22:07:31.823][127.0.0.1:54564] server connect 127.0.0.1:7897
+127.0.0.1:54547: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 100k
+127.0.0.1:54558: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54564: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.2k
+[22:07:34.469][127.0.0.1:54564] server disconnect 127.0.0.1:7897
+[22:07:34.470][127.0.0.1:54564] client disconnect
+[22:07:34.497][127.0.0.1:54547] client disconnect
+[22:07:34.498][127.0.0.1:54547] server disconnect 127.0.0.1:7897
+[22:07:34.498][127.0.0.1:54558] client disconnect
+[22:07:34.499][127.0.0.1:54558] server disconnect 127.0.0.1:7897
+[22:07:35.164][127.0.0.1:54573] client connect
+[22:07:35.171][127.0.0.1:54573] server connect 127.0.0.1:7897
+[22:07:35.730][127.0.0.1:54578] client connect
+[22:07:35.737][127.0.0.1:54578] server connect 127.0.0.1:7897
+[22:07:36.481][127.0.0.1:54585] client connect
+[22:07:36.483][127.0.0.1:54585] server connect 127.0.0.1:7897
+127.0.0.1:54573: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 25.2k
+127.0.0.1:54578: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:37.430][127.0.0.1:54428] client disconnect
+[22:07:37.431][127.0.0.1:54428] server disconnect 127.0.0.1:7897
+127.0.0.1:54573: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 25.0k
+[22:07:38.649][127.0.0.1:54593] client connect
+[22:07:38.677][127.0.0.1:54593] server connect 127.0.0.1:7897
+127.0.0.1:54585: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 40.3k
+[22:07:39.061][127.0.0.1:54585] server disconnect 127.0.0.1:7897
+[22:07:39.062][127.0.0.1:54585] client disconnect
+[22:07:39.704][127.0.0.1:54573] client disconnect
+[22:07:39.705][127.0.0.1:54578] client disconnect
+[22:07:39.705][127.0.0.1:54573] server disconnect 127.0.0.1:7897
+[22:07:39.705][127.0.0.1:54578] server disconnect 127.0.0.1:7897
+[22:07:39.962][127.0.0.1:54598] client connect
+[22:07:39.966][127.0.0.1:54598] server connect 127.0.0.1:7897
+[22:07:40.230][127.0.0.1:54593] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:40.234][127.0.0.1:54593] client disconnect
+[22:07:40.236][127.0.0.1:54593] server disconnect 127.0.0.1:7897
+[22:07:40.328][127.0.0.1:54601] client connect
+[22:07:40.338][127.0.0.1:54601] server connect 127.0.0.1:7897
+[22:07:40.575][127.0.0.1:54604] client connect
+[22:07:40.581][127.0.0.1:54604] server connect 127.0.0.1:7897
+[22:07:41.074][127.0.0.1:54609] client connect
+[22:07:41.076][127.0.0.1:54609] server connect 127.0.0.1:7897
+[22:07:41.240][127.0.0.1:54612] client connect
+[22:07:41.245][127.0.0.1:54612] server connect 127.0.0.1:7897
+127.0.0.1:54604: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 23.1k
+[22:07:41.656][127.0.0.1:54612] client disconnect
+[22:07:41.656][127.0.0.1:54612] server disconnect 127.0.0.1:7897
+127.0.0.1:54598: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54598: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:42.587][127.0.0.1:54601] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:42.589][127.0.0.1:54601] client disconnect
+[22:07:42.591][127.0.0.1:54601] server disconnect 127.0.0.1:7897
+[22:07:42.716][127.0.0.1:54617] client connect
+[22:07:42.753][127.0.0.1:54617] server connect 127.0.0.1:7897
+[22:07:42.929][127.0.0.1:54620] client connect
+[22:07:42.932][127.0.0.1:54620] server connect 127.0.0.1:7897
+[22:07:43.190][127.0.0.1:54617] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:43.190][127.0.0.1:54617] client disconnect
+[22:07:43.191][127.0.0.1:54617] server disconnect 127.0.0.1:7897
+[22:07:43.229][127.0.0.1:54623] client connect
+[22:07:43.266][127.0.0.1:54623] server connect 127.0.0.1:7897
+127.0.0.1:54604: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 106k
+127.0.0.1:54609: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 38.3k
+[22:07:43.623][127.0.0.1:54609] server disconnect 127.0.0.1:7897
+[22:07:43.624][127.0.0.1:54609] client disconnect
+[22:07:43.684][127.0.0.1:54623] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:43.685][127.0.0.1:54623] client disconnect
+[22:07:43.685][127.0.0.1:54623] server disconnect 127.0.0.1:7897
+[22:07:44.042][127.0.0.1:54628] client connect
+[22:07:44.065][127.0.0.1:54628] server connect 127.0.0.1:7897
+127.0.0.1:54620: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:07:44.112][127.0.0.1:54620] client disconnect
+[22:07:44.113][127.0.0.1:54620] server disconnect 127.0.0.1:7897
+127.0.0.1:54598: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:44.703][127.0.0.1:54598] client disconnect
+[22:07:44.704][127.0.0.1:54598] server disconnect 127.0.0.1:7897
+[22:07:44.707][127.0.0.1:54628] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:44.708][127.0.0.1:54628] client disconnect
+[22:07:44.709][127.0.0.1:54628] server disconnect 127.0.0.1:7897
+127.0.0.1:54604: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 175k
+[22:07:45.636][127.0.0.1:54635] client connect
+[22:07:45.639][127.0.0.1:54635] server connect 127.0.0.1:7897
+[22:07:45.808][127.0.0.1:54638] client connect
+[22:07:45.845][127.0.0.1:54638] server connect 127.0.0.1:7897
+[22:07:45.920][127.0.0.1:54641] client connect
+[22:07:45.943][127.0.0.1:54642] client connect
+[22:07:45.945][127.0.0.1:54642] server connect 127.0.0.1:7897
+[22:07:45.957][127.0.0.1:54641] server connect 127.0.0.1:7897
+[22:07:46.325][127.0.0.1:54638] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:46.326][127.0.0.1:54638] client disconnect
+[22:07:46.327][127.0.0.1:54638] server disconnect 127.0.0.1:7897
+[22:07:46.586][127.0.0.1:54647] client connect
+[22:07:46.597][127.0.0.1:54647] server connect 127.0.0.1:7897
+127.0.0.1:54642: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54604: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 140k
+[22:07:47.106][127.0.0.1:54647] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:47.107][127.0.0.1:54647] client disconnect
+[22:07:47.107][127.0.0.1:54647] server disconnect 127.0.0.1:7897
+[22:07:47.281][127.0.0.1:54651] client connect
+[22:07:47.291][127.0.0.1:54651] server connect 127.0.0.1:7897
+127.0.0.1:54641: GET https://bag.itunes.apple.com/bag.xml?deviceClass=Macint… HTTP/2.0
+     << HTTP/2.0 200 OK 985b
+[22:07:47.701][127.0.0.1:54651] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:47.701][127.0.0.1:54651] client disconnect
+[22:07:47.702][127.0.0.1:54651] server disconnect 127.0.0.1:7897
+127.0.0.1:54635: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 37.3k
+[22:07:47.819][127.0.0.1:54635] server disconnect 127.0.0.1:7897
+[22:07:47.820][127.0.0.1:54635] client disconnect
+[22:07:47.888][127.0.0.1:54657] client connect
+[22:07:47.892][127.0.0.1:54657] server connect 127.0.0.1:7897
+127.0.0.1:54642: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54604: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 88.0k
+[22:07:49.075][127.0.0.1:54663] client connect
+127.0.0.1:54642: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+[22:07:49.689][127.0.0.1:54657] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:49.690][127.0.0.1:54657] client disconnect
+[22:07:49.690][127.0.0.1:54657] server disconnect 127.0.0.1:7897
+[22:07:49.704][127.0.0.1:54604] client disconnect
+[22:07:49.705][127.0.0.1:54604] server disconnect 127.0.0.1:7897
+[22:07:49.705][127.0.0.1:54642] client disconnect
+[22:07:49.705][127.0.0.1:54642] server disconnect 127.0.0.1:7897
+[22:07:49.718][127.0.0.1:54665] client connect
+[22:07:49.729][127.0.0.1:54665] server connect 127.0.0.1:7897
+[22:07:49.829][127.0.0.1:54668] client connect
+[22:07:49.831][127.0.0.1:54668] server connect 127.0.0.1:7897
+[22:07:50.122][127.0.0.1:54671] client connect
+[22:07:50.125][127.0.0.1:54671] server connect 127.0.0.1:7897
+[22:07:50.248][127.0.0.1:54665] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:50.249][127.0.0.1:54665] client disconnect
+[22:07:50.249][127.0.0.1:54665] server disconnect 127.0.0.1:7897
+[22:07:50.945][127.0.0.1:54676] client connect
+[22:07:50.952][127.0.0.1:54676] server connect 127.0.0.1:7897
+127.0.0.1:54671: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 264k
+127.0.0.1:54676: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54668: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 37.7k
+[22:07:52.077][127.0.0.1:54668] server disconnect 127.0.0.1:7897
+[22:07:52.078][127.0.0.1:54668] client disconnect
+[22:07:54.103][127.0.0.1:54681] client connect
+[22:07:54.106][127.0.0.1:54681] server connect 127.0.0.1:7897
+127.0.0.1:54671: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 224k
+127.0.0.1:54676: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:54.705][127.0.0.1:54671] client disconnect
+[22:07:54.705][127.0.0.1:54676] client disconnect
+[22:07:54.706][127.0.0.1:54671] server disconnect 127.0.0.1:7897
+[22:07:54.706][127.0.0.1:54676] server disconnect 127.0.0.1:7897
+[22:07:54.978][127.0.0.1:54663] client disconnect
+[22:07:55.722][127.0.0.1:54696] client connect
+[22:07:55.733][127.0.0.1:54696] server connect 127.0.0.1:7897
+127.0.0.1:54681: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.7k
+[22:07:56.503][127.0.0.1:54681] server disconnect 127.0.0.1:7897
+[22:07:56.503][127.0.0.1:54681] client disconnect
+[22:07:56.949][127.0.0.1:54701] client connect
+[22:07:56.959][127.0.0.1:54701] server connect 127.0.0.1:7897
+127.0.0.1:54696: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 121k
+[22:07:58.125][127.0.0.1:54704] client connect
+[22:07:58.128][127.0.0.1:54704] server connect 127.0.0.1:7897
+[22:07:58.518][127.0.0.1:54707] client connect
+[22:07:58.528][127.0.0.1:54707] server connect 127.0.0.1:7897
+[22:07:58.665][127.0.0.1:54704] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:58.665][127.0.0.1:54704] client disconnect
+[22:07:58.666][127.0.0.1:54704] server disconnect 127.0.0.1:7897
+[22:07:58.705][127.0.0.1:54710] client connect
+[22:07:58.720][127.0.0.1:54710] server connect 127.0.0.1:7897
+[22:07:58.952][127.0.0.1:54716] client connect
+[22:07:58.952][127.0.0.1:54717] client connect
+[22:07:58.957][127.0.0.1:54716] server connect 127.0.0.1:7897
+[22:07:58.958][127.0.0.1:54717] server connect 127.0.0.1:7897
+127.0.0.1:54696: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 310k
+[22:07:59.227][127.0.0.1:54710] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:59.228][127.0.0.1:54710] client disconnect
+[22:07:59.228][127.0.0.1:54710] server disconnect 127.0.0.1:7897
+[22:07:59.249][127.0.0.1:54724] client connect
+[22:07:59.260][127.0.0.1:54724] server connect 127.0.0.1:7897
+[22:07:59.336][127.0.0.1:54701] client disconnect
+[22:07:59.336][127.0.0.1:54701] server disconnect 127.0.0.1:7897
+127.0.0.1:54716: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54716: POST https://mp.weixin.qq.com/mp/jsmonitor? HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:07:59.698][127.0.0.1:54724] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for bag.itunes.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:07:59.699][127.0.0.1:54724] client disconnect
+[22:07:59.699][127.0.0.1:54724] server disconnect 127.0.0.1:7897
+[22:07:59.708][127.0.0.1:54696] client disconnect
+[22:07:59.708][127.0.0.1:54717] client disconnect
+[22:07:59.709][127.0.0.1:54696] server disconnect 127.0.0.1:7897
+[22:07:59.709][127.0.0.1:54717] server disconnect 127.0.0.1:7897
+[22:07:59.709][127.0.0.1:54716] client disconnect
+[22:07:59.709][127.0.0.1:54716] server disconnect 127.0.0.1:7897
+[22:08:00.293][127.0.0.1:54731] client connect
+[22:08:00.302][127.0.0.1:54731] server connect 127.0.0.1:7897
+[22:08:00.956][127.0.0.1:54736] client connect
+[22:08:00.959][127.0.0.1:54736] server connect 127.0.0.1:7897
+127.0.0.1:54707: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.5k
+[22:08:01.097][127.0.0.1:54707] server disconnect 127.0.0.1:7897
+[22:08:01.098][127.0.0.1:54707] client disconnect
+127.0.0.1:54731: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 306k
+127.0.0.1:54736: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:03.113][127.0.0.1:54739] client connect
+[22:08:03.117][127.0.0.1:54739] server connect 127.0.0.1:7897
+[22:08:03.702][127.0.0.1:54742] client connect
+[22:08:03.706][127.0.0.1:54742] server connect 127.0.0.1:7897
+127.0.0.1:54736: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+127.0.0.1:54731: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 297k
+[22:08:04.706][127.0.0.1:54731] client disconnect
+[22:08:04.707][127.0.0.1:54736] client disconnect
+[22:08:04.707][127.0.0.1:54731] server disconnect 127.0.0.1:7897
+[22:08:04.707][127.0.0.1:54736] server disconnect 127.0.0.1:7897
+127.0.0.1:54739: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 38.2k
+[22:08:05.894][127.0.0.1:54739] server disconnect 127.0.0.1:7897
+[22:08:05.896][127.0.0.1:54739] client disconnect
+[22:08:06.403][127.0.0.1:54750] client connect
+[22:08:06.409][127.0.0.1:54750] server connect 127.0.0.1:7897
+[22:08:06.959][127.0.0.1:54754] client connect
+[22:08:06.963][127.0.0.1:54754] server connect 127.0.0.1:7897
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+127.0.0.1:54750: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 201k
+[22:08:07.919][127.0.0.1:54757] client connect
+[22:08:07.923][127.0.0.1:54757] server connect 127.0.0.1:7897
+127.0.0.1:54754: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:54754: POST https://mp.weixin.qq.com/mp/jsmonitor? HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:09.708][127.0.0.1:54750] client disconnect
+[22:08:09.709][127.0.0.1:54750] server disconnect 127.0.0.1:7897
+[22:08:09.709][127.0.0.1:54754] client disconnect
+[22:08:09.709][127.0.0.1:54754] server disconnect 127.0.0.1:7897
+127.0.0.1:54757: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 38.2k
+[22:08:10.209][127.0.0.1:54757] server disconnect 127.0.0.1:7897
+[22:08:10.210][127.0.0.1:54757] client disconnect
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:08:11.206][127.0.0.1:54760] client connect
+[22:08:11.212][127.0.0.1:54760] server connect 127.0.0.1:7897
+[22:08:11.963][127.0.0.1:54765] client connect
+[22:08:11.967][127.0.0.1:54765] server connect 127.0.0.1:7897
+[22:08:12.221][127.0.0.1:54768] client connect
+[22:08:12.225][127.0.0.1:54768] server connect 127.0.0.1:7897
+127.0.0.1:54760: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 100k
+[22:08:12.688][127.0.0.1:54771] client connect
+[22:08:12.690][127.0.0.1:54771] server connect 127.0.0.1:7897
+127.0.0.1:54765: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54110: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54109: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:54771: GET https://phishing-detection.api.cx.metamask.io/v2/diffsS… HTTP/2.0
+     << HTTP/2.0 200 OK 319b
+[22:08:13.633][127.0.0.1:54774] client connect
+[22:08:13.636][127.0.0.1:54774] server connect 127.0.0.1:7897
+127.0.0.1:54774: GET https://client-side-detection.api.cx.metamask.io/v1/req… HTTP/2.0
+     << HTTP/2.0 200 OK 321b
+127.0.0.1:54765: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54768: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.6k
+[22:08:14.310][127.0.0.1:54768] server disconnect 127.0.0.1:7897
+[22:08:14.313][127.0.0.1:54768] client disconnect
+[22:08:14.714][127.0.0.1:54760] client disconnect
+[22:08:14.715][127.0.0.1:54760] server disconnect 127.0.0.1:7897
+[22:08:14.715][127.0.0.1:54765] client disconnect
+[22:08:14.716][127.0.0.1:54765] server disconnect 127.0.0.1:7897
+[22:08:14.878][127.0.0.1:54780] client connect
+[22:08:14.883][127.0.0.1:54780] server connect 127.0.0.1:7897
+127.0.0.1:54780: GET https://weatherkit.apple.com/api/v2/weather/en-CN/31.22…
+              << 200 OK 7.6k
+[22:08:15.684][127.0.0.1:54783] client connect
+[22:08:15.686][127.0.0.1:54783] server connect 127.0.0.1:7897
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:08:16.273][127.0.0.1:54780] client disconnect
+[22:08:16.273][127.0.0.1:54780] server disconnect 127.0.0.1:7897
+[22:08:16.344][127.0.0.1:54786] client connect
+[22:08:16.348][127.0.0.1:54786] server connect 127.0.0.1:7897
+127.0.0.1:54783: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 84.5k
+127.0.0.1:54786: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.4k
+[22:08:18.804][127.0.0.1:54786] server disconnect 127.0.0.1:7897
+[22:08:18.805][127.0.0.1:54786] client disconnect
+[22:08:18.970][127.0.0.1:54793] client connect
+[22:08:18.973][127.0.0.1:54793] server connect 127.0.0.1:7897
+127.0.0.1:54783: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 151k
+127.0.0.1:54793: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:19.710][127.0.0.1:54783] client disconnect
+[22:08:19.710][127.0.0.1:54783] server disconnect 127.0.0.1:7897
+[22:08:19.711][127.0.0.1:54793] client disconnect
+[22:08:19.711][127.0.0.1:54793] server disconnect 127.0.0.1:7897
+[22:08:20.384][127.0.0.1:54796] client connect
+[22:08:20.389][127.0.0.1:54796] server connect 127.0.0.1:7897
+[22:08:20.824][127.0.0.1:54799] client connect
+[22:08:20.829][127.0.0.1:54799] server connect 127.0.0.1:7897
+[22:08:21.046][127.0.0.1:54803] client connect
+[22:08:21.050][127.0.0.1:54803] server connect 127.0.0.1:7897
+127.0.0.1:54796: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 77.1k
+127.0.0.1:54803: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:54796: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 304k
+127.0.0.1:54799: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.6k
+[22:08:23.865][127.0.0.1:54799] server disconnect 127.0.0.1:7897
+[22:08:23.866][127.0.0.1:54799] client disconnect
+127.0.0.1:54803: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:24.711][127.0.0.1:54796] client disconnect
+[22:08:24.711][127.0.0.1:54796] server disconnect 127.0.0.1:7897
+[22:08:24.711][127.0.0.1:54803] client disconnect
+[22:08:24.712][127.0.0.1:54803] server disconnect 127.0.0.1:7897
+[22:08:25.704][127.0.0.1:54821] client connect
+[22:08:25.708][127.0.0.1:54821] server connect 127.0.0.1:7897
+[22:08:25.873][127.0.0.1:54824] client connect
+[22:08:25.883][127.0.0.1:54824] server connect 127.0.0.1:7897
+127.0.0.1:54821: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 186k
+[22:08:26.974][127.0.0.1:54829] client connect
+[22:08:26.990][127.0.0.1:54829] server connect 127.0.0.1:7897
+127.0.0.1:54829: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54824: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.0k
+[22:08:28.047][127.0.0.1:54824] server disconnect 127.0.0.1:7897
+[22:08:28.048][127.0.0.1:54824] client disconnect
+127.0.0.1:54821: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 114k
+127.0.0.1:54829: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:29.711][127.0.0.1:54821] client disconnect
+[22:08:29.712][127.0.0.1:54821] server disconnect 127.0.0.1:7897
+[22:08:29.712][127.0.0.1:54829] client disconnect
+[22:08:29.712][127.0.0.1:54829] server disconnect 127.0.0.1:7897
+[22:08:29.944][127.0.0.1:54834] client connect
+[22:08:29.952][127.0.0.1:54834] server connect 127.0.0.1:7897
+[22:08:30.070][127.0.0.1:54837] client connect
+[22:08:30.076][127.0.0.1:54837] server connect 127.0.0.1:7897
+[22:08:30.980][127.0.0.1:54842] client connect
+[22:08:30.994][127.0.0.1:54842] server connect 127.0.0.1:7897
+127.0.0.1:54834: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 143k
+127.0.0.1:54842: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+127.0.0.1:54837: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.6k
+[22:08:32.874][127.0.0.1:54837] server disconnect 127.0.0.1:7897
+[22:08:32.875][127.0.0.1:54837] client disconnect
+127.0.0.1:54834: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 123k
+127.0.0.1:54842: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:34.713][127.0.0.1:54842] client disconnect
+[22:08:34.714][127.0.0.1:54842] server disconnect 127.0.0.1:7897
+[22:08:34.886][127.0.0.1:54847] client connect
+[22:08:34.889][127.0.0.1:54847] server connect 127.0.0.1:7897
+127.0.0.1:54834: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 305k
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+[22:08:35.982][127.0.0.1:54854] client connect
+[22:08:35.985][127.0.0.1:54854] server connect 127.0.0.1:7897
+127.0.0.1:54834: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 55.4k
+127.0.0.1:54854: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54847: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.1k
+[22:08:37.184][127.0.0.1:54847] server disconnect 127.0.0.1:7897
+[22:08:37.185][127.0.0.1:54847] client disconnect
+127.0.0.1:54854: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:39.196][127.0.0.1:54865] client connect
+[22:08:39.200][127.0.0.1:54865] server connect 127.0.0.1:7897
+127.0.0.1:54854: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54834: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 99.0k
+[22:08:39.717][127.0.0.1:54834] client disconnect
+[22:08:39.717][127.0.0.1:54834] server disconnect 127.0.0.1:7897
+[22:08:39.718][127.0.0.1:54854] client disconnect
+[22:08:39.718][127.0.0.1:54854] server disconnect 127.0.0.1:7897
+[22:08:41.520][127.0.0.1:54868] client connect
+[22:08:41.526][127.0.0.1:54868] server connect 127.0.0.1:7897
+127.0.0.1:54865: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.1k
+[22:08:41.564][127.0.0.1:54865] server disconnect 127.0.0.1:7897
+[22:08:41.565][127.0.0.1:54865] client disconnect
+[22:08:41.988][127.0.0.1:54873] client connect
+[22:08:41.990][127.0.0.1:54873] server connect 127.0.0.1:7897
+127.0.0.1:54868: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 199k
+127.0.0.1:54873: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:43.579][127.0.0.1:54876] client connect
+[22:08:43.582][127.0.0.1:54876] server connect 127.0.0.1:7897
+[22:08:44.717][127.0.0.1:54873] client disconnect
+[22:08:44.717][127.0.0.1:54873] server disconnect 127.0.0.1:7897
+127.0.0.1:54868: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 143k
+[22:08:44.989][127.0.0.1:54881] client connect
+[22:08:44.992][127.0.0.1:54881] server connect 127.0.0.1:7897
+127.0.0.1:54881: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54876: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.8k
+[22:08:45.831][127.0.0.1:54876] server disconnect 127.0.0.1:7897
+[22:08:45.831][127.0.0.1:54876] client disconnect
+127.0.0.1:54868: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 11.7k
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+127.0.0.1:54881: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:47.844][127.0.0.1:54888] client connect
+[22:08:47.847][127.0.0.1:54888] server connect 127.0.0.1:7897
+127.0.0.1:54868: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 34.5k
+127.0.0.1:54881: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:49.719][127.0.0.1:54868] client disconnect
+[22:08:49.720][127.0.0.1:54868] server disconnect 127.0.0.1:7897
+[22:08:49.720][127.0.0.1:54881] client disconnect
+[22:08:49.721][127.0.0.1:54881] server disconnect 127.0.0.1:7897
+[22:08:49.745][127.0.0.1:54893] client connect
+[22:08:49.748][127.0.0.1:54893] server connect 127.0.0.1:7897
+127.0.0.1:54888: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.7k
+[22:08:50.179][127.0.0.1:54888] server disconnect 127.0.0.1:7897
+[22:08:50.180][127.0.0.1:54888] client disconnect
+127.0.0.1:54893: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 55.9k
+[22:08:50.996][127.0.0.1:54898] client connect
+[22:08:51.004][127.0.0.1:54898] server connect 127.0.0.1:7897
+127.0.0.1:54898: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:08:52.196][127.0.0.1:54903] client connect
+[22:08:52.202][127.0.0.1:54903] server connect 127.0.0.1:7897
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:54903: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.4k
+[22:08:54.405][127.0.0.1:54903] server disconnect 127.0.0.1:7897
+[22:08:54.405][127.0.0.1:54903] client disconnect
+[22:08:54.720][127.0.0.1:54893] client disconnect
+[22:08:54.720][127.0.0.1:54893] server disconnect 127.0.0.1:7897
+[22:08:54.724][127.0.0.1:54898] client disconnect
+[22:08:54.724][127.0.0.1:54898] server disconnect 127.0.0.1:7897
+[22:08:56.414][127.0.0.1:54918] client connect
+[22:08:56.416][127.0.0.1:54918] server connect 127.0.0.1:7897
+[22:08:58.554][127.0.0.1:54921] client connect
+[22:08:58.558][127.0.0.1:54921] server connect 127.0.0.1:7897
+127.0.0.1:54918: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.9k
+[22:08:58.634][127.0.0.1:54918] server disconnect 127.0.0.1:7897
+[22:08:58.635][127.0.0.1:54918] client disconnect
+[22:08:58.707][127.0.0.1:54924] client connect
+[22:08:58.713][127.0.0.1:54924] server connect 127.0.0.1:7897
+[22:08:58.934][127.0.0.1:54927] client connect
+[22:08:58.936][127.0.0.1:54927] server connect 127.0.0.1:7897
+127.0.0.1:54921: GET https://configuration.ls.apple.com/config/defaults?os=m… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:08:59.084][127.0.0.1:54921] client disconnect
+[22:08:59.084][127.0.0.1:54921] server disconnect 127.0.0.1:7897
+127.0.0.1:54924: GET https://configuration.ls.apple.com/config/defaults?os=m… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:08:59.635][127.0.0.1:54924] client disconnect
+[22:08:59.635][127.0.0.1:54924] server disconnect 127.0.0.1:7897
+127.0.0.1:54927: GET https://configuration.ls.apple.com/config/defaults?os=m… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:09:00.263][127.0.0.1:54927] client disconnect
+[22:09:00.264][127.0.0.1:54927] server disconnect 127.0.0.1:7897
+[22:09:00.604][127.0.0.1:54930] client connect
+[22:09:00.609][127.0.0.1:54930] server connect 127.0.0.1:7897
+[22:09:00.644][127.0.0.1:54932] client connect
+[22:09:00.651][127.0.0.1:54932] server connect 127.0.0.1:7897
+127.0.0.1:54930: GET https://configuration.ls.apple.com/config/defaults?os=m… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:09:01.179][127.0.0.1:54930] client disconnect
+[22:09:01.179][127.0.0.1:54930] server disconnect 127.0.0.1:7897
+127.0.0.1:54932: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.6k
+[22:09:02.862][127.0.0.1:54932] server disconnect 127.0.0.1:7897
+[22:09:02.862][127.0.0.1:54932] client disconnect
+[22:09:04.869][127.0.0.1:54936] client connect
+[22:09:04.872][127.0.0.1:54936] server connect 127.0.0.1:7897
+127.0.0.1:54936: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.7k
+[22:09:07.497][127.0.0.1:54936] server disconnect 127.0.0.1:7897
+[22:09:07.498][127.0.0.1:54936] client disconnect
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:09:09.510][127.0.0.1:54939] client connect
+[22:09:09.514][127.0.0.1:54939] server connect 127.0.0.1:7897
+127.0.0.1:54939: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.1k
+[22:09:12.799][127.0.0.1:54939] server disconnect 127.0.0.1:7897
+[22:09:12.799][127.0.0.1:54939] client disconnect
+[22:09:14.812][127.0.0.1:54944] client connect
+[22:09:14.816][127.0.0.1:54944] server connect 127.0.0.1:7897
+[22:09:15.666][127.0.0.1:54949] client connect
+[22:09:15.673][127.0.0.1:54949] server connect 127.0.0.1:7897
+[22:09:17.028][127.0.0.1:54956] client connect
+[22:09:17.036][127.0.0.1:54956] server connect 127.0.0.1:7897
+127.0.0.1:54944: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.7k
+[22:09:17.327][127.0.0.1:54944] server disconnect 127.0.0.1:7897
+[22:09:17.327][127.0.0.1:54944] client disconnect
+127.0.0.1:54949: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 159k
+127.0.0.1:54956: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:54956: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:09:19.339][127.0.0.1:54964] client connect
+[22:09:19.344][127.0.0.1:54964] server connect 127.0.0.1:7897
+127.0.0.1:54949: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 124k
+[22:09:19.720][127.0.0.1:54956] client disconnect
+[22:09:19.721][127.0.0.1:54956] server disconnect 127.0.0.1:7897
+127.0.0.1:54964: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.4k
+[22:09:21.955][127.0.0.1:54964] server disconnect 127.0.0.1:7897
+[22:09:21.956][127.0.0.1:54964] client disconnect
+127.0.0.1:54949: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 138k
+[22:09:23.032][127.0.0.1:54969] client connect
+[22:09:23.036][127.0.0.1:54969] server connect 127.0.0.1:7897
+127.0.0.1:54969: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:09:23.969][127.0.0.1:54974] client connect
+[22:09:23.972][127.0.0.1:54974] server connect 127.0.0.1:7897
+[22:09:24.720][127.0.0.1:54969] client disconnect
+[22:09:24.721][127.0.0.1:54969] server disconnect 127.0.0.1:7897
+[22:09:25.035][127.0.0.1:54989] client connect
+[22:09:25.040][127.0.0.1:54989] server connect 127.0.0.1:7897
+127.0.0.1:54949: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 102k
+127.0.0.1:54989: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54974: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.5k
+[22:09:26.137][127.0.0.1:54974] server disconnect 127.0.0.1:7897
+[22:09:26.138][127.0.0.1:54974] client disconnect
+[22:09:28.150][127.0.0.1:54992] client connect
+[22:09:28.153][127.0.0.1:54992] server connect 127.0.0.1:7897
+[22:09:29.721][127.0.0.1:54949] client disconnect
+[22:09:29.722][127.0.0.1:54949] server disconnect 127.0.0.1:7897
+[22:09:29.722][127.0.0.1:54989] client disconnect
+[22:09:29.722][127.0.0.1:54989] server disconnect 127.0.0.1:7897
+[22:09:30.279][127.0.0.1:54995] client connect
+[22:09:30.282][127.0.0.1:54995] server connect 127.0.0.1:7897
+127.0.0.1:54992: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.0k
+[22:09:30.529][127.0.0.1:54992] server disconnect 127.0.0.1:7897
+[22:09:30.530][127.0.0.1:54992] client disconnect
+[22:09:31.038][127.0.0.1:55000] client connect
+[22:09:31.041][127.0.0.1:55000] server connect 127.0.0.1:7897
+127.0.0.1:54995: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 138k
+127.0.0.1:55000: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:09:32.536][127.0.0.1:55003] client connect
+[22:09:32.539][127.0.0.1:55003] server connect 127.0.0.1:7897
+[22:09:34.730][127.0.0.1:54995] client disconnect
+[22:09:34.731][127.0.0.1:54995] server disconnect 127.0.0.1:7897
+[22:09:34.731][127.0.0.1:55000] client disconnect
+[22:09:34.731][127.0.0.1:55000] server disconnect 127.0.0.1:7897
+127.0.0.1:55003: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.8k
+[22:09:34.778][127.0.0.1:55003] server disconnect 127.0.0.1:7897
+[22:09:34.778][127.0.0.1:55003] client disconnect
+[22:09:35.196][127.0.0.1:55008] client connect
+[22:09:35.200][127.0.0.1:55008] server connect 127.0.0.1:7897
+[22:09:36.043][127.0.0.1:55013] client connect
+[22:09:36.049][127.0.0.1:55013] server connect 127.0.0.1:7897
+127.0.0.1:55008: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 194k
+[22:09:36.786][127.0.0.1:55018] client connect
+[22:09:36.790][127.0.0.1:55018] server connect 127.0.0.1:7897
+127.0.0.1:55013: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.4k
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:55013: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:09:39.725][127.0.0.1:55008] client disconnect
+[22:09:39.726][127.0.0.1:55013] client disconnect
+[22:09:39.727][127.0.0.1:55008] server disconnect 127.0.0.1:7897
+[22:09:39.727][127.0.0.1:55013] server disconnect 127.0.0.1:7897
+[22:09:39.753][127.0.0.1:55023] client connect
+[22:09:39.756][127.0.0.1:55023] server connect 127.0.0.1:7897
+127.0.0.1:55018: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.2k
+[22:09:39.973][127.0.0.1:55018] server disconnect 127.0.0.1:7897
+[22:09:39.974][127.0.0.1:55018] client disconnect
+127.0.0.1:55023: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 80.1k
+[22:09:41.994][127.0.0.1:55026] client connect
+[22:09:41.998][127.0.0.1:55026] server connect 127.0.0.1:7897
+[22:09:43.049][127.0.0.1:55031] client connect
+[22:09:43.053][127.0.0.1:55031] server connect 127.0.0.1:7897
+127.0.0.1:55026: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.1k
+[22:09:44.035][127.0.0.1:55026] server disconnect 127.0.0.1:7897
+[22:09:44.037][127.0.0.1:55026] client disconnect
+127.0.0.1:55031: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55023: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 87.4k
+[22:09:44.725][127.0.0.1:55023] client disconnect
+[22:09:44.726][127.0.0.1:55023] server disconnect 127.0.0.1:7897
+[22:09:44.726][127.0.0.1:55031] client disconnect
+[22:09:44.727][127.0.0.1:55031] server disconnect 127.0.0.1:7897
+[22:09:46.047][127.0.0.1:55034] client connect
+[22:09:46.050][127.0.0.1:55034] server connect 127.0.0.1:7897
+[22:09:47.055][127.0.0.1:55051] client connect
+[22:09:47.058][127.0.0.1:55051] server connect 127.0.0.1:7897
+[22:09:47.470][127.0.0.1:55054] client connect
+[22:09:47.478][127.0.0.1:55054] server connect 127.0.0.1:7897
+127.0.0.1:55051: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:09:47.915][127.0.0.1:54641] client disconnect
+[22:09:47.916][127.0.0.1:54641] server disconnect 127.0.0.1:7897
+127.0.0.1:55034: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.9k
+[22:09:48.797][127.0.0.1:55034] server disconnect 127.0.0.1:7897
+[22:09:48.798][127.0.0.1:55034] client disconnect
+127.0.0.1:55054: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 59.3k
+[22:09:49.730][127.0.0.1:55054] client disconnect
+[22:09:49.731][127.0.0.1:55051] client disconnect
+[22:09:49.733][127.0.0.1:55054] server disconnect 127.0.0.1:7897
+[22:09:49.734][127.0.0.1:55051] server disconnect 127.0.0.1:7897
+[22:09:50.809][127.0.0.1:55059] client connect
+[22:09:50.812][127.0.0.1:55059] server connect 127.0.0.1:7897
+[22:09:50.981][127.0.0.1:55062] client connect
+[22:09:50.983][127.0.0.1:55062] server connect 127.0.0.1:7897
+[22:09:51.055][127.0.0.1:55065] client connect
+[22:09:51.072][127.0.0.1:55065] server connect 127.0.0.1:7897
+127.0.0.1:55062: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 76.2k
+127.0.0.1:55065: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55059: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 27.9k
+[22:09:53.627][127.0.0.1:55059] server disconnect 127.0.0.1:7897
+[22:09:53.628][127.0.0.1:55059] client disconnect
+[22:09:54.727][127.0.0.1:55065] client disconnect
+[22:09:54.727][127.0.0.1:55065] server disconnect 127.0.0.1:7897
+127.0.0.1:55062: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 95.0k
+[22:09:55.056][127.0.0.1:55082] client connect
+[22:09:55.060][127.0.0.1:55082] server connect 127.0.0.1:7897
+[22:09:55.654][127.0.0.1:55085] client connect
+[22:09:55.657][127.0.0.1:55085] server connect 127.0.0.1:7897
+127.0.0.1:55082: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55062: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 42.8k
+127.0.0.1:55082: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55085: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.5k
+[22:09:57.836][127.0.0.1:55085] server disconnect 127.0.0.1:7897
+127.0.0.1:55062: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 124k
+[22:09:57.838][127.0.0.1:55085] client disconnect
+127.0.0.1:55082: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:09:59.729][127.0.0.1:55062] client disconnect
+[22:09:59.730][127.0.0.1:55062] server disconnect 127.0.0.1:7897
+[22:09:59.730][127.0.0.1:55082] client disconnect
+[22:09:59.731][127.0.0.1:55082] server disconnect 127.0.0.1:7897
+[22:09:59.849][127.0.0.1:55095] client connect
+[22:09:59.851][127.0.0.1:55095] server connect 127.0.0.1:7897
+[22:10:00.062][127.0.0.1:55100] client connect
+[22:10:00.069][127.0.0.1:55100] server connect 127.0.0.1:7897
+127.0.0.1:55100: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:01.512][127.0.0.1:55103] client connect
+[22:10:01.516][127.0.0.1:55103] server connect 127.0.0.1:7897
+127.0.0.1:55095: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.5k
+[22:10:02.175][127.0.0.1:55095] server disconnect 127.0.0.1:7897
+[22:10:02.176][127.0.0.1:55095] client disconnect
+127.0.0.1:55103: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 168k
+[22:10:04.202][127.0.0.1:55106] client connect
+[22:10:04.206][127.0.0.1:55106] server connect 127.0.0.1:7897
+[22:10:04.732][127.0.0.1:55103] client disconnect
+[22:10:04.733][127.0.0.1:55103] server disconnect 127.0.0.1:7897
+[22:10:04.733][127.0.0.1:55100] client disconnect
+[22:10:04.734][127.0.0.1:55100] server disconnect 127.0.0.1:7897
+[22:10:06.071][127.0.0.1:55111] client connect
+[22:10:06.076][127.0.0.1:55111] server connect 127.0.0.1:7897
+127.0.0.1:55106: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.9k
+[22:10:06.711][127.0.0.1:55106] server disconnect 127.0.0.1:7897
+[22:10:06.712][127.0.0.1:55106] client disconnect
+127.0.0.1:55111: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:07.771][127.0.0.1:55114] client connect
+[22:10:07.774][127.0.0.1:55114] server connect 127.0.0.1:7897
+[22:10:08.729][127.0.0.1:55117] client connect
+[22:10:08.736][127.0.0.1:55117] server connect 127.0.0.1:7897
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:55114: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 48.6k
+[22:10:09.729][127.0.0.1:55114] client disconnect
+[22:10:09.730][127.0.0.1:55114] server disconnect 127.0.0.1:7897
+[22:10:09.731][127.0.0.1:55111] client disconnect
+[22:10:09.731][127.0.0.1:55111] server disconnect 127.0.0.1:7897
+[22:10:11.750][127.0.0.1:55122] client connect
+[22:10:11.756][127.0.0.1:55122] server connect 127.0.0.1:7897
+127.0.0.1:55117: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.1k
+[22:10:11.958][127.0.0.1:55117] server disconnect 127.0.0.1:7897
+[22:10:11.962][127.0.0.1:55117] client disconnect
+[22:10:12.076][127.0.0.1:55127] client connect
+[22:10:12.081][127.0.0.1:55127] server connect 127.0.0.1:7897
+127.0.0.1:54110: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54109: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:55122: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 135k
+[22:10:13.806][127.0.0.1:55130] client connect
+127.0.0.1:55127: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:13.814][127.0.0.1:55130] server connect 127.0.0.1:7897
+[22:10:13.972][127.0.0.1:55133] client connect
+[22:10:13.974][127.0.0.1:55133] server connect 127.0.0.1:7897
+[22:10:14.051][127.0.0.1:55135] client connect
+[22:10:14.054][127.0.0.1:55135] server connect 127.0.0.1:7897
+[22:10:14.732][127.0.0.1:55122] client disconnect
+[22:10:14.732][127.0.0.1:55122] server disconnect 127.0.0.1:7897
+[22:10:14.732][127.0.0.1:55127] client disconnect
+[22:10:14.733][127.0.0.1:55127] server disconnect 127.0.0.1:7897
+[22:10:14.815][127.0.0.1:55141] client connect
+[22:10:14.819][127.0.0.1:55141] server connect 127.0.0.1:7897
+127.0.0.1:55135: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:10:14.955][127.0.0.1:55135] client disconnect
+[22:10:14.956][127.0.0.1:55135] server disconnect 127.0.0.1:7897
+[22:10:15.078][127.0.0.1:55144] client connect
+[22:10:15.082][127.0.0.1:55144] server connect 127.0.0.1:7897
+127.0.0.1:55130: OPTIONS https://otheve.beacon.qq.com/analytics/v2_upload?appkey… HTTP/2.0
+     << HTTP/2.0 200 OK 32b
+127.0.0.1:55130: POST https://otheve.beacon.qq.com/analytics/v2_upload?appkey… HTTP/2.0
+     << HTTP/2.0 200 OK 97b
+[22:10:15.939][127.0.0.1:55130] client disconnect
+[22:10:15.940][127.0.0.1:55130] server disconnect 127.0.0.1:7897
+127.0.0.1:55133: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 27.7k
+[22:10:16.290][127.0.0.1:55133] server disconnect 127.0.0.1:7897
+[22:10:16.290][127.0.0.1:55133] client disconnect
+127.0.0.1:55144: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55141: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 98.3k
+[22:10:18.304][127.0.0.1:55147] client connect
+[22:10:18.308][127.0.0.1:55147] server connect 127.0.0.1:7897
+127.0.0.1:55144: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55141: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 86.6k
+[22:10:19.736][127.0.0.1:55141] client disconnect
+[22:10:19.738][127.0.0.1:55144] client disconnect
+[22:10:19.739][127.0.0.1:55141] server disconnect 127.0.0.1:7897
+[22:10:19.740][127.0.0.1:55144] server disconnect 127.0.0.1:7897
+127.0.0.1:55147: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.5k
+[22:10:20.639][127.0.0.1:55147] server disconnect 127.0.0.1:7897
+[22:10:20.639][127.0.0.1:55147] client disconnect
+[22:10:22.660][127.0.0.1:55156] client connect
+[22:10:22.668][127.0.0.1:55156] server connect 127.0.0.1:7897
+[22:10:22.780][127.0.0.1:55159] client connect
+[22:10:22.784][127.0.0.1:55159] server connect 127.0.0.1:7897
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:10:24.091][127.0.0.1:55167] client connect
+[22:10:24.097][127.0.0.1:55167] server connect 127.0.0.1:7897
+127.0.0.1:55159: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 81.8k
+[22:10:24.732][127.0.0.1:55159] client disconnect
+[22:10:24.734][127.0.0.1:55159] server disconnect 127.0.0.1:7897
+127.0.0.1:55167: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55156: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.0k
+[22:10:25.062][127.0.0.1:55156] server disconnect 127.0.0.1:7897
+[22:10:25.063][127.0.0.1:55156] client disconnect
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+[22:10:26.706][127.0.0.1:55180] client connect
+[22:10:26.710][127.0.0.1:55180] server connect 127.0.0.1:7897
+[22:10:27.070][127.0.0.1:55185] client connect
+[22:10:27.073][127.0.0.1:55185] server connect 127.0.0.1:7897
+127.0.0.1:55167: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55180: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 83.9k
+127.0.0.1:55185: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 26.7k
+[22:10:29.639][127.0.0.1:55185] server disconnect 127.0.0.1:7897
+[22:10:29.639][127.0.0.1:55185] client disconnect
+[22:10:29.733][127.0.0.1:55180] client disconnect
+[22:10:29.733][127.0.0.1:55180] server disconnect 127.0.0.1:7897
+[22:10:29.734][127.0.0.1:55167] client disconnect
+[22:10:29.735][127.0.0.1:55167] server disconnect 127.0.0.1:7897
+[22:10:30.007][127.0.0.1:55190] client connect
+[22:10:30.011][127.0.0.1:55190] server connect 127.0.0.1:7897
+[22:10:30.094][127.0.0.1:55196] client connect
+[22:10:30.097][127.0.0.1:55196] server connect 127.0.0.1:7897
+127.0.0.1:55196: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:31.651][127.0.0.1:55202] client connect
+[22:10:31.657][127.0.0.1:55202] server connect 127.0.0.1:7897
+127.0.0.1:55190: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 164k
+127.0.0.1:55202: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.5k
+[22:10:33.641][127.0.0.1:55202] server disconnect 127.0.0.1:7897
+[22:10:33.659][127.0.0.1:55202] client disconnect
+127.0.0.1:55190: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 346k
+127.0.0.1:55196: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:34.736][127.0.0.1:55190] client disconnect
+[22:10:34.738][127.0.0.1:55196] client disconnect
+[22:10:34.742][127.0.0.1:55190] server disconnect 127.0.0.1:7897
+[22:10:34.746][127.0.0.1:55196] server disconnect 127.0.0.1:7897
+[22:10:35.663][127.0.0.1:55211] client connect
+[22:10:35.674][127.0.0.1:55211] server connect 127.0.0.1:7897
+[22:10:36.980][127.0.0.1:55216] client connect
+[22:10:36.983][127.0.0.1:55216] server connect 127.0.0.1:7897
+[22:10:37.098][127.0.0.1:55219] client connect
+[22:10:37.103][127.0.0.1:55219] server connect 127.0.0.1:7897
+127.0.0.1:55216: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 105k
+127.0.0.1:55211: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.6k
+[22:10:37.915][127.0.0.1:55211] server disconnect 127.0.0.1:7897
+[22:10:37.916][127.0.0.1:55211] client disconnect
+127.0.0.1:55219: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:39.740][127.0.0.1:55216] client disconnect
+[22:10:39.740][127.0.0.1:55219] client disconnect
+[22:10:39.741][127.0.0.1:55216] server disconnect 127.0.0.1:7897
+[22:10:39.741][127.0.0.1:55219] server disconnect 127.0.0.1:7897
+[22:10:39.856][127.0.0.1:55224] client connect
+[22:10:39.864][127.0.0.1:55224] server connect 127.0.0.1:7897
+[22:10:39.933][127.0.0.1:55226] client connect
+[22:10:39.936][127.0.0.1:55226] server connect 127.0.0.1:7897
+[22:10:40.099][127.0.0.1:55230] client connect
+[22:10:40.103][127.0.0.1:55230] server connect 127.0.0.1:7897
+127.0.0.1:55230: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55224: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 51.2k
+127.0.0.1:55226: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 26.5k
+[22:10:42.365][127.0.0.1:55226] server disconnect 127.0.0.1:7897
+127.0.0.1:55224: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 40.1k
+[22:10:42.367][127.0.0.1:55226] client disconnect
+127.0.0.1:55230: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:44.131][127.0.0.1:55237] client connect
+[22:10:44.154][127.0.0.1:55237] server connect 127.0.0.1:7897
+[22:10:44.378][127.0.0.1:55240] client connect
+[22:10:44.381][127.0.0.1:55240] server connect 127.0.0.1:7897
+[22:10:44.738][127.0.0.1:55230] client disconnect
+[22:10:44.740][127.0.0.1:55230] server disconnect 127.0.0.1:7897
+[22:10:44.880][127.0.0.1:55245] client connect
+[22:10:44.883][127.0.0.1:55245] server connect 127.0.0.1:7897
+127.0.0.1:55224: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 69.9k
+[22:10:45.103][127.0.0.1:55248] client connect
+[22:10:45.106][127.0.0.1:55248] server connect 127.0.0.1:7897
+127.0.0.1:55237: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:10:45.669][127.0.0.1:55237] client disconnect
+[22:10:45.670][127.0.0.1:55237] server disconnect 127.0.0.1:7897
+127.0.0.1:55245: POST https://docs.qq.com/api/account/qqlogincgi/openapi-sig?… HTTP/2.0
+     << HTTP/2.0 200 OK 228b
+127.0.0.1:55248: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55224: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 99.0k
+[22:10:47.581][127.0.0.1:54344] server connect 127.0.0.1:7897
+127.0.0.1:55240: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.8k
+[22:10:47.732][127.0.0.1:55240] server disconnect 127.0.0.1:7897
+[22:10:47.733][127.0.0.1:55240] client disconnect
+127.0.0.1:54344: GET https://update.code.visualstudio.com/api/update/darwin-… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55248: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55224: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 66.6k
+[22:10:49.709][127.0.0.1:55245] client disconnect
+[22:10:49.711][127.0.0.1:55245] server disconnect 127.0.0.1:7897
+[22:10:49.740][127.0.0.1:55224] client disconnect
+[22:10:49.742][127.0.0.1:55224] server disconnect 127.0.0.1:7897
+[22:10:49.742][127.0.0.1:55248] client disconnect
+[22:10:49.743][127.0.0.1:55248] server disconnect 127.0.0.1:7897
+[22:10:49.763][127.0.0.1:55263] client connect
+[22:10:49.773][127.0.0.1:55263] server connect 127.0.0.1:7897
+[22:10:50.111][127.0.0.1:55266] client connect
+[22:10:50.129][127.0.0.1:55266] server connect 127.0.0.1:7897
+[22:10:50.224][127.0.0.1:55268] client connect
+[22:10:50.230][127.0.0.1:55268] server connect 127.0.0.1:7897
+127.0.0.1:55266: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55266: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55268: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 38.5k
+[22:10:52.247][127.0.0.1:55274] client connect
+[22:10:52.268][127.0.0.1:55274] server connect 127.0.0.1:7897
+127.0.0.1:55268: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 115k
+127.0.0.1:55263: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.9k
+[22:10:53.012][127.0.0.1:55263] server disconnect 127.0.0.1:7897
+[22:10:53.012][127.0.0.1:55263] client disconnect
+127.0.0.1:55274: GET https://slardar-bd.feishu.cn/monitor_pc/settings/api/se… HTTP/2.0
+     << HTTP/2.0 200 OK 454b
+127.0.0.1:55266: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:55268: GET https://mmbiz.qpic.cn/mmbiz_jpg/0icCFdJLzK2wYn1yrSyvlAq…
+              << 200 OK 144k
+[22:10:54.740][127.0.0.1:55268] client disconnect
+[22:10:54.740][127.0.0.1:55268] server disconnect 127.0.0.1:7897
+[22:10:54.740][127.0.0.1:55266] client disconnect
+[22:10:54.740][127.0.0.1:55266] server disconnect 127.0.0.1:7897
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+[22:10:55.044][127.0.0.1:55293] client connect
+[22:10:55.047][127.0.0.1:55293] server connect 127.0.0.1:7897
+[22:10:55.113][127.0.0.1:55296] client connect
+[22:10:55.124][127.0.0.1:55296] server connect 127.0.0.1:7897
+127.0.0.1:55296: POST https://mp.weixin.qq.com/mp/jsmonitor?uin=MTI4NzU1NTEwM… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:10:56.128][127.0.0.1:55308] client connect
+[22:10:56.131][127.0.0.1:55308] server connect 127.0.0.1:7897
+127.0.0.1:55308: POST https://ios.rqd.qq.com/analytics/rqdsync?aid=69C329C1-9…
+              << 200 OK 278b
+127.0.0.1:55293: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.1k
+[22:10:57.243][127.0.0.1:55293] server disconnect 127.0.0.1:7897
+[22:10:57.245][127.0.0.1:55293] client disconnect
+[22:10:57.364][127.0.0.1:55311] client connect
+[22:10:57.369][127.0.0.1:55311] server connect 127.0.0.1:7897
+127.0.0.1:55311: POST https://otheve.beacon.qq.com/analytics/v2_upload?appkey… HTTP/2.0
+     << HTTP/2.0 200 OK 97b
+[22:10:59.295][127.0.0.1:55314] client connect
+[22:10:59.303][127.0.0.1:55314] server connect 127.0.0.1:7897
+[22:10:59.746][127.0.0.1:55296] client disconnect
+[22:10:59.747][127.0.0.1:55296] server disconnect 127.0.0.1:7897
+[22:11:00.902][127.0.0.1:55319] client connect
+[22:11:00.913][127.0.0.1:55319] server connect 127.0.0.1:7897
+[22:11:00.973][127.0.0.1:55311] client disconnect
+[22:11:00.977][127.0.0.1:55311] server disconnect 127.0.0.1:7897
+127.0.0.1:55314: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.7k
+[22:11:01.454][127.0.0.1:55314] server disconnect 127.0.0.1:7897
+[22:11:01.456][127.0.0.1:55314] client disconnect
+127.0.0.1:55319: POST https://api.github.com/_private/browser/stats HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[22:11:03.492][127.0.0.1:55322] client connect
+[22:11:03.497][127.0.0.1:55322] server connect 127.0.0.1:7897
+[22:11:03.976][127.0.0.1:55325] client connect
+[22:11:03.982][127.0.0.1:55325] server connect 127.0.0.1:7897
+[22:11:04.495][127.0.0.1:55325] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for ab.chatgpt.com, this may indicate that the client does not trust the proxy's certificate.
+[22:11:04.496][127.0.0.1:55325] client disconnect
+[22:11:04.496][127.0.0.1:55325] server disconnect 127.0.0.1:7897
+[22:11:04.528][127.0.0.1:55328] client connect
+[22:11:04.533][127.0.0.1:55328] server connect 127.0.0.1:7897
+[22:11:04.908][127.0.0.1:55328] Server TLS handshake failed. Certificate verify failed: unable to get local issuer certificate
+[22:11:04.909][127.0.0.1:55328] Unable to establish TLS connection with server (Certificate verify failed: unable to get local issuer certificate). Trying to establish TLS with client anyway. If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.
+[22:11:04.922][127.0.0.1:55328] server disconnect 127.0.0.1:7897
+[22:11:05.065][127.0.0.1:55328] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cl2.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:11:05.066][127.0.0.1:55328] client disconnect
+127.0.0.1:55322: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.7k
+[22:11:05.745][127.0.0.1:55322] server disconnect 127.0.0.1:7897
+[22:11:05.746][127.0.0.1:55322] client disconnect
+[22:11:07.763][127.0.0.1:55331] client connect
+[22:11:07.770][127.0.0.1:55331] server connect 127.0.0.1:7897
+127.0.0.1:55331: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.1k
+[22:11:10.674][127.0.0.1:55331] server disconnect 127.0.0.1:7897
+[22:11:10.675][127.0.0.1:55331] client disconnect
+[22:11:12.705][127.0.0.1:55340] client connect
+[22:11:12.714][127.0.0.1:55340] server connect 127.0.0.1:7897
+127.0.0.1:55340: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.8k
+[22:11:15.116][127.0.0.1:55340] server disconnect 127.0.0.1:7897
+[22:11:15.118][127.0.0.1:55340] client disconnect
+[22:11:17.139][127.0.0.1:55348] client connect
+[22:11:17.144][127.0.0.1:55348] server connect 127.0.0.1:7897
+[22:11:19.571][127.0.0.1:55351] client connect
+[22:11:19.577][127.0.0.1:55351] server connect 127.0.0.1:7897
+127.0.0.1:55348: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.8k
+[22:11:19.809][127.0.0.1:55348] server disconnect 127.0.0.1:7897
+[22:11:19.810][127.0.0.1:55348] client disconnect
+127.0.0.1:55351: POST https://browser-intake-datadoghq.com/api/v2/logs?ddsour…
+              << 202 Accepted 53b
+[22:11:21.828][127.0.0.1:55354] client connect
+[22:11:21.832][127.0.0.1:55354] server connect 127.0.0.1:7897
+[22:11:22.595][127.0.0.1:54396] server disconnect 127.0.0.1:7897
+[22:11:22.598][127.0.0.1:54396] client disconnect
+[22:11:22.616][127.0.0.1:55357] client connect
+[22:11:22.621][127.0.0.1:55357] server connect 127.0.0.1:7897
+[22:11:22.763][127.0.0.1:54393] server disconnect 127.0.0.1:7897
+[22:11:22.765][127.0.0.1:54393] client disconnect
+[22:11:22.773][127.0.0.1:55360] client connect
+[22:11:22.780][127.0.0.1:55360] server connect 127.0.0.1:7897
+127.0.0.1:55357 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55357 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55357 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55360 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55360 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55360 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55360 <- tcp <- mtalk.google.com:5228
+[22:11:23.384][127.0.0.1:54399] server disconnect 127.0.0.1:7897
+[22:11:23.385][127.0.0.1:54399] client disconnect
+[22:11:23.389][127.0.0.1:55363] client connect
+[22:11:23.393][127.0.0.1:55363] server connect 127.0.0.1:7897
+[22:11:23.437][127.0.0.1:54402] server disconnect 127.0.0.1:7897
+[22:11:23.438][127.0.0.1:54402] client disconnect
+[22:11:23.441][127.0.0.1:55366] client connect
+[22:11:23.445][127.0.0.1:55366] server connect 127.0.0.1:7897
+127.0.0.1:55366 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55366 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55366 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55366 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55363 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55363 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55363 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55363 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55354: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.4k
+[22:11:25.942][127.0.0.1:55354] server disconnect 127.0.0.1:7897
+[22:11:25.944][127.0.0.1:55354] client disconnect
+[22:11:27.960][127.0.0.1:55379] client connect
+[22:11:27.968][127.0.0.1:55379] server connect 127.0.0.1:7897
+[22:11:29.883][127.0.0.1:55382] client connect
+[22:11:29.892][127.0.0.1:55382] server connect 127.0.0.1:7897
+[22:11:30.377][127.0.0.1:55382] Server TLS handshake failed. Certificate verify failed: unable to get local issuer certificate
+[22:11:30.378][127.0.0.1:55382] Unable to establish TLS connection with server (Certificate verify failed: unable to get local issuer certificate). Trying to establish TLS with client anyway. If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.
+[22:11:30.383][127.0.0.1:55382] server disconnect 127.0.0.1:7897
+[22:11:30.407][127.0.0.1:55382] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for cl2.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:11:30.407][127.0.0.1:55382] client disconnect
+127.0.0.1:55379: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.7k
+[22:11:30.857][127.0.0.1:55379] server disconnect 127.0.0.1:7897
+[22:11:30.858][127.0.0.1:55379] client disconnect
+[22:11:31.641][127.0.0.1:55319] server disconnect 127.0.0.1:7897
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:11:32.870][127.0.0.1:55389] client connect
+[22:11:32.874][127.0.0.1:55389] server connect 127.0.0.1:7897
+127.0.0.1:55389: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.6k
+[22:11:34.981][127.0.0.1:55389] server disconnect 127.0.0.1:7897
+[22:11:34.982][127.0.0.1:55389] client disconnect
+[22:11:36.993][127.0.0.1:55394] client connect
+[22:11:36.997][127.0.0.1:55394] server connect 127.0.0.1:7897
+127.0.0.1:55394: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.7k
+[22:11:40.765][127.0.0.1:55394] server disconnect 127.0.0.1:7897
+[22:11:40.766][127.0.0.1:55394] client disconnect
+[22:11:42.798][127.0.0.1:55399] client connect
+[22:11:42.802][127.0.0.1:55399] server connect 127.0.0.1:7897
+127.0.0.1:55399: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.6k
+[22:11:46.352][127.0.0.1:55399] server disconnect 127.0.0.1:7897
+[22:11:46.353][127.0.0.1:55399] client disconnect
+[22:11:48.368][127.0.0.1:55406] client connect
+[22:11:48.372][127.0.0.1:55406] server connect 127.0.0.1:7897
+127.0.0.1:55406: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.5k
+[22:11:50.637][127.0.0.1:55406] server disconnect 127.0.0.1:7897
+[22:11:50.638][127.0.0.1:55406] client disconnect
+[22:11:52.652][127.0.0.1:55409] client connect
+[22:11:52.656][127.0.0.1:55409] server connect 127.0.0.1:7897
+127.0.0.1:55409: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 37.9k
+[22:11:54.946][127.0.0.1:55409] server disconnect 127.0.0.1:7897
+[22:11:54.946][127.0.0.1:55409] client disconnect
+[22:11:56.911][127.0.0.1:55308] client disconnect
+[22:11:56.913][127.0.0.1:55308] server disconnect 127.0.0.1:7897
+[22:11:56.980][127.0.0.1:55424] client connect
+[22:11:56.986][127.0.0.1:55424] server connect 127.0.0.1:7897
+127.0.0.1:55424: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.1k
+[22:12:00.378][127.0.0.1:55424] server disconnect 127.0.0.1:7897
+[22:12:00.379][127.0.0.1:55424] client disconnect
+[22:12:02.394][127.0.0.1:55429] client connect
+[22:12:02.397][127.0.0.1:55429] server connect 127.0.0.1:7897
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:55429: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.0k
+[22:12:05.109][127.0.0.1:55429] server disconnect 127.0.0.1:7897
+[22:12:05.110][127.0.0.1:55429] client disconnect
+[22:12:07.124][127.0.0.1:55434] client connect
+[22:12:07.130][127.0.0.1:55434] server connect 127.0.0.1:7897
+127.0.0.1:55434: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.5k
+[22:12:10.519][127.0.0.1:55434] server disconnect 127.0.0.1:7897
+[22:12:10.519][127.0.0.1:55434] client disconnect
+[22:12:12.536][127.0.0.1:55437] client connect
+[22:12:12.541][127.0.0.1:55437] server connect 127.0.0.1:7897
+127.0.0.1:54110: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54109: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:55437: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.3k
+[22:12:14.881][127.0.0.1:55437] server disconnect 127.0.0.1:7897
+[22:12:14.882][127.0.0.1:55437] client disconnect
+[22:12:14.902][127.0.0.1:54503] server disconnect 127.0.0.1:7897
+[22:12:16.910][127.0.0.1:55442] client connect
+[22:12:16.914][127.0.0.1:55442] server connect 127.0.0.1:7897
+[22:12:18.392][127.0.0.1:54344] server disconnect 127.0.0.1:7897
+127.0.0.1:55442: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.2k
+[22:12:19.363][127.0.0.1:55442] server disconnect 127.0.0.1:7897
+[22:12:19.363][127.0.0.1:55442] client disconnect
+[22:12:21.058][127.0.0.1:55351] client disconnect
+[22:12:21.059][127.0.0.1:55351] server disconnect 127.0.0.1:7897
+[22:12:21.383][127.0.0.1:55445] client connect
+[22:12:21.388][127.0.0.1:55445] server connect 127.0.0.1:7897
+127.0.0.1:55445: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.6k
+[22:12:23.673][127.0.0.1:55445] server disconnect 127.0.0.1:7897
+[22:12:23.674][127.0.0.1:55445] client disconnect
+[22:12:25.690][127.0.0.1:55458] client connect
+[22:12:25.692][127.0.0.1:55458] server connect 127.0.0.1:7897
+127.0.0.1:55458: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 36.2k
+[22:12:30.380][127.0.0.1:55458] server disconnect 127.0.0.1:7897
+[22:12:30.382][127.0.0.1:55458] client disconnect
+[22:12:32.395][127.0.0.1:55465] client connect
+[22:12:32.399][127.0.0.1:55465] server connect 127.0.0.1:7897
+127.0.0.1:55465: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.7k
+[22:12:35.300][127.0.0.1:55465] server disconnect 127.0.0.1:7897
+[22:12:35.300][127.0.0.1:55465] client disconnect
+[22:12:37.317][127.0.0.1:55470] client connect
+[22:12:37.321][127.0.0.1:55470] server connect 127.0.0.1:7897
+127.0.0.1:55470: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.6k
+[22:12:39.317][127.0.0.1:55470] server disconnect 127.0.0.1:7897
+[22:12:39.318][127.0.0.1:55470] client disconnect
+[22:12:41.333][127.0.0.1:55475] client connect
+[22:12:41.339][127.0.0.1:55475] server connect 127.0.0.1:7897
+127.0.0.1:55475: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.0k
+[22:12:43.820][127.0.0.1:55475] server disconnect 127.0.0.1:7897
+[22:12:43.822][127.0.0.1:55475] client disconnect
+[22:12:45.836][127.0.0.1:55478] client connect
+[22:12:45.840][127.0.0.1:55478] server connect 127.0.0.1:7897
+127.0.0.1:55478: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.8k
+[22:12:49.289][127.0.0.1:55478] server disconnect 127.0.0.1:7897
+[22:12:49.290][127.0.0.1:55478] client disconnect
+[22:12:51.303][127.0.0.1:55483] client connect
+[22:12:51.308][127.0.0.1:55483] server connect 127.0.0.1:7897
+[22:12:53.337][127.0.0.1:55274] server disconnect 127.0.0.1:7897
+127.0.0.1:55483: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.9k
+[22:12:55.098][127.0.0.1:55483] server disconnect 127.0.0.1:7897
+[22:12:55.099][127.0.0.1:55483] client disconnect
+[22:12:55.575][127.0.0.1:55503] client connect
+[22:12:57.119][127.0.0.1:55504] client connect
+[22:12:57.124][127.0.0.1:55504] server connect 127.0.0.1:7897
+127.0.0.1:55504: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.5k
+[22:12:59.312][127.0.0.1:55504] server disconnect 127.0.0.1:7897
+[22:12:59.312][127.0.0.1:55504] client disconnect
+[22:13:01.325][127.0.0.1:55507] client connect
+[22:13:01.329][127.0.0.1:55507] server connect 127.0.0.1:7897
+[22:13:01.488][127.0.0.1:55503] client disconnect
+127.0.0.1:55507: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.7k
+[22:13:03.795][127.0.0.1:55507] server disconnect 127.0.0.1:7897
+[22:13:03.796][127.0.0.1:55507] client disconnect
+[22:13:05.812][127.0.0.1:55512] client connect
+[22:13:05.815][127.0.0.1:55512] server connect 127.0.0.1:7897
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+127.0.0.1:55512: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.6k
+[22:13:07.996][127.0.0.1:55512] server disconnect 127.0.0.1:7897
+[22:13:07.996][127.0.0.1:55512] client disconnect
+[22:13:10.009][127.0.0.1:55517] client connect
+[22:13:10.014][127.0.0.1:55517] server connect 127.0.0.1:7897
+127.0.0.1:55517: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.5k
+[22:13:12.340][127.0.0.1:55517] server disconnect 127.0.0.1:7897
+[22:13:12.341][127.0.0.1:55517] client disconnect
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:13:14.356][127.0.0.1:55522] client connect
+[22:13:14.359][127.0.0.1:55522] server connect 127.0.0.1:7897
+[22:13:14.976][127.0.0.1:55525] client connect
+[22:13:14.984][127.0.0.1:55525] server connect 127.0.0.1:7897
+127.0.0.1:55522: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.6k
+[22:13:16.795][127.0.0.1:55522] server disconnect 127.0.0.1:7897
+[22:13:16.796][127.0.0.1:55522] client disconnect
+127.0.0.1:55525: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:13:17.072][127.0.0.1:55525] client disconnect
+[22:13:17.073][127.0.0.1:55525] server disconnect 127.0.0.1:7897
+[22:13:18.813][127.0.0.1:55532] client connect
+[22:13:18.818][127.0.0.1:55532] server connect 127.0.0.1:7897
+127.0.0.1:55532: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.4k
+[22:13:21.097][127.0.0.1:55532] server disconnect 127.0.0.1:7897
+[22:13:21.098][127.0.0.1:55532] client disconnect
+[22:13:23.112][127.0.0.1:55535] client connect
+[22:13:23.116][127.0.0.1:55535] server connect 127.0.0.1:7897
+127.0.0.1:55535: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.3k
+[22:13:25.412][127.0.0.1:55535] server disconnect 127.0.0.1:7897
+[22:13:25.412][127.0.0.1:55535] client disconnect
+[22:13:27.424][127.0.0.1:55552] client connect
+[22:13:27.426][127.0.0.1:55552] server connect 127.0.0.1:7897
+127.0.0.1:55552: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.1k
+[22:13:29.604][127.0.0.1:55552] server disconnect 127.0.0.1:7897
+[22:13:29.605][127.0.0.1:55552] client disconnect
+[22:13:31.621][127.0.0.1:55556] client connect
+[22:13:31.626][127.0.0.1:55556] server connect 127.0.0.1:7897
+[22:13:33.102][127.0.0.1:55559] client connect
+[22:13:33.110][127.0.0.1:55559] server connect 127.0.0.1:7897
+127.0.0.1:55556: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.9k
+[22:13:34.029][127.0.0.1:55556] server disconnect 127.0.0.1:7897
+[22:13:34.030][127.0.0.1:55556] client disconnect
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+[22:13:35.829][127.0.0.1:55565] client connect
+[22:13:35.857][127.0.0.1:55565] server connect 127.0.0.1:7897
+[22:13:36.047][127.0.0.1:55568] client connect
+[22:13:36.054][127.0.0.1:55568] server connect 127.0.0.1:7897
+127.0.0.1:55565: GET https://weatherkit.apple.com/api/v2/weather/en-CN/31.22…
+              << 200 OK 7.6k
+[22:13:37.676][127.0.0.1:55565] client disconnect
+[22:13:37.677][127.0.0.1:55565] server disconnect 127.0.0.1:7897
+127.0.0.1:55568: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.9k
+[22:13:38.567][127.0.0.1:55568] server disconnect 127.0.0.1:7897
+[22:13:38.568][127.0.0.1:55568] client disconnect
+[22:13:40.620][127.0.0.1:55584] client connect
+[22:13:40.631][127.0.0.1:55584] server connect 127.0.0.1:7897
+[22:13:41.706][127.0.0.1:54503] server connect 127.0.0.1:7897
+127.0.0.1:54771: GET https://phishing-detection.api.cx.metamask.io/v2/diffsS… HTTP/2.0
+     << HTTP/2.0 200 OK 129b
+127.0.0.1:54774: GET https://client-side-detection.api.cx.metamask.io/v1/req… HTTP/2.0
+     << HTTP/2.0 200 OK 320b
+127.0.0.1:55584: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.7k
+[22:13:43.145][127.0.0.1:55584] server disconnect 127.0.0.1:7897
+[22:13:43.147][127.0.0.1:55584] client disconnect
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:54503: POST https://assistant.lumii-ai.cn/api/auth/refresh HTTP/2.0
+     << HTTP/2.0 200 OK 77b
+[22:13:45.176][127.0.0.1:55589] client connect
+[22:13:45.188][127.0.0.1:55589] server connect 127.0.0.1:7897
+[22:13:45.688][127.0.0.1:55592] client connect
+[22:13:45.696][127.0.0.1:55592] server connect 127.0.0.1:7897
+127.0.0.1:55592: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:13:47.021][127.0.0.1:55592] client disconnect
+[22:13:47.022][127.0.0.1:55592] server disconnect 127.0.0.1:7897
+127.0.0.1:55589: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.5k
+[22:13:47.960][127.0.0.1:55589] server disconnect 127.0.0.1:7897
+[22:13:47.968][127.0.0.1:55589] client disconnect
+[22:13:49.990][127.0.0.1:55599] client connect
+[22:13:50.010][127.0.0.1:55599] server connect 127.0.0.1:7897
+127.0.0.1:55599: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.6k
+[22:13:52.358][127.0.0.1:55599] server disconnect 127.0.0.1:7897
+[22:13:52.359][127.0.0.1:55599] client disconnect
+[22:13:54.376][127.0.0.1:55602] client connect
+[22:13:54.383][127.0.0.1:55602] server connect 127.0.0.1:7897
+127.0.0.1:55602: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.6k
+[22:13:56.644][127.0.0.1:55602] server disconnect 127.0.0.1:7897
+[22:13:56.647][127.0.0.1:55602] client disconnect
+[22:13:58.671][127.0.0.1:55619] client connect
+[22:13:58.685][127.0.0.1:55619] server connect 127.0.0.1:7897
+127.0.0.1:55619: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.6k
+[22:14:00.777][127.0.0.1:55619] server disconnect 127.0.0.1:7897
+[22:14:00.778][127.0.0.1:55619] client disconnect
+[22:14:02.800][127.0.0.1:55622] client connect
+[22:14:02.806][127.0.0.1:55622] server connect 127.0.0.1:7897
+127.0.0.1:55622: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.3k
+[22:14:04.995][127.0.0.1:55622] server disconnect 127.0.0.1:7897
+[22:14:04.997][127.0.0.1:55622] client disconnect
+[22:14:07.023][127.0.0.1:55625] client connect
+[22:14:07.033][127.0.0.1:55625] server connect 127.0.0.1:7897
+127.0.0.1:55625: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 28.1k
+[22:14:10.282][127.0.0.1:55625] server disconnect 127.0.0.1:7897
+[22:14:10.285][127.0.0.1:55625] client disconnect
+[22:14:12.330][127.0.0.1:55628] client connect
+[22:14:12.346][127.0.0.1:55628] server connect 127.0.0.1:7897
+127.0.0.1:54110: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54109: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:55628: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.1k
+[22:14:14.392][127.0.0.1:55628] server disconnect 127.0.0.1:7897
+[22:14:14.393][127.0.0.1:55628] client disconnect
+[22:14:16.411][127.0.0.1:55633] client connect
+[22:14:16.420][127.0.0.1:55633] server connect 127.0.0.1:7897
+127.0.0.1:55633: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.5k
+[22:14:20.811][127.0.0.1:55633] server disconnect 127.0.0.1:7897
+[22:14:20.812][127.0.0.1:55633] client disconnect
+[22:14:22.832][127.0.0.1:55636] client connect
+[22:14:22.838][127.0.0.1:55636] server connect 127.0.0.1:7897
+127.0.0.1:55636: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.2k
+[22:14:24.989][127.0.0.1:55636] server disconnect 127.0.0.1:7897
+[22:14:25.002][127.0.0.1:55636] client disconnect
+[22:14:27.036][127.0.0.1:55651] client connect
+[22:14:27.042][127.0.0.1:55651] server connect 127.0.0.1:7897
+127.0.0.1:55651: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 29.3k
+[22:14:29.765][127.0.0.1:55651] server disconnect 127.0.0.1:7897
+[22:14:29.772][127.0.0.1:55651] client disconnect
+[22:14:31.793][127.0.0.1:55660] client connect
+[22:14:31.804][127.0.0.1:55660] server connect 127.0.0.1:7897
+127.0.0.1:55660: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.2k
+[22:14:34.111][127.0.0.1:55660] server disconnect 127.0.0.1:7897
+[22:14:34.113][127.0.0.1:55660] client disconnect
+[22:14:36.125][127.0.0.1:55667] client connect
+[22:14:36.133][127.0.0.1:55667] server connect 127.0.0.1:7897
+127.0.0.1:55667: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.2k
+[22:14:38.481][127.0.0.1:55667] server disconnect 127.0.0.1:7897
+[22:14:38.482][127.0.0.1:55667] client disconnect
+[22:14:40.530][127.0.0.1:55671] client connect
+[22:14:40.540][127.0.0.1:55671] server connect 127.0.0.1:7897
+127.0.0.1:55671: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.2k
+[22:14:42.659][127.0.0.1:55671] server disconnect 127.0.0.1:7897
+[22:14:42.660][127.0.0.1:55671] client disconnect
+[22:14:44.677][127.0.0.1:55674] client connect
+[22:14:44.686][127.0.0.1:55674] server connect 127.0.0.1:7897
+127.0.0.1:55674: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.4k
+[22:14:46.701][127.0.0.1:55674] server disconnect 127.0.0.1:7897
+[22:14:46.702][127.0.0.1:55674] client disconnect
+[22:14:48.720][127.0.0.1:55677] client connect
+[22:14:48.727][127.0.0.1:55677] server connect 127.0.0.1:7897
+127.0.0.1:54277: POST https://ab.chatgpt.com/v1/initialize?k=client-sYWqzCYMR… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+127.0.0.1:55677: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.1k
+[22:14:51.008][127.0.0.1:55677] server disconnect 127.0.0.1:7897
+[22:14:51.014][127.0.0.1:55677] client disconnect
+[22:14:53.036][127.0.0.1:55682] client connect
+[22:14:53.048][127.0.0.1:55682] server connect 127.0.0.1:7897
+[22:14:53.075][127.0.0.1:55274] client disconnect
+127.0.0.1:54296: POST https://chat.openai.com/ces/v1/telemetry/intake?ddforwa… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:55682: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.5k
+[22:14:55.437][127.0.0.1:55682] server disconnect 127.0.0.1:7897
+[22:14:55.438][127.0.0.1:55682] client disconnect
+[22:14:57.462][127.0.0.1:55697] client connect
+[22:14:57.465][127.0.0.1:55697] server connect 127.0.0.1:7897
+127.0.0.1:55697: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.0k
+[22:15:00.600][127.0.0.1:55697] server disconnect 127.0.0.1:7897
+[22:15:00.604][127.0.0.1:55697] client disconnect
+[22:15:02.622][127.0.0.1:55700] client connect
+[22:15:02.632][127.0.0.1:55700] server connect 127.0.0.1:7897
+127.0.0.1:55700: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.9k
+[22:15:05.366][127.0.0.1:55700] server disconnect 127.0.0.1:7897
+[22:15:05.366][127.0.0.1:55700] client disconnect
+[22:15:07.389][127.0.0.1:55703] client connect
+[22:15:07.394][127.0.0.1:55703] server connect 127.0.0.1:7897
+127.0.0.1:55703: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.3k
+[22:15:10.017][127.0.0.1:55703] server disconnect 127.0.0.1:7897
+[22:15:10.019][127.0.0.1:55703] client disconnect
+[22:15:12.041][127.0.0.1:55706] client connect
+[22:15:12.056][127.0.0.1:55706] server connect 127.0.0.1:7897
+127.0.0.1:54277: POST https://ab.chatgpt.com/v1/initialize?k=client-sYWqzCYMR… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55706: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.2k
+[22:15:14.260][127.0.0.1:55706] server disconnect 127.0.0.1:7897
+[22:15:14.264][127.0.0.1:55706] client disconnect
+[22:15:16.288][127.0.0.1:55711] client connect
+[22:15:16.307][127.0.0.1:55711] server connect 127.0.0.1:7897
+127.0.0.1:54296: POST https://chat.openai.com/ces/v1/telemetry/intake?ddforwa… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:55711: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.0k
+[22:15:18.323][127.0.0.1:55711] server disconnect 127.0.0.1:7897
+[22:15:18.327][127.0.0.1:55711] client disconnect
+[22:15:20.355][127.0.0.1:55717] client connect
+[22:15:20.358][127.0.0.1:55717] server connect 127.0.0.1:7897
+127.0.0.1:55717: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.2k
+[22:15:23.521][127.0.0.1:55717] server disconnect 127.0.0.1:7897
+[22:15:23.522][127.0.0.1:55717] client disconnect
+[22:15:25.533][127.0.0.1:55731] client connect
+[22:15:25.537][127.0.0.1:55731] server connect 127.0.0.1:7897
+127.0.0.1:55731: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.3k
+[22:15:27.900][127.0.0.1:55731] server disconnect 127.0.0.1:7897
+[22:15:27.903][127.0.0.1:55731] client disconnect
+[22:15:29.929][127.0.0.1:55734] client connect
+[22:15:29.942][127.0.0.1:55734] server connect 127.0.0.1:7897
+127.0.0.1:55734: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 30.9k
+[22:15:32.011][127.0.0.1:55734] server disconnect 127.0.0.1:7897
+[22:15:32.013][127.0.0.1:55734] client disconnect
+[22:15:34.030][127.0.0.1:55739] client connect
+[22:15:34.038][127.0.0.1:55739] server connect 127.0.0.1:7897
+127.0.0.1:55739: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.2k
+[22:15:36.741][127.0.0.1:55739] server disconnect 127.0.0.1:7897
+[22:15:36.741][127.0.0.1:55739] client disconnect
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+[22:15:38.769][127.0.0.1:55742] client connect
+[22:15:38.772][127.0.0.1:55742] server connect 127.0.0.1:7897
+127.0.0.1:55742: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.7k
+[22:15:41.384][127.0.0.1:55742] server disconnect 127.0.0.1:7897
+[22:15:41.385][127.0.0.1:55742] client disconnect
+[22:15:43.403][127.0.0.1:55747] client connect
+[22:15:43.408][127.0.0.1:55747] server connect 127.0.0.1:7897
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+127.0.0.1:55747: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.1k
+[22:15:45.531][127.0.0.1:55747] server disconnect 127.0.0.1:7897
+[22:15:45.534][127.0.0.1:55747] client disconnect
+[22:15:47.535][127.0.0.1:54344] server connect 127.0.0.1:7897
+[22:15:47.545][127.0.0.1:55751] client connect
+[22:15:47.552][127.0.0.1:55751] server connect 127.0.0.1:7897
+[22:15:47.962][127.0.0.1:55755] client connect
+[22:15:47.979][127.0.0.1:55755] server connect 127.0.0.1:7897
+127.0.0.1:54344: GET https://update.code.visualstudio.com/api/update/darwin-… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55755: GET https://clientservices.googleapis.com/chrome-variations… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:15:48.610][127.0.0.1:55755] client disconnect
+[22:15:48.611][127.0.0.1:55319] client disconnect
+[22:15:48.611][127.0.0.1:54774] client disconnect
+[22:15:48.612][127.0.0.1:54503] client disconnect
+[22:15:48.612][127.0.0.1:54771] client disconnect
+[22:15:48.613][127.0.0.1:54110] client disconnect
+[22:15:48.613][127.0.0.1:54109] client disconnect
+[22:15:48.613][127.0.0.1:54420] client disconnect
+[22:15:48.614][127.0.0.1:55755] server disconnect 127.0.0.1:7897
+[22:15:48.615][127.0.0.1:54774] server disconnect 127.0.0.1:7897
+[22:15:48.616][127.0.0.1:54503] server disconnect 127.0.0.1:7897
+[22:15:48.616][127.0.0.1:54771] server disconnect 127.0.0.1:7897
+[22:15:48.617][127.0.0.1:54110] server disconnect 127.0.0.1:7897
+[22:15:48.618][127.0.0.1:54109] server disconnect 127.0.0.1:7897
+[22:15:48.619][127.0.0.1:54420] server disconnect 127.0.0.1:7897
+127.0.0.1:55751: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 32.2k
+[22:15:49.971][127.0.0.1:55751] server disconnect 127.0.0.1:7897
+[22:15:49.972][127.0.0.1:55751] client disconnect
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+[22:15:51.999][127.0.0.1:55760] client connect
+[22:15:52.013][127.0.0.1:55760] server connect 127.0.0.1:7897
+127.0.0.1:55760: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 31.7k
+[22:15:54.320][127.0.0.1:55760] server disconnect 127.0.0.1:7897
+[22:15:54.324][127.0.0.1:55760] client disconnect
+[22:15:56.342][127.0.0.1:55773] client connect
+[22:15:56.349][127.0.0.1:55773] server connect 127.0.0.1:7897
+127.0.0.1:55773: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 33.8k
+[22:15:58.702][127.0.0.1:55773] server disconnect 127.0.0.1:7897
+[22:15:58.707][127.0.0.1:55773] client disconnect
+[22:16:00.737][127.0.0.1:55778] client connect
+[22:16:00.741][127.0.0.1:55778] server connect 127.0.0.1:7897
+127.0.0.1:55778: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 34.4k
+[22:16:03.302][127.0.0.1:55778] server disconnect 127.0.0.1:7897
+[22:16:03.305][127.0.0.1:55778] client disconnect
+[22:16:03.972][127.0.0.1:55781] client connect
+[22:16:03.979][127.0.0.1:55781] server connect 127.0.0.1:7897
+[22:16:04.867][127.0.0.1:55781] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for ab.chatgpt.com, this may indicate that the client does not trust the proxy's certificate.
+[22:16:04.868][127.0.0.1:55781] client disconnect
+[22:16:04.868][127.0.0.1:55781] server disconnect 127.0.0.1:7897
+[22:16:05.336][127.0.0.1:55784] client connect
+[22:16:05.340][127.0.0.1:55784] server connect 127.0.0.1:7897
+127.0.0.1:55784: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 40.0k
+[22:16:08.354][127.0.0.1:55784] server disconnect 127.0.0.1:7897
+[22:16:08.356][127.0.0.1:55784] client disconnect
+[22:16:10.383][127.0.0.1:55791] client connect
+[22:16:10.386][127.0.0.1:55792] client connect
+[22:16:10.405][127.0.0.1:55791] server connect 127.0.0.1:7897
+[22:16:10.406][127.0.0.1:55792] server connect 127.0.0.1:7897
+127.0.0.1:55792: POST https://collector.github.com/github/collect HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:16:12.696][127.0.0.1:55798] client connect
+[22:16:12.703][127.0.0.1:55798] server connect 127.0.0.1:7897
+[22:16:12.717][127.0.0.1:55800] client connect
+[22:16:12.721][127.0.0.1:55800] server connect 127.0.0.1:7897
+127.0.0.1:55798: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:54283: POST https://chatgpt.com/ces/v1/rgstr?k=client-sYWqzCYMRkUg4… HTTP/2.0
+     << HTTP/2.0 202 Accepted 16b
+127.0.0.1:55800: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:55791: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 35.9k
+[22:16:14.602][127.0.0.1:55791] server disconnect 127.0.0.1:7897
+[22:16:14.603][127.0.0.1:55791] client disconnect
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+[22:16:16.619][127.0.0.1:55804] client connect
+[22:16:16.624][127.0.0.1:55804] server connect 127.0.0.1:7897
+[22:16:17.093][127.0.0.1:55807] client connect
+[22:16:17.099][127.0.0.1:55807] server connect 127.0.0.1:7897
+127.0.0.1:55804: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 40.0k
+[22:16:19.044][127.0.0.1:55804] server disconnect 127.0.0.1:7897
+[22:16:19.044][127.0.0.1:55804] client disconnect
+127.0.0.1:55807: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:16:20.167][127.0.0.1:55807] client disconnect
+[22:16:20.167][127.0.0.1:55807] server disconnect 127.0.0.1:7897
+[22:16:21.053][127.0.0.1:55812] client connect
+[22:16:21.056][127.0.0.1:55812] server connect 127.0.0.1:7897
+[22:16:22.619][127.0.0.1:55357] server disconnect 127.0.0.1:7897
+[22:16:22.619][127.0.0.1:55357] client disconnect
+[22:16:22.622][127.0.0.1:55817] client connect
+[22:16:22.625][127.0.0.1:55817] server connect 127.0.0.1:7897
+[22:16:22.790][127.0.0.1:55360] server disconnect 127.0.0.1:7897
+[22:16:22.791][127.0.0.1:55360] client disconnect
+[22:16:22.795][127.0.0.1:55820] client connect
+[22:16:22.797][127.0.0.1:55820] server connect 127.0.0.1:7897
+127.0.0.1:55817 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55817 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55820 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55820 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55820 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55820 <- tcp <- mtalk.google.com:5228
+[22:16:23.462][127.0.0.1:55366] server disconnect 127.0.0.1:7897
+[22:16:23.463][127.0.0.1:55366] client disconnect
+[22:16:23.464][127.0.0.1:55823] client connect
+[22:16:23.467][127.0.0.1:55823] server connect 127.0.0.1:7897
+127.0.0.1:55812: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 37.3k
+[22:16:23.480][127.0.0.1:55812] server disconnect 127.0.0.1:7897
+[22:16:23.480][127.0.0.1:55812] client disconnect
+127.0.0.1:55823 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55823 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55823 <- tcp <- mtalk.google.com:5228
+[22:16:24.354][127.0.0.1:55363] server disconnect 127.0.0.1:7897
+[22:16:24.355][127.0.0.1:55363] client disconnect
+[22:16:24.359][127.0.0.1:55826] client connect
+[22:16:24.362][127.0.0.1:55826] server connect 127.0.0.1:7897
+127.0.0.1:55826 -> tcp -> mtalk.google.com:5228
+127.0.0.1:55826 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55826 <- tcp <- mtalk.google.com:5228
+127.0.0.1:55826 <- tcp <- mtalk.google.com:5228
+[22:16:25.188][127.0.0.1:55841] client connect
+[22:16:25.196][127.0.0.1:55841] server connect 127.0.0.1:7897
+[22:16:25.485][127.0.0.1:55844] client connect
+[22:16:25.487][127.0.0.1:55844] server connect 127.0.0.1:7897
+127.0.0.1:55841: POST https://browser-intake-datadoghq.com/api/v2/logs?ddsour…
+              << 202 Accepted 53b
+127.0.0.1:55844: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 38.4k
+[22:16:29.482][127.0.0.1:55844] server disconnect 127.0.0.1:7897
+[22:16:29.483][127.0.0.1:55844] client disconnect
+[22:16:31.496][127.0.0.1:55853] client connect
+[22:16:31.499][127.0.0.1:55853] server connect 127.0.0.1:7897
+127.0.0.1:55853: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 37.5k
+[22:16:33.415][127.0.0.1:55853] server disconnect 127.0.0.1:7897
+[22:16:33.415][127.0.0.1:55853] client disconnect
+[22:16:35.429][127.0.0.1:55858] client connect
+[22:16:35.432][127.0.0.1:55858] server connect 127.0.0.1:7897
+127.0.0.1:55858: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 38.2k
+[22:16:38.004][127.0.0.1:55858] server disconnect 127.0.0.1:7897
+[22:16:38.004][127.0.0.1:55858] client disconnect
+[22:16:40.016][127.0.0.1:55865] client connect
+[22:16:40.019][127.0.0.1:55865] server connect 127.0.0.1:7897
+127.0.0.1:55865: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 40.3k
+[22:16:42.018][127.0.0.1:55865] server disconnect 127.0.0.1:7897
+[22:16:42.018][127.0.0.1:55865] client disconnect
+[22:16:44.028][127.0.0.1:55871] client connect
+[22:16:44.031][127.0.0.1:55871] server connect 127.0.0.1:7897
+127.0.0.1:55871: GET https://mp.weixin.qq.com/mp/profile_ext?action=getmsg&_…
+              << 200 OK 4.9k
+[22:16:45.038][127.0.0.1:55871] server disconnect 127.0.0.1:7897
+[22:16:45.038][127.0.0.1:55871] client disconnect
+[22:16:47.033][127.0.0.1:55874] client connect
+[22:16:47.038][127.0.0.1:55874] server connect 127.0.0.1:7897
+127.0.0.1:55874: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:16:48.234][127.0.0.1:55874] client disconnect
+[22:16:48.235][127.0.0.1:55874] server disconnect 127.0.0.1:7897
+[22:17:18.214][127.0.0.1:54344] server disconnect 127.0.0.1:7897
+[22:17:26.596][127.0.0.1:55841] client disconnect
+[22:17:26.597][127.0.0.1:55841] server disconnect 127.0.0.1:7897
+[22:17:29.621][127.0.0.1:55921] client connect
+[22:17:29.632][127.0.0.1:55921] server connect 127.0.0.1:7897
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+127.0.0.1:55921: POST https://ios.rqd.qq.com/analytics/rqdsync?aid=AB2F7488-2…
+              << 200 OK 278b
+[22:17:30.895][127.0.0.1:55933] client connect
+[22:17:30.898][127.0.0.1:55933] server connect 127.0.0.1:7897
+127.0.0.1:55933: POST https://otheve.beacon.qq.com/analytics/v2_upload?appkey… HTTP/2.0
+     << HTTP/2.0 200 OK 97b
+[22:17:36.070][127.0.0.1:55933] client disconnect
+[22:17:36.074][127.0.0.1:55933] server disconnect 127.0.0.1:7897
+[22:17:42.743][127.0.0.1:55940] client connect
+[22:17:42.753][127.0.0.1:55940] server connect 127.0.0.1:7897
+[22:17:43.423][127.0.0.1:55940] Server TLS handshake failed. Certificate verify failed: unable to get local issuer certificate
+[22:17:43.424][127.0.0.1:55940] Unable to establish TLS connection with server (Certificate verify failed: unable to get local issuer certificate). Trying to establish TLS with client anyway. If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.
+[22:17:43.432][127.0.0.1:55940] server disconnect 127.0.0.1:7897
+[22:17:43.461][127.0.0.1:55940] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for init.push.apple.com, this may indicate that the client does not trust the proxy's certificate.
+[22:17:43.464][127.0.0.1:55940] client disconnect
+[22:17:52.487][127.0.0.1:55955] client connect
+[22:17:52.497][127.0.0.1:55955] server connect 127.0.0.1:7897
+[22:17:52.514][127.0.0.1:55957] client connect
+[22:17:52.517][127.0.0.1:55957] server connect 127.0.0.1:7897
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=cLCWaq3PNZW… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55957: POST https://api.github.com/_private/browser/stats HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=cLCWaq3PNZW… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:17:54.498][127.0.0.1:55962] client connect
+[22:17:54.504][127.0.0.1:55962] server connect 127.0.0.1:7897
+[22:17:54.550][127.0.0.1:55964] client connect
+[22:17:54.557][127.0.0.1:55964] server connect 127.0.0.1:7897
+[22:17:54.846][127.0.0.1:55978] client connect
+[22:17:54.850][127.0.0.1:55978] server connect 127.0.0.1:7897
+[22:17:54.949][127.0.0.1:55981] client connect
+[22:17:54.953][127.0.0.1:55981] server connect 127.0.0.1:7897
+[22:17:55.108][127.0.0.1:55984] client connect
+[22:17:55.114][127.0.0.1:55984] server connect 127.0.0.1:7897
+127.0.0.1:55964: GET https://www.google.com/async/newtab_promos HTTP/2.0
+     << HTTP/2.0 302 Found 391b
+[22:17:55.133][127.0.0.1:55986] client connect
+[22:17:55.135][127.0.0.1:55986] server connect 127.0.0.1:7897
+[22:17:55.261][127.0.0.1:55991] client connect
+[22:17:55.263][127.0.0.1:55991] server connect 127.0.0.1:7897
+[22:17:55.497][127.0.0.1:55994] client connect
+[22:17:55.500][127.0.0.1:55994] server connect 127.0.0.1:7897
+[22:17:55.700][127.0.0.1:55978] client disconnect
+[22:17:55.701][127.0.0.1:55978] server disconnect 127.0.0.1:7897
+[22:17:55.814][127.0.0.1:55962] client disconnect
+[22:17:55.815][127.0.0.1:55962] server disconnect 127.0.0.1:7897
+127.0.0.1:55991: GET https://www.google.com/search/warmup.html HTTP/2.0
+     << HTTP/2.0 302 Found 390b
+127.0.0.1:55991: GET https://www.google.com/async/ddljson?async=ntp:2,anim:1 HTTP/2.0
+     << HTTP/2.0 302 Found 408b
+127.0.0.1:55991: GET https://www.google.com/async/newtab_ogb?hl=en-US&async=… HTTP/2.0
+     << HTTP/2.0 302 Found 419b
+[22:17:55.827][127.0.0.1:55997] client connect
+[22:17:55.830][127.0.0.1:55997] server connect 127.0.0.1:7897
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK (content missing)
+ << stream reset by client (CANCEL)
+[22:17:56.132][127.0.0.1:56000] client connect
+[22:17:56.137][127.0.0.1:56000] server connect 127.0.0.1:7897
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:55997: GET https://www.google.com.hk/url?sa=p&hl=zh-CN&pref=hkredi… HTTP/2.0
+     << HTTP/2.0 302 Found 266b
+127.0.0.1:55997: GET https://www.google.com.hk/url?sa=p&hl=zh-CN&pref=hkredi… HTTP/2.0
+     << HTTP/2.0 302 Found 255b
+[22:17:56.506][127.0.0.1:56000] client disconnect
+[22:17:56.506][127.0.0.1:56000] server disconnect 127.0.0.1:7897
+127.0.0.1:55986: GET https://www.google.com.hk/url?sa=p&hl=zh-CN&pref=hkredi… HTTP/2.0
+     << HTTP/2.0 302 Found 242b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+[22:17:56.752][127.0.0.1:56003] client connect
+[22:17:56.753][127.0.0.1:56004] client connect
+[22:17:56.757][127.0.0.1:56003] server connect 127.0.0.1:7897
+[22:17:56.757][127.0.0.1:56004] server connect 127.0.0.1:7897
+127.0.0.1:55997: GET https://www.google.com.hk/async/newtab_ogb?hl=en-US&asy… HTTP/2.0
+     << HTTP/2.0 200 OK 37.9k
+127.0.0.1:55997: GET https://www.google.com.hk/async/ddljson?async=ntp:2,ani… HTTP/2.0
+     << HTTP/2.0 200 OK 23b
+[22:17:56.840][127.0.0.1:56009] client connect
+[22:17:56.847][127.0.0.1:56009] server connect 127.0.0.1:7897
+127.0.0.1:55986: GET https://www.google.com.hk/async/newtab_promos HTTP/2.0
+     << HTTP/2.0 200 OK 33b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK 746b
+[22:17:57.057][127.0.0.1:56012] client connect
+[22:17:57.058][127.0.0.1:56013] client connect
+[22:17:57.058][127.0.0.1:56014] client connect
+[22:17:57.058][127.0.0.1:56015] client connect
+[22:17:57.067][127.0.0.1:56012] server connect 127.0.0.1:7897
+[22:17:57.068][127.0.0.1:56013] server connect 127.0.0.1:7897
+[22:17:57.069][127.0.0.1:56014] server connect 127.0.0.1:7897
+[22:17:57.070][127.0.0.1:56015] server connect 127.0.0.1:7897
+127.0.0.1:56004: GET https://lh3.googleusercontent.com/grass-cs/ACvplmNksukW… HTTP/2.0
+     << HTTP/2.0 200 OK 5.0k
+[22:17:57.316][127.0.0.1:56013] client disconnect
+[22:17:57.317][127.0.0.1:56013] server disconnect 127.0.0.1:7897
+[22:17:57.324][127.0.0.1:56012] client disconnect
+[22:17:57.324][127.0.0.1:56012] server disconnect 127.0.0.1:7897
+[22:17:57.350][127.0.0.1:56015] client disconnect
+[22:17:57.351][127.0.0.1:56015] server disconnect 127.0.0.1:7897
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK 616b
+[22:17:57.518][127.0.0.1:55984] client disconnect
+[22:17:57.518][127.0.0.1:55984] server disconnect 127.0.0.1:7897
+127.0.0.1:56003: GET https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:56003: GET https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR… HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:56003: GET https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT… HTTP/2.0
+     << HTTP/2.0 200 OK 940b
+127.0.0.1:56003: GET https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR… HTTP/2.0
+     << HTTP/2.0 200 OK 1.5k
+127.0.0.1:56003: GET https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:56003: GET https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+127.0.0.1:55991: GET https://www.google.com/search?q=%E8%83%A1%E9%94%A1%E8%B… HTTP/2.0
+     << HTTP/2.0 302 Found 526b
+[22:17:57.849][127.0.0.1:56024] client connect
+[22:17:57.854][127.0.0.1:56024] server connect 127.0.0.1:7897
+[22:17:57.923][127.0.0.1:56014] client disconnect
+[22:17:57.924][127.0.0.1:56014] server disconnect 127.0.0.1:7897
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:55792: POST https://collector.github.com/github/collect HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:56009: OPTIONS https://ogads-pa.clients6.google.com/$rpc/google.intern… HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[22:17:58.269][127.0.0.1:56027] client connect
+[22:17:58.272][127.0.0.1:56027] server connect 127.0.0.1:7897
+127.0.0.1:56024: POST https://play.google.com/log?format=json&hasfast=true HTTP/2.0
+     << HTTP/2.0 200 OK 131b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK 239b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:56027: POST https://ogads-pa.clients6.google.com/$rpc/google.intern… HTTP/2.0
+     << HTTP/2.0 200 OK 30b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+ << stream reset by client (CANCEL)
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK 249b
+127.0.0.1:55991: GET https://www.google.com/complete/search?client=chrome-om… HTTP/2.0
+     << HTTP/2.0 200 OK 256b
+127.0.0.1:56024: POST https://play.google.com/log?format=json&hasfast=true HTTP/2.0
+     << HTTP/2.0 200 OK 131b
+[22:17:59.989][127.0.0.1:56030] client connect
+[22:18:00.020][127.0.0.1:56030] server connect 127.0.0.1:7897
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+127.0.0.1:55991: GET https://www.google.com/search?q=%E8%83%A1%E9%94%A1%E8%B… HTTP/2.0
+     << HTTP/2.0 302 Found 731b
+127.0.0.1:55955: GET https://www.google.com.hk/url?sa=p&hl=zh-CN&pref=hkredi… HTTP/2.0
+     << HTTP/2.0 302 Found 506b
+[22:18:00.625][127.0.0.1:56035] client connect
+[22:18:00.630][127.0.0.1:56035] server connect 127.0.0.1:7897
+[22:18:00.811][127.0.0.1:56038] client connect
+[22:18:00.814][127.0.0.1:56038] server connect 127.0.0.1:7897
+[22:18:01.184][127.0.0.1:56038] client disconnect
+[22:18:01.185][127.0.0.1:56038] server disconnect 127.0.0.1:7897
+127.0.0.1:55955: GET https://www.google.com.hk/search?q=%E8%83%A1%E9%94%A1%E… HTTP/2.0
+     << HTTP/2.0 200 OK 105k
+127.0.0.1:56035: POST https://optimizationguide-pa.googleapis.com/v1:GetHints… HTTP/2.0
+     << HTTP/2.0 200 OK 4.7k
+127.0.0.1:56035: POST https://optimizationguide-pa.googleapis.com/v1:GetHints… HTTP/2.0
+     << HTTP/2.0 200 OK 2.9k
+127.0.0.1:56035: POST https://optimizationguide-pa.googleapis.com/v1:GetHints… HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+[22:18:01.427][127.0.0.1:56030] client disconnect
+[22:18:01.427][127.0.0.1:56030] server disconnect 127.0.0.1:7897
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/ss/k=xjs.s.TCNIBs3gHjg.… HTTP/2.0
+     << HTTP/2.0 200 OK 1.2k
+[22:18:01.580][127.0.0.1:56043] client connect
+[22:18:01.580][127.0.0.1:56044] client connect
+[22:18:01.593][127.0.0.1:56045] client connect
+[22:18:01.597][127.0.0.1:56043] server connect 127.0.0.1:7897
+[22:18:01.597][127.0.0.1:56044] server connect 127.0.0.1:7897
+[22:18:01.600][127.0.0.1:56045] server connect 127.0.0.1:7897
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 473k
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?s=web&t=aft&atyp=csi&… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 63.4k
+[22:18:02.251][127.0.0.1:56052] client connect
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 45.6k
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=csi&ei=md6WaoDCD… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 69.1k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 53.6k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 17.9k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 1.7k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/md=2/k=xjs.s.zh.3JPz… HTTP/2.0
+     << HTTP/2.0 200 OK 1.6k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 442b
+127.0.0.1:55955: POST https://www.google.com.hk/client_204?atyp=i&biw=1728&bi… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:56045: OPTIONS https://ogads-pa.clients6.google.com/$rpc/google.intern… HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[22:18:02.390][127.0.0.1:56053] client connect
+[22:18:02.392][127.0.0.1:56053] server connect 127.0.0.1:7897
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 297b
+127.0.0.1:55955: GET https://www.google.com.hk/complete/s?q=%E8%83%A1%E9%94%… HTTP/2.0
+     << HTTP/2.0 200 OK 46b
+127.0.0.1:55955: GET https://www.google.com.hk/complete/s?q&cp=0&client=gws-… HTTP/2.0
+     << HTTP/2.0 200 OK 49b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/ss/k=xjs.s.TCNIBs3gHjg.… HTTP/2.0
+     << HTTP/2.0 200 OK 634b
+127.0.0.1:56043: GET https://www.googleadservices.com/pagead/conversion/1652… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 4.1k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 116k
+[22:18:02.597][127.0.0.1:56056] client connect
+[22:18:02.599][127.0.0.1:56056] server connect 127.0.0.1:7897
+[22:18:02.618][127.0.0.1:56058] client connect
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=md6WaoDCDJP… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:18:02.633][127.0.0.1:56058] server connect 127.0.0.1:7897
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/ss/k=xjs.s.TCNIBs3gHjg.… HTTP/2.0
+     << HTTP/2.0 200 OK 1.1k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 5.9k
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=md6WaoDCDJP… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: GET https://www.google.com.hk/client_204?cs=2&opi=89978449 HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=md6WaoDCDJP… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:56044: GET https://www.google.com/pagead/1p-conversion/16521530460… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=md6WaoDCDJP… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: GET https://www.google.com.hk/async/bgasy?ei=md6WaoDCDJPLkP… HTTP/2.0
+     << HTTP/2.0 200 OK 6.1k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 137b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/ss/k=xjs.s.TCNIBs3gHjg.… HTTP/2.0
+     << HTTP/2.0 200 OK 440b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 13.6k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ct=psnt&cad=&n… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:56056: OPTIONS https://play.google.com/log?format=json&hasfast=true HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[22:18:03.117][127.0.0.1:56062] client connect
+[22:18:03.123][127.0.0.1:56062] server connect 127.0.0.1:7897
+127.0.0.1:56058: GET https://ep1.adtrafficquality.google/getconfig/sodar?sv=… HTTP/2.0
+     << HTTP/2.0 200 OK 7.4k
+[22:18:03.130][127.0.0.1:56064] client connect
+[22:18:03.133][127.0.0.1:56064] server connect 127.0.0.1:7897
+127.0.0.1:56053: POST https://ogads-pa.clients6.google.com/$rpc/google.intern… HTTP/2.0
+     << HTTP/2.0 200 OK 30b
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 3.0k
+127.0.0.1:55955: GET https://www.google.com.hk/xjs/_/js/k=xjs.s.zh.3JPzaEC3c… HTTP/2.0
+     << HTTP/2.0 200 OK 1000b
+127.0.0.1:56062: POST https://play.google.com/log?format=json&hasfast=true HTTP/2.0
+     << HTTP/2.0 200 OK 131b
+127.0.0.1:56064: GET https://ep2.adtrafficquality.google/sodar/sodar2.js HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+[22:18:04.351][127.0.0.1:56068] client connect
+[22:18:04.354][127.0.0.1:56068] server connect 127.0.0.1:7897
+127.0.0.1:56068: GET https://ep2.adtrafficquality.google/sodar/sodar2/255/ru… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:56068: GET https://ep2.adtrafficquality.google/generate_204?K4Swtw HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:56062: POST https://play.google.com/log?format=json&hasfast=true HTTP/2.0
+     << HTTP/2.0 200 OK 131b
+[22:18:05.601][127.0.0.1:56071] client connect
+[22:18:05.604][127.0.0.1:56071] server connect 127.0.0.1:7897
+127.0.0.1:56071: GET https://ep1.adtrafficquality.google/pagead/sodar?id=sod… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:18:07.381][127.0.0.1:56052] client disconnect
+[22:18:07.410][127.0.0.1:56078] client connect
+[22:18:07.413][127.0.0.1:56078] server connect 127.0.0.1:7897
+127.0.0.1:56078: POST https://clients4.google.com/chrome-sync/command/?client… HTTP/2.0
+     << HTTP/2.0 200 OK 485b
+[22:18:12.688][127.0.0.1:56083] client connect
+[22:18:12.696][127.0.0.1:56083] server connect 127.0.0.1:7897
+127.0.0.1:55798: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:55800: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+127.0.0.1:56083: POST https://assistant.lumii-ai.cn/api/auth/refresh HTTP/2.0
+     << HTTP/2.0 200 OK 77b
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+[22:18:23.114][127.0.0.1:55957] server disconnect 127.0.0.1:7897
+[22:18:30.539][127.0.0.1:55921] client disconnect
+[22:18:30.540][127.0.0.1:55921] server disconnect 127.0.0.1:7897
+[22:18:30.750][127.0.0.1:56114] client connect
+[22:18:30.771][127.0.0.1:56114] server connect 127.0.0.1:7897
+127.0.0.1:56114: POST https://clients4.google.com/ukm HTTP/2.0
+     << HTTP/2.0 200 OK 22b
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=md6WaoDCDJP… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+127.0.0.1:55955: POST https://www.google.com.hk/gen_204?atyp=i&ei=md6WaoDCDJP… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:18:47.748][127.0.0.1:56137] client connect
+[22:18:47.776][127.0.0.1:56137] server connect 127.0.0.1:7897
+127.0.0.1:56137: GET https://badjs.weixinbridge.com/frontend/reportspeed?pid…
+              << 200 OK 0b
+[22:18:49.841][127.0.0.1:56137] client disconnect
+[22:18:49.842][127.0.0.1:56137] server disconnect 127.0.0.1:7897
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+[22:18:57.288][127.0.0.1:56159] client connect
+[22:18:57.303][127.0.0.1:56159] server connect 127.0.0.1:7897
+[22:18:58.603][127.0.0.1:56159] client disconnect
+[22:18:58.603][127.0.0.1:56159] server disconnect 127.0.0.1:7897
+[22:19:12.761][127.0.0.1:56182] client connect
+[22:19:12.769][127.0.0.1:56182] server connect 127.0.0.1:7897
+127.0.0.1:56182: POST https://mp.weixin.qq.com/mp/jsmonitor HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:19:14.846][127.0.0.1:56182] client disconnect
+[22:19:14.847][127.0.0.1:56182] server disconnect 127.0.0.1:7897
+[22:19:18.256][127.0.0.1:56199] client connect
+[22:19:18.264][127.0.0.1:56199] server connect 127.0.0.1:7897
+[22:19:18.294][127.0.0.1:56201] client connect
+[22:19:18.296][127.0.0.1:56201] server connect 127.0.0.1:7897
+127.0.0.1:56201: POST http://get.sogou.com/q
+              << 200 OK 24b
+127.0.0.1:56199: POST https://ios.rqd.qq.com/analytics/rqdsync?aid=7DB0640A-1…
+              << 200 OK 278b
+[22:19:20.183][127.0.0.1:56205] client connect
+[22:19:20.186][127.0.0.1:56205] server connect 127.0.0.1:7897
+127.0.0.1:56205: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:19:21.096][127.0.0.1:56205] client disconnect
+[22:19:21.096][127.0.0.1:56205] server disconnect 127.0.0.1:7897
+[22:19:24.777][127.0.0.1:56212] client connect
+[22:19:24.781][127.0.0.1:56212] server connect 127.0.0.1:7897
+127.0.0.1:56212: POST https://content.rconfig.qq.com/log_config/trpc.rconfig.…
+              << 200 OK 292b
+127.0.0.1:54742: GET https://chatgpt.com/backend-api/celsius/ws/user HTTP/2.0
+     << HTTP/2.0 403 Forbidden 6.3k
+[22:19:48.267][127.0.0.1:56264] client connect
+[22:19:48.281][127.0.0.1:56264] server connect 127.0.0.1:7897
+[22:19:48.798][127.0.0.1:56201] client disconnect
+[22:19:48.800][127.0.0.1:56201] server disconnect 127.0.0.1:7897
+127.0.0.1:56264: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:19:49.341][127.0.0.1:56264] client disconnect
+[22:19:49.342][127.0.0.1:56264] server disconnect 127.0.0.1:7897
+[22:19:54.748][127.0.0.1:56275] client connect
+[22:19:54.749][127.0.0.1:55981] client disconnect
+[22:19:54.749][127.0.0.1:55994] client disconnect
+[22:19:54.750][127.0.0.1:55981] server disconnect 127.0.0.1:7897
+[22:19:54.750][127.0.0.1:55994] server disconnect 127.0.0.1:7897
+[22:19:54.754][127.0.0.1:56275] server connect 127.0.0.1:7897
+127.0.0.1:55955: GET https://www.google.com.hk/_/SearchAtrUi/gen204/?tmambps… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:19:55.157][127.0.0.1:56288] client connect
+[22:19:55.157][127.0.0.1:56289] client connect
+[22:19:55.159][127.0.0.1:56290] client connect
+[22:19:55.162][127.0.0.1:56288] server connect 127.0.0.1:7897
+[22:19:55.163][127.0.0.1:56289] server connect 127.0.0.1:7897
+[22:19:55.163][127.0.0.1:56290] server connect 127.0.0.1:7897
+127.0.0.1:56275: GET https://phishing-detection.api.cx.metamask.io/v2/diffsS… HTTP/2.0
+     << HTTP/2.0 200 OK 38b
+127.0.0.1:56290: POST https://beacons.gcp.gvt2.com/domainreliability/upload HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+127.0.0.1:56288: POST https://google.com/domainreliability/upload HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[22:19:55.655][127.0.0.1:56299] client connect
+127.0.0.1:56289: POST https://www.google.com.hk/domainreliability/upload HTTP/2.0
+     << HTTP/2.0 307 Temporary Redirect 0b
+[22:19:55.658][127.0.0.1:56299] server connect 127.0.0.1:7897
+[22:19:55.659][127.0.0.1:56301] client connect
+[22:19:55.662][127.0.0.1:56301] server connect 127.0.0.1:7897
+127.0.0.1:56299: GET https://client-side-detection.api.cx.metamask.io/v1/req… HTTP/2.0
+     << HTTP/2.0 200 OK 320b
+[22:19:58.098][127.0.0.1:55792] server disconnect 127.0.0.1:7897
+127.0.0.1:54742: POST https://chatgpt.com/ces/statsc/flush HTTP/2.0
+     << HTTP/2.0 200 OK 16b
+127.0.0.1:54742: POST https://chatgpt.com/ces/v1/telemetry/intake?ddforward=%… HTTP/2.0
+     << HTTP/2.0 202 Accepted 24b
+127.0.0.1:55798: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:55800: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+[22:20:13.871][127.0.0.1:56317] client connect
+[22:20:13.890][127.0.0.1:56317] server connect 127.0.0.1:7897
+127.0.0.1:56317: POST https://otheve.beacon.qq.com/analytics/v2_upload?appkey… HTTP/2.0
+     << HTTP/2.0 200 OK 97b
+[22:20:16.104][127.0.0.1:56317] client disconnect
+[22:20:16.105][127.0.0.1:56317] server disconnect 127.0.0.1:7897
+[22:20:19.316][127.0.0.1:56212] client disconnect
+[22:20:19.317][127.0.0.1:56212] server disconnect 127.0.0.1:7897
+[22:20:19.319][127.0.0.1:56199] client disconnect
+[22:20:19.320][127.0.0.1:56199] server disconnect 127.0.0.1:7897
+[22:20:27.143][127.0.0.1:56301] client disconnect
+[22:20:27.143][127.0.0.1:56301] server disconnect 127.0.0.1:7897
+[22:20:44.916][127.0.0.1:56370] client connect
+[22:20:44.935][127.0.0.1:56370] server connect 127.0.0.1:7897
+127.0.0.1:56370: POST https://docs.qq.com/api/account/qqlogincgi/openapi-sig?… HTTP/2.0
+     << HTTP/2.0 200 OK 227b
+[22:20:47.634][127.0.0.1:54344] server connect 127.0.0.1:7897
+127.0.0.1:54344: GET https://update.code.visualstudio.com/api/update/darwin-… HTTP/2.0
+     << HTTP/2.0 204 No Content 0b
+[22:20:49.843][127.0.0.1:56370] client disconnect
+[22:20:49.846][127.0.0.1:56370] server disconnect 127.0.0.1:7897
+[22:20:53.417][127.0.0.1:56415] client connect
+[22:20:53.427][127.0.0.1:56415] server connect 127.0.0.1:7897
+127.0.0.1:56415: GET https://slardar-bd.feishu.cn/monitor_pc/settings/api/se… HTTP/2.0
+     << HTTP/2.0 200 OK 467b
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+127.0.0.1:55559: POST https://otheve.beacon.qq.com/analytics/v2_upload HTTP/2.0
+     << HTTP/2.0 200 OK 56b
+[22:20:59.671][127.0.0.1:56438] client connect
+[22:20:59.674][127.0.0.1:56438] server connect 127.0.0.1:7897
+[22:21:00.027][127.0.0.1:56438] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for api.apple-cloudkit.com, this may indicate that the client does not trust the proxy's certificate.
+[22:21:00.028][127.0.0.1:56438] client disconnect
+[22:21:00.028][127.0.0.1:56438] server disconnect 127.0.0.1:7897
+127.0.0.1:54308: POST https://optimizationguide-pa.googleapis.com/v1:GetModel… HTTP/2.0
+ << connection closed
+[22:21:03.517][127.0.0.1:56455] client connect
+[22:21:03.522][127.0.0.1:56455] server connect 127.0.0.1:7897
+[22:21:04.013][127.0.0.1:56455] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for api.apple-cloudkit.com, this may indicate that the client does not trust the proxy's certificate.
+[22:21:04.013][127.0.0.1:56455] client disconnect
+[22:21:04.014][127.0.0.1:56455] server disconnect 127.0.0.1:7897
+[22:21:04.018][127.0.0.1:56458] client connect
+[22:21:04.021][127.0.0.1:56458] server connect 127.0.0.1:7897
+[22:21:04.023][127.0.0.1:56460] client connect
+[22:21:04.028][127.0.0.1:56460] server connect 127.0.0.1:7897
+[22:21:04.433][127.0.0.1:56458] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for api.apple-cloudkit.com, this may indicate that the client does not trust the proxy's certificate.
+[22:21:04.434][127.0.0.1:56458] client disconnect
+[22:21:04.435][127.0.0.1:56458] server disconnect 127.0.0.1:7897
+[22:21:04.453][127.0.0.1:56460] Client TLS handshake failed. The client disconnected during the handshake. If this happens consistently for ab.chatgpt.com, this may indicate that the client does not trust the proxy's certificate.
+[22:21:04.453][127.0.0.1:56460] client disconnect
+[22:21:04.454][127.0.0.1:56460] server disconnect 127.0.0.1:7897
+[22:21:13.841][127.0.0.1:56501] client connect
+[22:21:13.846][127.0.0.1:56501] server connect 127.0.0.1:7897
+127.0.0.1:56290: POST https://beacons.gcp.gvt2.com/domainreliability/upload HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+127.0.0.1:56288: POST https://google.com/domainreliability/upload HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+127.0.0.1:56501: POST https://beacons.gcp.gvt2.com/domainreliability/upload HTTP/2.0
+     << HTTP/2.0 200 OK 0b
+[22:21:22.595][127.0.0.1:55817] server disconnect 127.0.0.1:7897
+[22:21:22.597][127.0.0.1:55817] client disconnect
+[22:21:22.622][127.0.0.1:56520] client connect
+[22:21:22.642][127.0.0.1:56520] server connect 127.0.0.1:7897
+[22:21:22.799][127.0.0.1:55820] server disconnect 127.0.0.1:7897
+[22:21:22.799][127.0.0.1:55820] client disconnect
+[22:21:22.808][127.0.0.1:56523] client connect
+[22:21:22.813][127.0.0.1:56523] server connect 127.0.0.1:7897
+127.0.0.1:56520 -> tcp -> mtalk.google.com:5228
+127.0.0.1:56520 <- tcp <- mtalk.google.com:5228
+127.0.0.1:56523 -> tcp -> mtalk.google.com:5228
+127.0.0.1:56520 <- tcp <- mtalk.google.com:5228
+127.0.0.1:56523 <- tcp <- mtalk.google.com:5228
+[22:21:23.402][127.0.0.1:55823] server disconnect 127.0.0.1:7897
+[22:21:23.403][127.0.0.1:55823] client disconnect
+[22:21:23.408][127.0.0.1:56526] client connect
+[22:21:23.412][127.0.0.1:56526] server connect 127.0.0.1:7897
+[22:21:23.808][127.0.0.1:56529] client connect
+[22:21:23.812][127.0.0.1:56529] server connect 127.0.0.1:7897
+[22:21:24.173][127.0.0.1:56529] Client TLS handshake failed. The client does not trust the proxy's certificate for api16-eeft-imfile-lf.feishu.cn (OpenSSL Error([('SSL routines', '', 'ssl/tls alert certificate unknown')]))
+[22:21:24.174][127.0.0.1:56529] client disconnect
+[22:21:24.174][127.0.0.1:56529] server disconnect 127.0.0.1:7897
+[22:21:24.175][127.0.0.1:56532] client connect
+[22:21:24.178][127.0.0.1:56532] server connect 127.0.0.1:7897
+127.0.0.1:56526 -> tcp -> mtalk.google.com:5228
+[22:21:24.380][127.0.0.1:55826] server disconnect 127.0.0.1:7897
+[22:21:24.380][127.0.0.1:55826] client disconnect
+[22:21:24.383][127.0.0.1:56535] client connect
+[22:21:24.417][127.0.0.1:56535] server connect 127.0.0.1:7897
+127.0.0.1:56526 <- tcp <- mtalk.google.com:5228
+127.0.0.1:56526 <- tcp <- mtalk.google.com:5228
+[22:21:24.618][127.0.0.1:56532] Client TLS handshake failed. The client does not trust the proxy's certificate for api3-eeft-imfile-lf.feishu.cn (OpenSSL Error([('SSL routines', '', 'ssl/tls alert certificate unknown')]))
+[22:21:24.618][127.0.0.1:56532] client disconnect
+[22:21:24.618][127.0.0.1:56532] server disconnect 127.0.0.1:7897
+[22:21:24.620][127.0.0.1:56538] client connect
+[22:21:24.622][127.0.0.1:56538] server connect 127.0.0.1:7897
+127.0.0.1:56535 -> tcp -> mtalk.google.com:5228
+127.0.0.1:56535 <- tcp <- mtalk.google.com:5228
+127.0.0.1:56535 <- tcp <- mtalk.google.com:5228
+[22:21:24.909][127.0.0.1:56538] Client TLS handshake failed. The client does not trust the proxy's certificate for api22-eeft-gateway-lf.feishu.cn (OpenSSL Error([('SSL routines', '', 'ssl/tls alert certificate unknown')]))
+[22:21:24.910][127.0.0.1:56538] client disconnect
+[22:21:24.910][127.0.0.1:56538] server disconnect 127.0.0.1:7897
+[22:21:24.911][127.0.0.1:56551] client connect
+[22:21:24.913][127.0.0.1:56551] server connect 127.0.0.1:7897
+[22:21:25.418][127.0.0.1:56551] Client TLS handshake failed. The client does not trust the proxy's certificate for api16-eeft-gateway-lf.feishu.cn (OpenSSL Error([('SSL routines', '', 'ssl/tls alert certificate unknown')]))
+[22:21:25.418][127.0.0.1:56551] client disconnect
+[22:21:25.419][127.0.0.1:56551] server disconnect 127.0.0.1:7897
+[22:21:30.711][127.0.0.1:56568] client connect
+[22:21:30.719][127.0.0.1:56568] server connect 127.0.0.1:7897
+127.0.0.1:56568: POST https://browser-intake-datadoghq.com/api/v2/logs?ddsour…
+              << 202 Accepted 53b
+[22:21:41.548][127.0.0.1:56577] client connect
+[22:21:41.556][127.0.0.1:56578] client connect
+[22:21:41.576][127.0.0.1:56579] client connect
+[22:21:41.576][127.0.0.1:56577] server connect 127.0.0.1:7897
+[22:21:41.578][127.0.0.1:56578] server connect 127.0.0.1:7897
+[22:21:41.579][127.0.0.1:56579] server connect 127.0.0.1:7897
+127.0.0.1:56578: GET https://mmbiz.qpic.cn/sz_mmbiz_jpg/wBNKsKdglKGVHYOF4HMr…
+              << 200 OK 37.6k
+[22:21:42.622][127.0.0.1:56605] client connect
+127.0.0.1:56577: POST https://mp.weixin.qq.com/mp/jsmonitor HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:21:42.629][127.0.0.1:56605] server connect 127.0.0.1:7897
+127.0.0.1:56577: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=366926_16_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:56577: GET https://mp.weixin.qq.com/mp/jsmonitor?idkey=366926_15_1… HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+127.0.0.1:56579: GET https://badjs.weixinbridge.com/frontend/reportspeed?pid…
+              << 200 OK 0b
+127.0.0.1:56579: GET https://badjs.weixinbridge.com/frontend/reportspeed?pid…
+              << 200 OK 0b
+[22:21:44.883][127.0.0.1:56605] client disconnect
+[22:21:44.894][127.0.0.1:56579] client disconnect
+[22:21:44.894][127.0.0.1:56578] client disconnect
+[22:21:44.894][127.0.0.1:56577] client disconnect
+[22:21:44.895][127.0.0.1:56605] server disconnect 127.0.0.1:7897
+[22:21:44.895][127.0.0.1:56579] server disconnect 127.0.0.1:7897
+[22:21:44.896][127.0.0.1:56578] server disconnect 127.0.0.1:7897
+[22:21:44.897][127.0.0.1:56577] server disconnect 127.0.0.1:7897
+[22:21:45.687][127.0.0.1:56618] client connect
+[22:21:45.699][127.0.0.1:56618] server connect 127.0.0.1:7897
+127.0.0.1:56618: GET https://badjs.weixinbridge.com/frontend/reportspeed?pid…
+              << 200 OK 0b
+[22:21:49.881][127.0.0.1:56618] client disconnect
+[22:21:49.884][127.0.0.1:56618] server disconnect 127.0.0.1:7897
+[22:21:55.130][127.0.0.1:55964] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:55.132][127.0.0.1:55964] server disconnect 127.0.0.1:7897
+[22:21:56.694][127.0.0.1:55997] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:56.701][127.0.0.1:55997] server disconnect 127.0.0.1:7897
+[22:21:56.875][127.0.0.1:55986] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:56.879][127.0.0.1:55986] server disconnect 127.0.0.1:7897
+[22:21:57.265][127.0.0.1:56004] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:57.267][127.0.0.1:56004] server disconnect 127.0.0.1:7897
+[22:21:57.692][127.0.0.1:56003] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:57.693][127.0.0.1:56003] server disconnect 127.0.0.1:7897
+[22:21:58.260][127.0.0.1:56009] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:58.261][127.0.0.1:56009] server disconnect 127.0.0.1:7897
+[22:21:58.777][127.0.0.1:56027] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:58.782][127.0.0.1:56027] server disconnect 127.0.0.1:7897
+[22:21:59.983][127.0.0.1:56024] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:21:59.985][127.0.0.1:56024] server disconnect 127.0.0.1:7897
+[22:22:00.256][127.0.0.1:55991] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:00.257][127.0.0.1:55991] server disconnect 127.0.0.1:7897
+[22:22:01.357][127.0.0.1:56035] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:01.360][127.0.0.1:56035] server disconnect 127.0.0.1:7897
+[22:22:02.381][127.0.0.1:56044] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:02.383][127.0.0.1:56044] server disconnect 127.0.0.1:7897
+[22:22:02.592][127.0.0.1:56043] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:02.592][127.0.0.1:56043] server disconnect 127.0.0.1:7897
+[22:22:02.613][127.0.0.1:56045] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:02.613][127.0.0.1:56045] server disconnect 127.0.0.1:7897
+[22:22:02.910][127.0.0.1:56053] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:02.911][127.0.0.1:56053] server disconnect 127.0.0.1:7897
+[22:22:03.109][127.0.0.1:56056] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:03.111][127.0.0.1:56056] server disconnect 127.0.0.1:7897
+[22:22:03.137][127.0.0.1:56058] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:03.142][127.0.0.1:56058] server disconnect 127.0.0.1:7897
+[22:22:04.294][127.0.0.1:56064] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:04.295][127.0.0.1:56064] server disconnect 127.0.0.1:7897
+[22:22:05.150][127.0.0.1:56068] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:05.150][127.0.0.1:56068] server disconnect 127.0.0.1:7897
+[22:22:05.219][127.0.0.1:56062] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:05.219][127.0.0.1:56062] server disconnect 127.0.0.1:7897
+[22:22:06.303][127.0.0.1:56071] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:06.304][127.0.0.1:56071] server disconnect 127.0.0.1:7897
+[22:22:07.728][127.0.0.1:56680] client connect
+[22:22:07.741][127.0.0.1:56680] server connect 127.0.0.1:7897
+[22:22:07.959][127.0.0.1:56078] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:07.959][127.0.0.1:56078] server disconnect 127.0.0.1:7897
+127.0.0.1:56680: POST https://mp.weixin.qq.com/mp/jsmonitor HTTP/2.0
+     << HTTP/2.0 200 OK 153b
+[22:22:09.889][127.0.0.1:56680] client disconnect
+[22:22:09.890][127.0.0.1:56680] server disconnect 127.0.0.1:7897
+127.0.0.1:55798: GET https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcn… HTTP/2.0
+     << HTTP/2.0 304 Not Modified 0b
+127.0.0.1:55800: GET https://api.vc.bilibili.com/session_svr/v1/session_svr/… HTTP/2.0
+     << HTTP/2.0 200 OK 120b
+[22:22:18.192][127.0.0.1:54344] server disconnect 127.0.0.1:7897
+[22:22:21.118][127.0.0.1:56705] client connect
+[22:22:21.122][127.0.0.1:56705] server connect 127.0.0.1:7897
+127.0.0.1:56705: GET https://chatgpt.com/backend-api/codex/models?client_ver…
+              << 200 OK 325k
+[22:22:22.570][127.0.0.1:56705] client disconnect
+[22:22:22.571][127.0.0.1:56705] server disconnect 127.0.0.1:7897
+[22:22:31.305][127.0.0.1:56114] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:22:31.311][127.0.0.1:56114] server disconnect 127.0.0.1:7897
+[22:22:32.104][127.0.0.1:56568] client disconnect
+[22:22:32.105][127.0.0.1:56568] server disconnect 127.0.0.1:7897
+[22:22:54.081][127.0.0.1:56415] server disconnect 127.0.0.1:7897
+[22:22:54.083][127.0.0.1:56415] client disconnect
+[22:23:13.829][127.0.0.1:56083] server disconnect 127.0.0.1:7897
+[22:23:35.380][127.0.0.1:55559] client disconnect
+[22:23:35.381][127.0.0.1:55559] server disconnect 127.0.0.1:7897
+[22:23:55.109][127.0.0.1:55955] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:23:55.110][127.0.0.1:55955] server disconnect 127.0.0.1:7897
+[22:23:55.557][127.0.0.1:56289] <no address>: HTTP/2 protocol error: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+[22:23:55.558][127.0.0.1:56289] server disconnect 127.0.0.1:7897

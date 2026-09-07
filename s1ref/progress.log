@@ -1,0 +1,409 @@
+[14:51:02] === START: 188 episodes ===
+[14:51:02] EP 001 預告
+[14:51:03]   retry 1 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 6s :: https://www.webtoons.com/zh-hant/action/hellper/%E9%A0%90%E5%91%8A/viewer?title_no=180&epi
+[14:51:09]   retry 2 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 13s :: https://www.webtoons.com/zh-hant/action/hellper/%E9%A0%90%E5%91%8A/viewer?title_no=180&epi
+[14:51:23]   retry 3 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 18s :: https://www.webtoons.com/zh-hant/action/hellper/%E9%A0%90%E5%91%8A/viewer?title_no=180&epi
+[14:51:26] === START: 188 episodes ===
+[14:51:26] EP 001 預告
+[14:51:41]   retry 4 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 20s :: https://www.webtoons.com/zh-hant/action/hellper/%E9%A0%90%E5%91%8A/viewer?title_no=180&epi
+[14:51:53]   ok: 10 imgs, 158 chars
+[14:51:56] EP 002 [第1話] 死亡
+[14:52:01]   !! html failed
+[14:52:01] EP 002 [第1話] 死亡
+[14:52:02]   retry 1 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 6s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC1%E8%A9%B1-%E6%AD%BB%E4%BA%A1/vie
+[14:52:09]   retry 2 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 10s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC1%E8%A9%B1-%E6%AD%BB%E4%BA%A1/vie
+[14:52:19]   retry 3 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 15s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC1%E8%A9%B1-%E6%AD%BB%E4%BA%A1/vie
+[14:52:35]   retry 4 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 22s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC1%E8%A9%B1-%E6%AD%BB%E4%BA%A1/vie
+[14:52:58]   !! html failed
+[14:52:58] EP 003 [第2話] 使者
+[14:52:58]   retry 1 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 5s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC2%E8%A9%B1-%E4%BD%BF%E8%80%85/vie
+[14:53:04]   retry 2 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 11s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC2%E8%A9%B1-%E4%BD%BF%E8%80%85/vie
+[14:53:15]   retry 3 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 16s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC2%E8%A9%B1-%E4%BD%BF%E8%80%85/vie
+[14:53:20]   ok: 32 imgs, 396 chars
+[14:53:23] EP 003 [第2話] 使者
+[14:53:32]   retry 4 (<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>) sleep 22s :: https://www.webtoons.com/zh-hant/action/hellper/%E7%AC%AC2%E8%A9%B1-%E4%BD%BF%E8%80%85/vie
+[14:53:50]   retry 1 (rc=0 n=190) sleep 7s :: https://webtoon-phinf.pstatic.net/20140714_239/1405300156583OChHt_GIF/1405300156
+[14:53:58]   retry 2 (rc=0 n=190) sleep 11s :: https://webtoon-phinf.pstatic.net/20140714_239/1405300156583OChHt_GIF/1405300156
+[14:54:11]   retry 3 (rc=0 n=190) sleep 17s :: https://webtoon-phinf.pstatic.net/20140714_239/1405300156583OChHt_GIF/1405300156
+[14:54:28]   retry 4 (rc=0 n=190) sleep 21s :: https://webtoon-phinf.pstatic.net/20140714_239/1405300156583OChHt_GIF/1405300156
+[14:54:49]   !! img 13 failed
+[14:55:32]   ok: 32 imgs, 730 chars
+[14:55:36] EP 004 [第3話] 型
+[14:57:26]   ok: 45 imgs, 859 chars
+[14:57:29] EP 005 [第4話] 刀
+[14:58:42]   ok: 29 imgs, 866 chars
+[14:58:46] EP 006 [第5話] 名字
+[15:00:03]   ok: 31 imgs, 685 chars
+[15:00:07] EP 007 [第6話] 基貝洛斯
+[15:01:25]   ok: 31 imgs, 938 chars
+[15:01:28] EP 008 [第7話] 莊「狂」男
+[15:02:54]   ok: 34 imgs, 1069 chars
+[15:02:59] EP 009 [第8話] 千年名酒
+[15:04:26]   ok: 37 imgs, 731 chars
+[15:04:31] EP 010 [第9話] 家人
+[15:06:05]   ok: 40 imgs, 892 chars
+[15:06:08] EP 011 [第10話] 酒士
+[15:07:25]   ok: 32 imgs, 371 chars
+[15:07:27] EP 012 [第11話] 位置
+[15:08:28]   ok: 26 imgs, 733 chars
+[15:08:32] EP 013 [第12話] 價值
+[15:09:39]   ok: 27 imgs, 740 chars
+[15:09:43] EP 014 [第13話] 清洗器
+[15:11:03]   ok: 29 imgs, 392 chars
+[15:11:07] EP 015 [第14話] 選擇
+[15:12:28]   ok: 32 imgs, 890 chars
+[15:12:32] EP 016 [第15話] 入場
+[15:13:39]   ok: 28 imgs, 533 chars
+[15:13:42] EP 017 [第16話] 打嗝
+[15:14:58]   ok: 31 imgs, 866 chars
+[15:15:01] EP 018 [第17話] 乘法
+[15:16:06]   ok: 27 imgs, 677 chars
+[15:16:09] EP 019 [第18話] 想像力
+[15:17:26]   ok: 29 imgs, 635 chars
+[15:17:28] EP 020 [第19話] 零到一百
+[15:18:45]   ok: 30 imgs, 366 chars
+[15:18:49] EP 021 [第20話] 法具
+[15:19:53]   ok: 30 imgs, 929 chars
+[15:19:57] EP 022 [第21話] 活著的人
+[15:21:03]   ok: 28 imgs, 500 chars
+[15:21:06] EP 023 [第22話] 黑棺山
+[15:22:17]   ok: 29 imgs, 995 chars
+[15:22:21] EP 024 [第23話] 柵欄
+[15:23:17]   ok: 26 imgs, 670 chars
+[15:23:20] EP 025 [第24話] 沙堡
+[15:25:37]   ok: 62 imgs, 710 chars
+[15:25:40] EP 026 [第25話] Hellper
+[15:26:40]   ok: 28 imgs, 1427 chars
+[15:26:44] EP 027 [第26話] 狗
+[15:27:57]   ok: 32 imgs, 785 chars
+[15:28:00] EP 028 [第27話] 莊家
+[15:29:29]   ok: 31 imgs, 724 chars
+[15:29:32] EP 029 [第28話] 勝者
+[15:30:48]   ok: 33 imgs, 771 chars
+[15:30:51] EP 030 [第29話] 煩躁的河流
+[15:32:12]   ok: 38 imgs, 694 chars
+[15:32:16] EP 031 [第30話] 噗通
+[15:33:34]   ok: 31 imgs, 744 chars
+[15:33:37] EP 032 [第31話] 童話書
+[15:36:46]   ok: 79 imgs, 398 chars
+[15:36:49] EP 033 [第32話] 眼淚
+[15:38:09]   ok: 38 imgs, 874 chars
+[15:38:13] EP 034 [第33話] SESESE
+[15:39:48]   ok: 44 imgs, 677 chars
+[15:39:52] EP 035 [第34話] 高美
+[15:41:12]   ok: 36 imgs, 667 chars
+[15:41:17] EP 036 [第35話] 釣魚
+[15:42:52]   ok: 45 imgs, 890 chars
+[15:42:55] EP 037 [第36話] 世世
+[15:44:58]   ok: 54 imgs, 721 chars
+[15:45:02] EP 038 [第37話] 名簿
+[15:46:47]   ok: 46 imgs, 1343 chars
+[15:46:51] EP 039 [第38話] 門
+[15:48:46]   ok: 51 imgs, 1116 chars
+[15:48:50] EP 040 [第39話] 那傢伙
+[15:50:30]   ok: 46 imgs, 1013 chars
+[15:50:34] EP 041 [第40話] 開平
+[15:51:58]   ok: 38 imgs, 582 chars
+[15:52:00] EP 042 [第41話] 落張不入
+[15:53:27]   ok: 39 imgs, 1069 chars
+[15:53:30] EP 043 [第42話] 掙扎
+[15:55:03]   ok: 44 imgs, 865 chars
+[15:55:07] EP 044 [第43話] 該怎麼說呢
+[15:56:43]   ok: 45 imgs, 446 chars
+[15:56:46] EP 045 [第44話] 珍惜的東西
+[15:58:27]   ok: 43 imgs, 514 chars
+[15:58:32] EP 046 [第45話] 肉頭村
+[16:00:08]   ok: 43 imgs, 790 chars
+[16:00:12] EP 047 [第46話] 血脈
+[16:01:34]   ok: 36 imgs, 1122 chars
+[16:01:39] EP 048 [第47話] 債？
+[16:03:06]   ok: 39 imgs, 893 chars
+[16:03:08] EP 049 [第48話] 愈來愈像
+[16:04:28]   ok: 35 imgs, 1057 chars
+[16:04:31] EP 050 [第49話] xxx
+[16:06:06]   ok: 42 imgs, 1735 chars
+[16:06:09] EP 051 [第50話] 升起
+[16:07:25]   ok: 32 imgs, 951 chars
+[16:07:28] EP 052 [第51話] 各自的一天
+[16:08:45]   ok: 34 imgs, 936 chars
+[16:08:48] EP 053 [第52話] 裘勒迪
+[16:10:11]   ok: 40 imgs, 797 chars
+[16:10:14] EP 054 [第53話] 鳳山
+[16:11:32]   ok: 34 imgs, 616 chars
+[16:11:36] EP 055 [第54話] 1段
+[16:12:50]   ok: 31 imgs, 336 chars
+[16:12:54] EP 056 [第55話] 烈風
+[16:13:59]   ok: 30 imgs, 506 chars
+[16:14:03] EP 057 [第56話] 列隊
+[16:15:13]   ok: 34 imgs, 765 chars
+[16:15:17] EP 058 [第57話] 兩條
+[16:16:30]   ok: 35 imgs, 917 chars
+[16:16:33] EP 059 [第58話] 宵禁
+[16:20:43] === START: 188 episodes ===
+[16:20:43] EP 059 [第58話] 宵禁
+[16:21:25]   ok: 46 imgs, 1285 chars
+[16:21:28] EP 060 [第59話] 妖怪粥
+[16:22:37]   ok: 35 imgs, 1013 chars
+[16:22:41] EP 061 [第60話] AM4:00
+[16:24:07]   ok: 42 imgs, 801 chars
+[16:24:11] EP 062 [第61話] 印第安飯
+[16:25:15]   ok: 32 imgs, 405 chars
+[16:25:18] EP 063 [第62話] 7：7
+[16:26:27]   ok: 34 imgs, 514 chars
+[16:26:31] EP 064 [第63話] 第一名
+[16:27:38]   ok: 33 imgs, 513 chars
+[16:27:42] EP 065 [第64話] PBD①
+[16:28:56]   ok: 35 imgs, 779 chars
+[16:28:59] EP 066 [第65話] 血海②
+[16:30:24]   ok: 40 imgs, 1001 chars
+[16:30:27] EP 067 [第66話] 阿嬤③
+[16:31:24]   ok: 29 imgs, 923 chars
+[16:31:26] EP 068 [第67話] 4秒
+[16:32:37]   ok: 36 imgs, 512 chars
+[16:32:42] EP 069 [第68話] 下面那xx
+[16:33:57]   ok: 34 imgs, 979 chars
+[16:34:01] EP 070 [第69話] ZIP-UP
+[16:35:13]   ok: 36 imgs, 810 chars
+[16:35:16] EP 071 [第70話] 骨與血
+[16:36:52]   ok: 47 imgs, 1016 chars
+[16:36:57] EP 072 [第71話] 嗯?
+[16:38:08]   ok: 35 imgs, 533 chars
+[16:38:12] EP 073 [第72話] STOP
+[16:39:17]   ok: 32 imgs, 1026 chars
+[16:39:20] EP 074 [第73話] SWAG
+[16:40:32]   ok: 35 imgs, 932 chars
+[16:40:36] EP 075 [第74話] 龜甲船
+[16:41:54]   ok: 37 imgs, 1068 chars
+[16:41:58] EP 076 [第75話] 去吧
+[16:43:24]   ok: 35 imgs, 812 chars
+[16:43:28] EP 077 [第76話] 責任
+[16:44:46]   ok: 36 imgs, 549 chars
+[16:44:48] EP 078 [第77話] 認養
+[16:46:21]   ok: 42 imgs, 872 chars
+[16:46:24] EP 079 [第78話] 超級瘋子
+[16:47:51]   ok: 43 imgs, 1635 chars
+[16:47:55] EP 080 [第79話] 逃出
+[16:49:13]   ok: 38 imgs, 845 chars
+[16:49:16] EP 081 [第80話] 梅露莎
+[16:50:17]   ok: 31 imgs, 1295 chars
+[16:50:21] EP 082 [第81話] 一路好走
+[16:51:40]   ok: 41 imgs, 896 chars
+[16:51:42] EP 083 [第82話] GODMOTHER
+[16:53:01]   ok: 39 imgs, 669 chars
+[16:53:05] EP 084 [第83話] 傳說
+[16:54:42]   ok: 42 imgs, 1419 chars
+[16:54:46] EP 085 [第84話] 徽章鬥爭
+[16:56:06]   ok: 39 imgs, 1258 chars
+[16:56:09] EP 086 [第85話] 我聽說了傳聞
+[16:57:26]   ok: 38 imgs, 1656 chars
+[16:57:29] EP 087 [第86話] 糞桶
+[16:59:01]   ok: 46 imgs, 1010 chars
+[16:59:04] EP 088 [第87話] 屎
+[17:00:24]   ok: 41 imgs, 927 chars
+[17:00:28] EP 089 [第88話] 甜蜜的滋味
+[17:01:35]   ok: 34 imgs, 1303 chars
+[17:01:39] EP 090 [第89話] 真尚布魯斯
+[17:03:04]   ok: 43 imgs, 667 chars
+[17:03:07] EP 091 [第90話] 首爾土包子
+[17:04:29]   ok: 43 imgs, 1254 chars
+[17:04:33] EP 092 [第91話] 8點12分
+[17:06:01]   ok: 45 imgs, 1633 chars
+[17:06:05] EP 093 [第92話] 百萬朶
+[17:07:20]   ok: 37 imgs, 1004 chars
+[17:07:23] EP 094 [第93話] 真相
+[17:08:35]   ok: 36 imgs, 1001 chars
+[17:08:39] EP 095 [第94話] 秘密
+[17:09:46]   ok: 36 imgs, 1220 chars
+[17:09:50] EP 096 [第95話] 完結
+[17:11:13]   ok: 41 imgs, 1046 chars
+[17:11:15] EP 097 [第96話] 莊光男？
+[17:12:19]   ok: 31 imgs, 724 chars
+[17:12:22] EP 098 [第97話] 海怪
+[17:13:38]   ok: 39 imgs, 764 chars
+[17:13:42] EP 099 [第98話] 白天喝的酒
+[17:15:06]   ok: 41 imgs, 1400 chars
+[17:15:10] EP 100 [第99話] 成年禮
+[17:16:29]   ok: 36 imgs, 760 chars
+[17:16:31] EP 101 [第100話] 宇宙與螺絲
+[17:17:51]   ok: 39 imgs, 1165 chars
+[17:17:55] EP 102 [第101話] 夢（1）
+[17:19:21]   ok: 41 imgs, 1150 chars
+[17:19:24] EP 103 [第102話] 夢（2）
+[17:20:35]   ok: 33 imgs, 799 chars
+[17:20:37] EP 104 [第103話] 夢（3）
+[17:22:00]   ok: 41 imgs, 1030 chars
+[17:22:04] EP 105 [第104話] 夢（4）
+[17:23:30]   ok: 40 imgs, 778 chars
+[17:23:34] EP 106 [第105話] 夢（5）
+[17:24:58]   ok: 42 imgs, 960 chars
+[17:25:02] EP 107 [第106話] 夢（6）
+[17:26:31]   ok: 44 imgs, 831 chars
+[17:26:35] EP 108 [第107話] 夢（7）
+[17:28:00]   ok: 42 imgs, 949 chars
+[17:28:04] EP 109 [第108話] 夢（8）
+[17:29:24]   ok: 39 imgs, 519 chars
+[17:29:28] EP 110 [第109話] 夢（9）
+[17:31:02]   ok: 48 imgs, 1011 chars
+[17:31:07] EP 111 [第110話] 夢醒
+[17:32:22]   ok: 37 imgs, 937 chars
+[17:32:25] EP 112 [第111話] 移植
+[17:33:55]   ok: 45 imgs, 1273 chars
+[17:33:59] EP 113 [第112話] 犬猿之間
+[17:35:28]   ok: 44 imgs, 1418 chars
+[17:35:32] EP 114 [第113話] 石碑
+[17:36:49]   ok: 38 imgs, 944 chars
+[17:36:52] EP 115 [第114話] 香
+[17:38:36]   ok: 49 imgs, 1600 chars
+[17:38:39] EP 116 [第115話] 誤答
+[17:40:08]   ok: 45 imgs, 1133 chars
+[17:40:11] EP 117 [第116話] 高利貸
+[17:41:27]   ok: 37 imgs, 901 chars
+[17:41:30] EP 118 [第117話] 點燃打火機
+[17:51:34]   ok: 44 imgs, 459 chars
+[17:51:37] EP 119 [第118話] 無角無覺
+[17:52:57]   ok: 40 imgs, 952 chars
+[17:53:01] EP 120 [第119話] 我最厲害
+[17:54:22]   ok: 40 imgs, 336 chars
+[17:54:26] EP 121 [第120話] 2分之1
+[17:55:43]   ok: 36 imgs, 982 chars
+[17:55:46] EP 122 [第121話] 一瞬間
+[17:57:21]   ok: 48 imgs, 1275 chars
+[17:57:26] EP 123 [第122話] 咘咘-
+[17:58:41]   ok: 38 imgs, 1026 chars
+[17:58:44] EP 124 [第123話] ??!
+[18:00:21]   ok: 48 imgs, 1044 chars
+[18:00:26] EP 125 [第124話] 不過就是
+[18:01:55]   ok: 43 imgs, 1188 chars
+[18:01:59] EP 126 [第125話] 回答
+[18:03:27]   ok: 40 imgs, 776 chars
+[18:03:31] EP 127 [第126話] 25
+[18:05:02]   ok: 45 imgs, 908 chars
+[18:05:05] EP 128 [第127話] 告白
+[18:06:41]   ok: 49 imgs, 710 chars
+[18:06:44] EP 129 [第128話] 梵谷的房間
+[18:08:15]   ok: 44 imgs, 560 chars
+[18:08:19] EP 130 [第129話] 緊急
+[18:09:51]   ok: 46 imgs, 766 chars
+[18:09:54] EP 131 [第130話] 吐舌頭
+[18:15:48]   ok: 49 imgs, 819 chars
+[18:15:52] EP 132 [第131話] 聽見你的聲音
+[18:17:28]   ok: 47 imgs, 485 chars
+[18:17:31] EP 133 [第132話] 誘餌
+[18:18:51]   ok: 39 imgs, 410 chars
+[18:18:54] EP 134 [第133話] 來了
+[18:20:04]   ok: 35 imgs, 462 chars
+[18:20:08] EP 135 [第134話] 口袋
+[18:21:30]   ok: 38 imgs, 454 chars
+[18:21:34] EP 136 [第135話] 她的死因
+[18:35:01]   retry 1 (rc=28 n=0) sleep 8s :: https://webtoon-phinf.pstatic.net/20170105_153/1483620201069AbIhY_JPEG/148362020
+[18:36:27]   ok: 39 imgs, 504 chars
+[18:36:31] EP 137 [第136話] 就這樣...
+[18:38:11]   ok: 50 imgs, 910 chars
+[18:38:15] EP 138 [第137話] 起風了
+[18:39:57]   ok: 52 imgs, 592 chars
+[18:40:01] EP 139 [第138話] 檸檬與負責人
+[18:41:58]   ok: 60 imgs, 705 chars
+[18:42:02] EP 140 [第139話] 一日不讀書
+[18:43:36]   ok: 48 imgs, 526 chars
+[18:43:38] EP 141 [第140話] 躲貓貓
+[18:45:29]   ok: 54 imgs, 1124 chars
+[18:45:31] EP 142 [第141話] 那天那時那樣
+[18:47:13]   ok: 46 imgs, 1002 chars
+[18:47:16] EP 143 [第142話]
+[18:48:59]   ok: 55 imgs, 624 chars
+[18:49:03] EP 144 [第143話] 命
+[18:50:45]   ok: 50 imgs, 1179 chars
+[18:50:49] EP 145 [第144話] 第一次戰鬥
+[18:52:16]   ok: 44 imgs, 828 chars
+[18:52:19] EP 146 [第145話] 第二次戰鬥
+[18:53:49]   ok: 46 imgs, 549 chars
+[18:53:53] EP 147 [第146話] 老菸槍
+[18:55:18]   ok: 44 imgs, 487 chars
+[18:55:21] EP 148 [第147話] 就這樣安靜地迎接早晨吧
+[18:56:56]   ok: 49 imgs, 741 chars
+[18:57:00] EP 149 [第148話] 近乎全滿
+[18:58:24]   ok: 42 imgs, 755 chars
+[18:58:27] EP 150 [第149話] 你們
+[18:59:41]   ok: 36 imgs, 386 chars
+[18:59:45] EP 151 [第150話] 斬首
+[19:01:15]   ok: 47 imgs, 573 chars
+[19:01:17] EP 152 [第151話] 第三次戰鬥
+[19:02:57]   ok: 47 imgs, 669 chars
+[19:03:01] EP 153 [第152話] 晚安
+[19:04:24]   ok: 42 imgs, 565 chars
+[19:04:28] EP 154 [第153話] 崩潰
+[19:05:57]   ok: 46 imgs, 657 chars
+[19:06:00] EP 155 [第154話] 食
+[19:07:52]   ok: 54 imgs, 787 chars
+[19:07:55] EP 156 [第155話] 餌
+[19:09:23]   ok: 45 imgs, 725 chars
+[19:09:26] EP 157 [第156話] 10秒
+[19:11:08]   ok: 51 imgs, 477 chars
+[19:11:11] EP 158 [第157話] 叭叭
+[19:12:38]   ok: 46 imgs, 530 chars
+[19:12:43] EP 159 [第158話] 一場
+[19:14:14]   ok: 48 imgs, 656 chars
+[19:14:18] EP 160 [第159話] 看來我好像是
+[19:16:02]   ok: 51 imgs, 886 chars
+[19:16:07] EP 161 [第160話] 齊天平天
+[19:17:57]   ok: 57 imgs, 935 chars
+[19:18:00] EP 162 [第161話] 餐前,餐後
+[19:19:39]   retry 1 (rc=35 n=0) sleep 8s :: https://webtoon-phinf.pstatic.net/20170706_92/1499322583487MTvSv_JPEG/1499322583
+[19:20:00]   ok: 59 imgs, 813 chars
+[19:20:03] EP 163 [第162話] 珍貴的東西
+[19:21:45]   ok: 52 imgs, 902 chars
+[19:21:49] EP 164 [第163話] 珍貴的是
+[19:23:42]   ok: 58 imgs, 892 chars
+[19:23:45] EP 165 [第164話] 很高興見到你
+[19:25:21]   ok: 50 imgs, 900 chars
+[19:25:25] EP 166 [第165話] 古老的故事
+[19:26:53]   ok: 42 imgs, 1509 chars
+[19:26:56] EP 167 [第166話] 更古老的故事
+[19:28:46]   ok: 57 imgs, 1116 chars
+[19:28:50] EP 168 [第167話] 更古老的故事②
+[19:32:09]   retry 1 (rc=28 n=0) sleep 8s :: https://webtoon-phinf.pstatic.net/20170817_92/1502965378874GhBvy_JPEG/1502965378
+[19:32:19]   retry 2 (rc=35 n=0) sleep 12s :: https://webtoon-phinf.pstatic.net/20170817_92/1502965378874GhBvy_JPEG/1502965378
+[19:33:53]   retry 1 (rc=35 n=0) sleep 7s :: https://webtoon-phinf.pstatic.net/20170817_155/1502965379534OTsyK_JPEG/150296537
+[20:20:44]   retry 2 (rc=28 n=0) sleep 11s :: https://webtoon-phinf.pstatic.net/20170817_155/1502965379534OTsyK_JPEG/150296537
+[20:22:04]   ok: 53 imgs, 844 chars
+[20:22:07] EP 169 [第168話] 更古老的故事③
+[20:23:55]   ok: 55 imgs, 1292 chars
+[20:23:59] EP 170 [第169話] 更古老的故事④
+[20:25:39]   ok: 50 imgs, 1463 chars
+[20:25:43] EP 171 [第170話] 更古老的故事⑤
+[20:27:17]   ok: 46 imgs, 1504 chars
+[20:27:20] EP 172 [第171話] KISS
+[20:29:08]   ok: 53 imgs, 1126 chars
+[20:29:12] EP 173 [第172話] 審判
+[20:31:07]   ok: 55 imgs, 1319 chars
+[20:31:10] EP 174 [第173話] 勸誘
+[20:32:41]   ok: 46 imgs, 1093 chars
+[20:32:44] EP 175 [第174話] V
+[20:34:15]   ok: 46 imgs, 1089 chars
+[20:34:19] EP 176 [第175話] 時代遺憾
+[20:36:13]   ok: 55 imgs, 1622 chars
+[20:36:17] EP 177 [第176話] RIDE OR DIE
+[20:38:02]   ok: 49 imgs, 1649 chars
+[20:38:05] EP 178 [第177話] 上面的人
+[20:39:32]   ok: 43 imgs, 1456 chars
+[20:39:36] EP 179 [第178話] 一月一日
+[20:41:22]   ok: 52 imgs, 1000 chars
+[20:41:25] EP 180 [第179話] 不速之客
+[20:42:58]   ok: 46 imgs, 1144 chars
+[20:43:02] EP 181 [第180話] 開始與
+[20:44:32]   ok: 45 imgs, 1168 chars
+[20:44:35] EP 182 [第181話] END
+[20:47:56]   ok: 102 imgs, 1221 chars
+[20:47:59] EP 183 [第182話] epilogue ①
+[20:49:40]   ok: 49 imgs, 870 chars
+[20:49:44] EP 184 [第183話] epilogue ②
+[20:51:06]   ok: 40 imgs, 622 chars
+[20:51:10] EP 185 [第184話] epilogue ③
+[20:52:51]   ok: 50 imgs, 906 chars
+[20:52:54] EP 186 [第185話] epilogue ④
+[20:54:27]   ok: 45 imgs, 1158 chars
+[20:54:31] EP 187 [第186話] epilogue ⑤
+[20:56:19]   ok: 53 imgs, 1616 chars
+[20:56:21] EP 188 [第187話] epilogue ⑥
+[20:58:05]   ok: 53 imgs, 904 chars
+[20:58:09] === DONE ===

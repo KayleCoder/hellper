@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HELLPER 译名征集册</title>
+<style>
+/* ── 设计令牌 ───────────────────────────────────────────────
+   纸墨名册：淡纸底、细栏线、朱砂印色作强调、青碧色表示已定。
+   不依赖 Google Fonts —— 供离线与网络受限环境直接打开。      */
+:root{
+  --paper:#FBFAF6; --surface:#FFFFFF; --surface-2:#F4F2EC;
+  --rule:#DFDACF; --rule-soft:#EBE7DE;
+  --ink:#1C1B18; --ink-2:#4A4740; --muted:#77726A;
+  --seal:#A8342A; --seal-soft:#F0DEDB;
+  --jade:#3F7060; --jade-soft:#E0EBE6;
+  --focus:#A8342A;
+  --shadow:0 1px 2px rgba(28,27,24,.05), 0 8px 24px -12px rgba(28,27,24,.18);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#15151A; --surface:#1D1D23; --surface-2:#24242B;
+    --rule:#35353E; --rule-soft:#2A2A32;
+    --ink:#E9E7E1; --ink-2:#C3C0B8; --muted:#918D85;
+    --seal:#E0685A; --seal-soft:#3A2320;
+    --jade:#6FA994; --jade-soft:#1F3029;
+    --focus:#E0685A;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15151A; --surface:#1D1D23; --surface-2:#24242B;
+  --rule:#35353E; --rule-soft:#2A2A32;
+  --ink:#E9E7E1; --ink-2:#C3C0B8; --muted:#918D85;
+  --seal:#E0685A; --seal-soft:#3A2320;
+  --jade:#6FA994; --jade-soft:#1F3029;
+  --focus:#E0685A;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",system-ui,-apple-system,sans-serif;
+  font-size:15px; line-height:1.6;
+}
+.serif{font-family:"Songti SC","STSong","SimSun","Noto Serif CJK SC","Source Han Serif SC",serif}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* ── 页眉 ───────────────────────────────────────────────── */
+header{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead{padding:34px 0 26px;display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;justify-content:space-between}
+h1{
+  font-family:"Songti SC","STSong","SimSun","Noto Serif CJK SC",serif;
+  font-size:30px;line-height:1.25;margin:0;font-weight:700;letter-spacing:.04em;
+  text-wrap:balance;
+}
+h1 .seal{
+  display:inline-block;margin-right:12px;padding:3px 9px;
+  background:var(--seal);color:#fff;border-radius:2px;
+  font-size:15px;letter-spacing:.16em;vertical-align:6px;font-weight:400;
+}
+.sub{margin:10px 0 0;color:var(--muted);font-size:14px;max-width:60ch}
+.themebtn{
+  border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);
+  border-radius:2px;padding:7px 13px;font-size:13px;cursor:pointer;font-family:inherit;
+}
+.themebtn:hover{border-color:var(--ink-2)}
+
+/* ── 提示条 ─────────────────────────────────────────────── */
+.hint{
+  border-left:3px solid var(--seal);background:var(--seal-soft);
+  padding:14px 18px;margin:0 0 4px;border-radius:0 3px 3px 0;
+}
+.hint p{margin:0;font-size:14px;line-height:1.7;color:var(--ink-2)}
+.hint b{color:var(--seal)}
+
+/* ── 工具条 ─────────────────────────────────────────────── */
+.toolbar{
+  position:sticky;top:0;z-index:20;background:var(--surface);
+  border-bottom:1px solid var(--rule);box-shadow:var(--shadow);
+}
+.toolbar .inner{display:flex;flex-wrap:wrap;gap:14px;align-items:center;padding:12px 0}
+.field{display:flex;align-items:center;gap:8px}
+label.lbl{font-size:12px;letter-spacing:.1em;color:var(--muted)}
+input[type=text],textarea{
+  font-family:inherit;font-size:14px;color:var(--ink);
+  background:var(--surface);border:1px solid var(--rule);border-radius:2px;padding:7px 10px;
+}
+input[type=text]:focus,textarea:focus{outline:2px solid var(--focus);outline-offset:1px;border-color:transparent}
+#who{width:170px}
+.spacer{flex:1}
+.progress{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.progress b{color:var(--ink);font-size:15px}
+button.act{
+  font-family:inherit;font-size:13px;cursor:pointer;border-radius:2px;
+  padding:8px 14px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);
+}
+button.act:hover{border-color:var(--ink-2);color:var(--ink)}
+button.act.primary{background:var(--seal);border-color:var(--seal);color:#fff}
+button.act.primary:hover{filter:brightness(1.08)}
+button.act:focus-visible,.themebtn:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* ── 分组 ───────────────────────────────────────────────── */
+section{margin:38px 0 0}
+.sechead{display:flex;align-items:baseline;gap:12px;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.sechead h2{
+  font-family:"Songti SC","STSong","SimSun",serif;
+  font-size:19px;margin:0;font-weight:700;letter-spacing:.03em;
+}
+.sechead .note{font-size:13px;color:var(--muted)}
+.sechead .count{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* ── 条目 ───────────────────────────────────────────────── */
+.rows{display:flex;flex-direction:column}
+.row{
+  display:grid;
+  grid-template-columns:minmax(150px,1.05fr) minmax(180px,1.5fr) minmax(140px,1fr) minmax(160px,1.2fr);
+  gap:14px;align-items:start;
+  padding:14px 12px;border-bottom:1px solid var(--rule-soft);
+}
+.row:hover{background:var(--surface-2)}
+.row.open{background:var(--surface)}
+.name{font-family:"Songti SC","STSong","SimSun",serif;font-size:17px;font-weight:700;line-height:1.4}
+.tag{
+  display:inline-block;margin-top:6px;padding:2px 7px;border-radius:2px;
+  font-size:11px;letter-spacing:.08em;
+}
+.tag.todo{background:var(--seal-soft);color:var(--seal);border:1px solid var(--seal)}
+.tag.ok{background:var(--jade-soft);color:var(--jade);border:1px solid var(--jade)}
+.who{font-size:13px;color:var(--muted);line-height:1.65}
+.dflt{font-size:12px;color:var(--muted);margin-top:5px}
+.dflt code{
+  font-family:"Songti SC","SimSun",serif;font-size:14px;color:var(--ink-2);
+  background:var(--surface-2);padding:1px 5px;border-radius:2px;
+}
+.row input[type=text]{width:100%}
+.row input.sug{font-family:"Songti SC","STSong","SimSun",serif;font-size:16px}
+.row input.sug.filled{border-color:var(--jade);background:var(--jade-soft)}
+
+/* ── 折叠区 ─────────────────────────────────────────────── */
+details.fold{margin-top:26px;border:1px solid var(--rule);border-radius:3px;background:var(--surface)}
+details.fold>summary{
+  cursor:pointer;padding:13px 16px;font-size:14px;color:var(--ink-2);
+  list-style:none;display:flex;align-items:center;gap:10px;
+}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary::before{content:"▸";color:var(--muted);font-size:12px}
+details.fold[open]>summary::before{content:"▾"}
+details.fold>summary:hover{color:var(--ink)}
+details.fold .inner{padding:0 16px 8px}
+
+/* ── 导入面板 ───────────────────────────────────────────── */
+#iopanel{display:none;margin-top:14px;border:1px solid var(--rule);border-radius:3px;background:var(--surface);padding:16px}
+#iopanel.on{display:block}
+#iopanel h3{margin:0 0 8px;font-size:14px;font-weight:700}
+#iopanel p{margin:0 0 10px;font-size:13px;color:var(--muted)}
+#iotext{width:100%;min-height:150px;font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12px;line-height:1.55;resize:vertical}
+.iobtns{display:flex;gap:10px;margin-top:10px;flex-wrap:wrap}
+
+/* ── 页脚 ───────────────────────────────────────────────── */
+footer{margin:56px 0 0;border-top:1px solid var(--rule);background:var(--surface)}
+footer .inner{padding:24px 0 44px;font-size:13px;color:var(--muted);line-height:1.8}
+footer b{color:var(--ink-2)}
+
+/* ── 提示气泡 ───────────────────────────────────────────── */
+#toast{
+  position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(14px);
+  background:var(--ink);color:var(--paper);padding:11px 20px;border-radius:3px;
+  font-size:14px;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;z-index:60;
+}
+#toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+@media (prefers-reduced-motion:reduce){#toast{transition:none}}
+
+@media (max-width:820px){
+  .row{grid-template-columns:1fr 1fr;gap:10px}
+  .row .who{grid-column:1/-1}
+  h1{font-size:24px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap masthead">
+    <div>
+      <h1><span class="seal">名册</span>HELLPER 第一季角色译名征集</h1>
+      <p class="sub">第二季是前传，下面这些角色只在第一季出现过。<b>本表已于 2026-09-02 定稿</b> ——
+      无特别说明者一律沿用第一季台版选字、仅作繁简转换。仍欢迎补充意见。</p>
+    </div>
+    <button class="themebtn" id="themebtn" type="button">切换深浅</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hint" style="margin-top:22px;border-left-color:var(--jade);background:var(--jade-soft)">
+    <p style="color:var(--ink-2)"><b style="color:var(--jade)">已定稿。</b>
+    偏离台版写法的只有三条：<b style="color:var(--jade)">梅杜莎</b>（原写「梅露莎」）、
+    <b style="color:var(--jade)">涉地可支</b>（原写「石公公（涉地可支）」）、
+    <b style="color:var(--jade)">憨牛</b>（原写「憨牛（史奴）」）。
+    另两条需注意：<b style="color:var(--jade)">酒砂</b>（「酒士」是自称）、
+    <b style="color:var(--jade)">风子</b>（取风不取疯，「疯子」是张光男的绰号）。<br>
+    下面仍标「待定」的条目属于沿用台版、但选字未必最佳 —— 若你有更好的想法，照样可以填。</p>
+  </div>
+  <div class="hint" style="margin-top:14px">
+    <p><b>一条重要线索：</b>作品大量借用《三国演义》与《西游记》的人物与器物 ——
+    已确认的有 <b>奉先</b>（吕布字奉先）、美猴王孙悟空、齐天大圣、牛魔王、赤兔、如意棒、芭蕉扇、丈八蛇矛、觔斗云，
+    以及《水浒》的鲁智深。<br>
+    遇到看着像音译的名字，<b>先想想是不是这几部书里的人物</b>，别急着按韩语读音拼汉字 ——
+    「봉선」当初就是被硬拼成了「凤仙」。</p>
+    <p style="margin-top:10px"><b>另一条：名字常常是成套的。</b>暗党三位大议员是
+    <b>战争手 / 战争舌 / 战争棒</b>（워핸드 / 워텅 / 워배트，对应手、舌、男性生殖器），
+    台版全部音译成了「威漢德 / 威東格 / 沃貝特」；四位大天使的名字合起来拼成 <b>LOVE</b>。
+    <b>碰到疑似成套的名字，先把整组摆在一起看。</b></p>
+  </div>
+</div>
+
+<div class="toolbar">
+  <div class="wrap inner">
+    <div class="field">
+      <label class="lbl" for="who">填写人</label>
+      <input type="text" id="who" placeholder="你的昵称">
+    </div>
+    <div class="progress">已填 <b id="done">0</b> / <span id="total">0</span> 条</div>
+    <div class="spacer"></div>
+    <button class="act primary" id="copybtn" type="button">复制结果</button>
+    <button class="act" id="dlbtn" type="button" hidden>下载文件</button>
+    <button class="act" id="iobtn" type="button">导入 / 合并</button>
+    <button class="act" id="clearbtn" type="button">清空</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <div id="iopanel">
+    <h3>导入 / 合并</h3>
+    <p>把别人交回来的 JSON 粘进来，点「合并」即可叠加（同一条目以粘贴内容为准）。也可以点「载入」完全替换当前内容。</p>
+    <textarea id="iotext" spellcheck="false" placeholder='{"who":"…","entries":{…}}'></textarea>
+    <div class="iobtns">
+      <button class="act primary" id="mergebtn" type="button">合并</button>
+      <button class="act" id="loadbtn" type="button">载入（覆盖）</button>
+      <button class="act" id="closeio" type="button">关闭</button>
+    </div>
+  </div>
+
+  <main id="main"></main>
+</div>
+
+<footer>
+  <div class="wrap inner">
+    <b>怎么交回来：</b>填完后点右上角「复制结果」，把剪贴板里的内容发回给发你这份表的人即可 —— 不需要注册、不需要登录。<br>
+    <b>会自动保存：</b>你填的内容存在这台设备的浏览器里，关掉页面再打开还在。换设备或换浏览器则不会同步。<br>
+    <b>「基本确定」是什么意思：</b>那些条目第一季台版已有官方汉字写法，简体版直接繁简转换即可，一般不用改；
+    列出来只是方便你顺手核对。真正需要你出力的是标着<span style="color:var(--seal)">「待定」</span>的那些。
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ── 数据：第一季独有角色。tw=台版繁体写法，who=身分，dflt=直接转简体的默认写法，
+      todo=true 表示需要爱好者定夺（多为音译或一名多写）。 ─────────────── */
+var DATA = [
+{k:"A", t:"A · 死界 · 勾魂使者与死神", n:"第二季（前传）全员未登场", rows:[
+ {id:"a1",  tw:"酒砂（酒士）", who:"勾魂使者，火湯组「酒」；美猴王与宋依之子", dflt:"酒砂", todo:false, note:"已定。「酒士」是他的自称，不是另一种写法"},
+ {id:"a2",  tw:"火湯", who:"黑部死神・东洋地府第2组 组长", dflt:"火汤", todo:false},
+ {id:"a3",  tw:"白書", who:"火湯组「菸草」；菸草家继承人，持骨菸斗", dflt:"白书", todo:false},
+ {id:"a4",  tw:"林子", who:"火湯组「女人」；妖怪出身，法具无限菸草", dflt:"林子", todo:false},
+ {id:"a5",  tw:"開平", who:"火湯组「赌博」；法具死牌，结界「落张不入」", dflt:"开平", todo:false},
+ {id:"a6",  tw:"太公", who:"第8组 铁床组长；以「希望」为饵钓灵", dflt:"太公", todo:true,  note:"疑似姜太公钓鱼的典故，请核"},
+ {id:"a7",  tw:"黑祖", who:"东洋地府长", dflt:"黑祖", todo:false},
+ {id:"a8",  tw:"狀元", who:"第10黑暗组长；连体婴，上脸判决下脸执行", dflt:"状元", todo:false},
+ {id:"a9",  tw:"毒蛇", who:"06毒蛇组组长；科学家，COPYRACE 制造者", dflt:"毒蛇", todo:false},
+ {id:"a10", tw:"布魯", who:"西洋地府作战组，「传说中的死神」", dflt:"布鲁", todo:true,  note:"音译，原文读音待核"},
+ {id:"a11", tw:"庫庫塔斯", who:"西洋地府第2组 战斗死神", dflt:"库库塔斯", todo:true, note:"音译，疑似有西方神话出处"},
+ {id:"a12", tw:"裘勒迪", who:"西洋地府秘密作战组；修宾之血脉（一半）", dflt:"裘勒迪", todo:false, note:"죠르디，台版官译已确认"},
+ {id:"a13", tw:"帕朱朱", who:"西洋地府作战队长；持改造芭蕉扇", dflt:"帕朱朱", todo:false, note:"파주주，台版官译已确认"},
+ {id:"a14", tw:"曹曹", who:"04剑树组", dflt:"曹曹", todo:true,  note:"是否即三国的「曹操」？"},
+ {id:"a15", tw:"風子／瘋子", who:"风道组长", dflt:"风子", todo:false, note:"已定。取风不取疯 ——「疯子」是第二季张光男的绰号，会撞名"},
+ {id:"a16", tw:"寒冰組長", who:"东洋地府第3组", dflt:"寒冰组长", todo:false},
+ {id:"a17", tw:"馬特", who:"花开场仲介商", dflt:"马特", todo:true, note:"音译"}
+]},
+{k:"B", t:"B · 灵 / 亡 / 凶亡", n:"持「死亡票」的存在", rows:[
+ {id:"b1", tw:"世世（SESE）", who:"堕胎儿少女灵，光男的搭档", dflt:"世世", todo:false, note:"名字源自幼时与母亲玩的 SESESE 游戏"},
+ {id:"b2", tw:"高美", who:"27岁女性，世世的「妈妈」", dflt:"高美", todo:true, note:"韩国人名，选字待定"},
+ {id:"b3", tw:"雞籠", who:"放贷者；中国籍职业杀手，72张票券", dflt:"鸡笼", todo:true, note:"中国籍角色，本名可能另有出处"},
+ {id:"b4", tw:"三誠", who:"猎人，票券3张", dflt:"三诚", todo:true},
+ {id:"b5", tw:"任再赫", who:"租借票券者", dflt:"任再赫", todo:true, note:"韩国人名，选字待定"},
+ {id:"b6", tw:"恰歐 & 恰烏", who:"双胞胎姊妹", dflt:"恰欧＆恰乌", todo:true, note:"音译"},
+ {id:"b7", tw:"萬天強", who:"集满100张票券者", dflt:"万天强", todo:true},
+ {id:"b8", tw:"奉先", who:"「99团」大陆第一", dflt:"奉先", todo:false, note:"已确认＝吕布字奉先，勿改"},
+ {id:"b9", tw:"梅露莎", who:"吸魂镜之主", dflt:"梅杜莎", todo:false, note:"已定。原型即 Medusa，改用通行译名"},
+ {id:"b10", tw:"雹異 / 迪奧曼 / KISS12", who:"三大凶亡", dflt:"雹异／迪奥曼／KISS12", todo:true, note:"三个都是音译"}
+]},
+{k:"C", t:"C · 中村 / 妖怪（肉头牌）", n:"「六斗派」是误译，正确写法为肉头牌", rows:[
+ {id:"c1", tw:"三神", who:"中村之主，掌接梦", dflt:"三神", todo:false},
+ {id:"c2", tw:"一神 / 二神", who:"三神的前两次蜕皮阶段；二神为明界最强医师兼黑魔术师", dflt:"一神／二神", todo:false},
+ {id:"c3", tw:"石公公（涉地可支）", who:"肉头牌最高位；宋依之父", dflt:"涉地可支", todo:false, note:"已定。弃用「石公公」"},
+ {id:"c4", tw:"鳳山", who:"守门人；真身为觔斗云", dflt:"凤山", todo:false, note:"봉산。注意与「奉先」（봉선）不是同一人"},
+ {id:"c5", tw:"G-大", who:"大守门人", dflt:"G-大", todo:true, note:"写法待定"},
+ {id:"c6", tw:"虎東 / 仁子 / 夢奇 / 藍寶 / 甲洞 / 丁洞", who:"肉头牌各洞队长", dflt:"虎东／仁子／梦奇／蓝宝／甲洞／丁洞", todo:true},
+ {id:"c7", tw:"憨牛（史奴）", who:"牛魔王之子", dflt:"憨牛", todo:false, note:"已定。弃用括注「史奴」"},
+ {id:"c8", tw:"大猴子", who:"三神的护卫，自幼被三神视如己出", dflt:"大猴子", todo:false}
+]},
+{k:"D", t:"D · 神话 / 最高层", n:"暗党 · 明党 · 上界", rows:[
+ {id:"d1", tw:"修賓·威漢德", who:"暗党大议员，「下面那位」；第二季的「战争手」即此人", dflt:"修宾·战争手", todo:false, note:"已定。워핸드＝War Hand，台版音译成「威漢德」漏掉了本义"},
+ {id:"d2", tw:"香·沃貝特", who:"暗党大议员", dflt:"香·战争棒", todo:false, note:"已定。워배트＝War Bat（배트 只指球棒，蝙蝠是 박쥐）"},
+ {id:"d3", tw:"裘納納·威東格", who:"暗党大议员", dflt:"裘纳纳·战争舌", todo:false, note:"已定。워텅＝War Tongue"},
+ {id:"d4", tw:"L / O / V / E", who:"四位大天使＝明党大议员（台版第168話中 E 与 V 以拉丁字母出现）", dflt:"L / O / V / E", todo:false, note:"已定。四名合起来拼成 LOVE —— 写字母，不要音译成「艾尔／奥／伊」"},
+ {id:"d5", tw:"初隆 / 布雷", who:"明党小议员 / 中议员", dflt:"初隆／布雷", todo:true},
+ {id:"d6", tw:"勞苦Z / 賓波 / 亞斯特隆", who:"上界小议员", dflt:"劳苦Z／宾波／亚斯特隆", todo:true, note:"三个都是音译"},
+ {id:"d7", tw:"亞當 / 夏娃", who:"神人与吃下第一颗苹果者", dflt:"亚当／夏娃", todo:false},
+ {id:"d8", tw:"諾亞", who:"光男的前世，方舟 ARK 的领导者", dflt:"诺亚", todo:false},
+ {id:"d9", tw:"牛魔（大力王）", who:"肉头牌原头目", dflt:"牛魔（大力王）", todo:false, note:"西游记牛魔王"},
+ {id:"d10", tw:"美猴王 悟空 / 宋依", who:"酒砂的双亲", dflt:"美猴王 悟空／宋依", todo:true, note:"悟空已定；「宋依」选字待定"},
+ {id:"d11", tw:"齊天大聖孫 / 下界三王", who:"花果山与下界最高层", dflt:"齐天大圣孙／下界三王", todo:true, note:"原列的「V」已归入大天使 LOVE 一组"},
+ {id:"d12", tw:"包 / 博士", who:"复制死神与其制造者", dflt:"包／博士", todo:true}
+]},
+{k:"E", t:"E · 阳间", n:"第一季有、第二季未出现的少数几个", rows:[
+ {id:"e1", tw:"洪英澤", who:"基贝洛斯相关", dflt:"洪英泽", todo:true},
+ {id:"e2", tw:"基宇", who:"基贝洛斯相关", dflt:"基宇", todo:true},
+ {id:"e3", tw:"李洞古", who:"九死会；撞死光男的驾驶", dflt:"李洞古", todo:true},
+ {id:"e4", tw:"金刑事", who:"人间警方，追查光男（29岁）", dflt:"金刑事", todo:false},
+ {id:"e5", tw:"江敏範 / 李世勳 / 湯秀奉 / 斷魂者一众", who:"金泰锡篇", dflt:"江敏范／李世勋／汤秀奉／断魂者", todo:true},
+ {id:"e6", tw:"外地幹部九人", who:"徽章斗争篇", dflt:"外地干部九人", todo:true}
+]}
+];
+
+var KEY = "hellper-naming-v1";
+var state = {who:"", entries:{}};
+var byId = {};
+
+/* ── 存取 ───────────────────────────────────────────────── */
+function load(){
+  try{
+    var raw = localStorage.getItem(KEY);
+    if(raw){ var o = JSON.parse(raw); if(o && typeof o==="object"){ state.who = o.who||""; state.entries = o.entries||{}; } }
+  }catch(e){/* 隐私模式或禁用存储：照常渲染，只是不保存 */}
+}
+function save(){
+  try{ localStorage.setItem(KEY, JSON.stringify(state)); }catch(e){}
+}
+
+/* ── 渲染 ───────────────────────────────────────────────── */
+function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+
+function rowHTML(r){
+  var e = state.entries[r.id] || {};
+  var tag = r.todo ? '<span class="tag todo">待定</span>' : '<span class="tag ok">基本确定</span>';
+  return '<div class="row" data-id="'+r.id+'">'
+   + '<div><div class="name">'+esc(r.tw)+'</div>'+tag+'</div>'
+   + '<div class="who">'+esc(r.who)+ (r.note? '<div class="dflt">※ '+esc(r.note)+'</div>':'') +'</div>'
+   + '<div><input type="text" class="sug" data-f="sug" placeholder="'+esc(r.dflt)+'" value="'+esc(e.sug||"")+'" aria-label="'+esc(r.tw)+' 建议译名">'
+   +   '<div class="dflt">默认：<code>'+esc(r.dflt)+'</code></div></div>'
+   + '<div><input type="text" data-f="why" placeholder="理由 / 出处（可留空）" value="'+esc(e.why||"")+'" aria-label="'+esc(r.tw)+' 理由"></div>'
+   + '</div>';
+}
+
+function render(){
+  var html = "", total = 0;
+  DATA.forEach(function(g){
+    var todo = g.rows.filter(function(r){return r.todo;});
+    var ok   = g.rows.filter(function(r){return !r.todo;});
+    total += g.rows.length;
+    g.rows.forEach(function(r){ byId[r.id] = r; });
+    html += '<section><div class="sechead"><h2>'+esc(g.t)+'</h2>'
+          + '<span class="note">'+esc(g.n)+'</span>'
+          + '<span class="count">待定 '+todo.length+' · 共 '+g.rows.length+'</span></div>'
+          + '<div class="rows">' + todo.map(rowHTML).join("") + '</div>';
+    if(ok.length){
+      html += '<details class="fold"><summary>另有 '+ok.length+' 条已有台版官方汉字写法，繁简转换即可 —— 展开核对</summary>'
+            + '<div class="inner"><div class="rows">' + ok.map(rowHTML).join("") + '</div></div></details>';
+    }
+    html += '</section>';
+  });
+  document.getElementById("main").innerHTML = html;
+  document.getElementById("total").textContent = total;
+  document.getElementById("who").value = state.who;
+  refreshFilled();
+  updateProgress();
+}
+
+function refreshFilled(){
+  document.querySelectorAll('input.sug').forEach(function(inp){
+    inp.classList.toggle("filled", inp.value.trim() !== "");
+  });
+}
+function updateProgress(){
+  var n = 0;
+  Object.keys(state.entries).forEach(function(id){
+    var e = state.entries[id];
+    if(e && e.sug && e.sug.trim()) n++;
+  });
+  document.getElementById("done").textContent = n;
+}
+
+/* ── 交互 ───────────────────────────────────────────────── */
+document.getElementById("main").addEventListener("input", function(ev){
+  var inp = ev.target;
+  if(inp.tagName !== "INPUT") return;
+  var row = inp.closest(".row"); if(!row) return;
+  var id = row.dataset.id, f = inp.dataset.f;
+  state.entries[id] = state.entries[id] || {};
+  state.entries[id][f] = inp.value;
+  if(!state.entries[id].sug && !state.entries[id].why) delete state.entries[id];
+  if(f === "sug") inp.classList.toggle("filled", inp.value.trim() !== "");
+  save(); updateProgress();
+});
+document.getElementById("who").addEventListener("input", function(e){
+  state.who = e.target.value; save();
+});
+
+var toastTimer;
+function toast(msg){
+  var t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ t.classList.remove("on"); }, 2200);
+}
+
+/* 导出成一段既能给人看、也能被机器解析的文本 */
+function buildExport(){
+  var lines = [];
+  lines.push("HELLPER 第一季角色译名征集 — 填写结果");
+  lines.push("填写人：" + (state.who || "（未署名）"));
+  lines.push("时间：" + new Date().toLocaleString("zh-CN"));
+  lines.push("");
+  DATA.forEach(function(g){
+    var got = g.rows.filter(function(r){
+      var e = state.entries[r.id]; return e && ((e.sug||"").trim() || (e.why||"").trim());
+    });
+    if(!got.length) return;
+    lines.push("【" + g.t + "】");
+    got.forEach(function(r){
+      var e = state.entries[r.id];
+      lines.push("  " + r.tw + "\t" + ((e.sug||"").trim() || "(沿用默认 " + r.dflt + ")")
+                 + ((e.why||"").trim() ? "\t理由：" + e.why.trim() : ""));
+    });
+    lines.push("");
+  });
+  lines.push("--- 以下为机器可读部分，请一并保留 ---");
+  lines.push(JSON.stringify({who:state.who, entries:state.entries}));
+  return lines.join("\n");
+}
+
+document.getElementById("copybtn").addEventListener("click", function(){
+  var text = buildExport();
+  function fallback(){
+    var ta = document.createElement("textarea");
+    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    var ok = false;
+    try{ ok = document.execCommand("copy"); }catch(e){}
+    document.body.removeChild(ta);
+    if(ok) toast("已复制，粘贴发回即可");
+    else { document.getElementById("iopanel").classList.add("on");
+           document.getElementById("iotext").value = text;
+           toast("请手动全选复制下方文本"); }
+  }
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(function(){ toast("已复制，粘贴发回即可"); }, fallback);
+  } else fallback();
+});
+
+/* 页面被嵌在别的网页里时浏览器会拦下载，这时只留「复制」 */
+(function(){
+  var standalone = true;
+  try{ standalone = (window.self === window.top); }catch(e){ standalone = false; }
+  if(standalone) document.getElementById("dlbtn").hidden = false;
+})();
+
+document.getElementById("dlbtn").addEventListener("click", function(){
+  var name = "hellper译名_" + (state.who || "未署名") + ".txt";
+  var blob = new Blob(["﻿" + buildExport()], {type:"text/plain;charset=utf-8"});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(url); }, 1500);
+  toast("已保存 " + name);
+});
+
+var iopanel = document.getElementById("iopanel");
+document.getElementById("iobtn").addEventListener("click", function(){ iopanel.classList.toggle("on"); });
+document.getElementById("closeio").addEventListener("click", function(){ iopanel.classList.remove("on"); });
+
+function parsePasted(){
+  var raw = document.getElementById("iotext").value;
+  var m = raw.match(/\{[\s\S]*\}\s*$/);
+  if(!m) return null;
+  try{ var o = JSON.parse(m[0]); return (o && o.entries) ? o : null; }catch(e){ return null; }
+}
+document.getElementById("mergebtn").addEventListener("click", function(){
+  var o = parsePasted();
+  if(!o){ toast("没读到可用内容，请确认粘贴完整"); return; }
+  var n = 0;
+  Object.keys(o.entries).forEach(function(id){ if(byId[id]){ state.entries[id] = o.entries[id]; n++; } });
+  save(); render(); iopanel.classList.remove("on");
+  toast("已合并 " + n + " 条" + (o.who ? "（来自 " + o.who + "）" : ""));
+});
+document.getElementById("loadbtn").addEventListener("click", function(){
+  var o = parsePasted();
+  if(!o){ toast("没读到可用内容，请确认粘贴完整"); return; }
+  state.who = o.who || ""; state.entries = {};
+  Object.keys(o.entries).forEach(function(id){ if(byId[id]) state.entries[id] = o.entries[id]; });
+  save(); render(); iopanel.classList.remove("on");
+  toast("已载入");
+});
+document.getElementById("clearbtn").addEventListener("click", function(){
+  if(!confirm("清空你在这台设备上填过的全部内容？此操作不可撤销。")) return;
+  state = {who:"", entries:{}}; save(); render(); toast("已清空");
+});
+
+/* 主题：跟随系统，可手动切换 */
+document.getElementById("themebtn").addEventListener("click", function(){
+  var cur = document.documentElement.getAttribute("data-theme");
+  var dark = cur ? cur === "dark"
+                 : window.matchMedia("(prefers-color-scheme: dark)").matches;
+  document.documentElement.setAttribute("data-theme", dark ? "light" : "dark");
+});
+
+load(); render();
+</script>
+</body>
+</html>
