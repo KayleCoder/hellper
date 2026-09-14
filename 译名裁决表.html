@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HELLPER 译名裁决册</title>
+<style>
+/* 纸墨名册：与 译名征集表.html 同一套令牌。不依赖外部字体，离线可开。 */
+:root{
+  --paper:#FBFAF6; --surface:#FFFFFF; --surface-2:#F4F2EC;
+  --rule:#DFDACF; --rule-soft:#EBE7DE;
+  --ink:#1C1B18; --ink-2:#4A4740; --muted:#77726A;
+  --seal:#A8342A; --seal-soft:#F0DEDB;
+  --jade:#3F7060; --jade-soft:#E0EBE6;
+  --focus:#A8342A;
+  --shadow:0 1px 2px rgba(28,27,24,.05), 0 8px 24px -12px rgba(28,27,24,.18);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#15151A; --surface:#1D1D23; --surface-2:#24242B;
+    --rule:#35353E; --rule-soft:#2A2A32;
+    --ink:#E9E7E1; --ink-2:#C3C0B8; --muted:#918D85;
+    --seal:#E0685A; --seal-soft:#3A2320;
+    --jade:#6FA994; --jade-soft:#1F3029;
+    --focus:#E0685A;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#15151A; --surface:#1D1D23; --surface-2:#24242B;
+  --rule:#35353E; --rule-soft:#2A2A32;
+  --ink:#E9E7E1; --ink-2:#C3C0B8; --muted:#918D85;
+  --seal:#E0685A; --seal-soft:#3A2320;
+  --jade:#6FA994; --jade-soft:#1F3029;
+  --focus:#E0685A;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",system-ui,-apple-system,sans-serif;
+  font-size:15px;line-height:1.6;padding-block:0 120px}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+.serif,h1,h2{font-family:"Songti SC","STSong","SimSun","Noto Serif CJK SC","Source Han Serif SC",serif}
+header{border-bottom:1px solid var(--rule);background:var(--surface)}
+.masthead{padding:30px 0 22px;display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-content:space-between}
+h1{font-size:28px;line-height:1.25;margin:0;font-weight:700;letter-spacing:.04em;text-wrap:balance}
+h1 .seal{display:inline-block;margin-right:12px;padding:3px 9px;border:2px solid var(--seal);color:var(--seal);font-size:14px;letter-spacing:.18em;vertical-align:middle}
+.lede{color:var(--ink-2);max-width:60ch;margin:8px 0 0}
+.meta{color:var(--muted);font-size:13px;line-height:1.7}
+.meta b{color:var(--ink-2);font-weight:600}
+section{margin-top:36px}
+h2{font-size:20px;margin:0 0 4px;letter-spacing:.02em}
+.sec-note{color:var(--muted);font-size:13px;margin:0 0 14px;max-width:70ch}
+.item{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:16px 18px 14px;margin-bottom:12px;box-shadow:var(--shadow)}
+.item.done{border-color:var(--jade)}
+.head{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;margin-bottom:8px}
+.num{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;color:var(--seal);font-size:13px;letter-spacing:.06em}
+.ttl{font-weight:600;font-size:16px}
+.ko{color:var(--muted);font-size:13px}
+.why{color:var(--ink-2);font-size:13.5px;margin:0 0 10px;max-width:78ch}
+.why b{font-weight:600;color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;width:0;height:0}
+.chip label{display:inline-flex;flex-direction:column;gap:1px;padding:7px 12px 6px;border:1px solid var(--rule);border-radius:4px;background:var(--surface-2);cursor:pointer;line-height:1.35;min-width:96px}
+.chip label .v{font-size:15px;font-weight:600}
+.chip label .src{font-size:11.5px;color:var(--muted);letter-spacing:.02em}
+.chip input:checked+label{border-color:var(--jade);background:var(--jade-soft);color:var(--ink)}
+.chip input:checked+label .src{color:var(--jade)}
+.chip input:focus-visible+label{outline:2px solid var(--focus);outline-offset:2px}
+.chip label .rec{position:absolute;top:-8px;right:8px;font-size:10.5px;background:var(--seal);color:#fff;padding:0 6px;border-radius:3px;letter-spacing:.08em}
+.other{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.other input[type=text]{flex:1 1 200px;min-width:0;padding:7px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--surface);color:var(--ink);font:inherit;font-size:14px}
+.other input[type=text]:focus{outline:2px solid var(--focus);outline-offset:1px}
+.other span{color:var(--muted);font-size:13px}
+/* 小行：保留／改用 */
+.row{display:grid;grid-template-columns:1fr auto;gap:8px 14px;align-items:center;padding:9px 0;border-top:1px solid var(--rule-soft)}
+.row:first-of-type{border-top:0}
+.row .pair{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.row .pair .s3{font-weight:600}
+.row .pair .alt{color:var(--muted);font-size:13.5px}
+.row .chips{gap:6px}
+.row .chip label{min-width:0;padding:5px 10px;flex-direction:row;gap:0}
+.row .chip label .v{font-size:13.5px;font-weight:500}
+.fix{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--rule-soft)}
+.fix:first-of-type{border-top:0}
+.fix input{margin-top:5px;accent-color:var(--jade);width:16px;height:16px;flex:none}
+.fix label{cursor:pointer}
+.fix label b{font-weight:600}
+.fix label .why{margin:2px 0 0}
+/* 底栏 */
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--rule);box-shadow:0 -6px 20px -12px rgba(0,0,0,.25)}
+.bar .wrap{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;padding-block:12px}
+.bar .st{color:var(--muted);font-size:13px}
+.bar .st b{color:var(--ink);font-variant-numeric:tabular-nums}
+.btns{display:flex;gap:8px;flex-wrap:wrap}
+button{font:inherit;font-size:14px;padding:9px 16px;border-radius:4px;border:1px solid var(--rule);background:var(--surface-2);color:var(--ink);cursor:pointer}
+button.primary{background:var(--seal);border-color:var(--seal);color:#fff;font-weight:600;letter-spacing:.04em}
+button:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:8px 14px;border-radius:4px;font-size:13.5px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.show{opacity:1}
+textarea#out{width:100%;min-height:200px;margin-top:10px;padding:10px;border:1px solid var(--rule);border-radius:4px;background:var(--surface-2);color:var(--ink);font:13px/1.55 ui-monospace,"SF Mono",Menlo,Consolas,monospace;resize:vertical}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+@media (max-width:560px){.row{grid-template-columns:1fr}.masthead{padding:22px 0 18px}h1{font-size:23px}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap">
+  <div class="masthead">
+    <div>
+      <h1><span class="seal">裁决</span>HELLPER 译名裁决册</h1>
+      <p class="lede">简体第一季（漫网《地狱尽头》）通读后，与现行第三季译名的冲突。每条已按「倾向」预选，改你不同意的，最后点「复制结果」发回来。</p>
+    </div>
+    <div class="meta"><b>来源</b>：s1zh/notes/名词对齐清单.md A 组<br><b>依据话号</b>＝漫网第 N 话<br><b>选择自动保存</b>在本浏览器</div>
+  </div>
+</div></header>
+
+<main class="wrap">
+  <section id="s1">
+    <h2>一、第三季自己两份定稿互相矛盾</h2>
+    <p class="sec-note">CLAUDE.md 术语表与《第一季独有角色清单》各写一套，必须先统一，和简体版无关。</p>
+    <div id="g1"></div>
+  </section>
+  <section id="s2">
+    <h2>二、简体两季一致，只有台版与第三季不同</h2>
+    <div id="g2"></div>
+  </section>
+  <section id="s3">
+    <h2>三、主角与三大议员</h2>
+    <div id="g3"></div>
+  </section>
+  <section id="s4">
+    <h2>四、台版与第三季一致，只有简体一季不同</h2>
+    <p class="sec-note">默认保留第三季现用。想改用简体一季写法的，点右边。</p>
+    <div class="item" id="g4"></div>
+  </section>
+  <section id="s5">
+    <h2>五、设定纠错</h2>
+    <p class="sec-note">不是译名，是现有资料本身记错了。勾上表示同意修改。</p>
+    <div class="item" id="g5"></div>
+  </section>
+  <section id="s6">
+    <h2>结果</h2>
+    <p class="sec-note">点底栏「复制结果」，或直接从这里复制。</p>
+    <textarea id="out" readonly aria-label="裁决结果"></textarea>
+  </section>
+</main>
+
+<div class="bar"><div class="wrap">
+  <div class="st">已改 <b id="changed">0</b> 条（与倾向不同）· 共 <b id="total">0</b> 条</div>
+  <div class="btns"><button id="reset" type="button">恢复倾向</button><button id="copy" class="primary" type="button">复制结果</button></div>
+</div></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+var KEY='hellper-s1zh-decisions-v1';
+// 候选：v=写法，s=出处
+var Q=[
+ {g:'g1',id:'1',t:'지룡(맥)',ko:'票借贷者，暗号名「脉」',why:'资料卡「暗号名：脉」证实 맥＝脉。<b>地龙(脉)</b> 保住了这层意思；「鸡笼／吉龙」都是音译。',
+  c:[{v:'地龙(脉)',s:'CLAUDE.md'},{v:'鸡笼',s:'独有清单·台版'},{v:'吉龙',s:'简体一季·卡'}],rec:0},
+ {g:'g1',id:'2a',t:'肉头派 乙洞队长',ko:'ep052 卡「浩东」、ep073 起「好童」',why:'三方三写。台版与简体读音相近，倾向 <b>虎东</b>。',
+  c:[{v:'虎东',s:'独有清单·台版'},{v:'贤宇',s:'CLAUDE.md'},{v:'好童',s:'简体一季'},{v:'浩东',s:'简体一季·卡'}],rec:0},
+ {g:'g1',id:'2b',t:'肉头派 丁洞队长',ko:'',why:'台版名册标他「四洞队长」疑为误读，资料卡写法是「四洞队长 中 丁洞队长」。',
+  c:[{v:'猛奇',s:'CLAUDE.md'},{v:'梦奇',s:'独有清单·台版'},{v:'猛基',s:'简体一季'}],rec:0},
+ {g:'g1',id:'2c',t:'肉头派 甲洞／丙洞队长',ko:'',why:'简体一季与 CLAUDE.md 一致。',
+  c:[{v:'兰波／仁者',s:'CLAUDE.md·简体一季'},{v:'蓝宝／仁子',s:'独有清单'}],rec:0},
+ {g:'g2',id:'3',t:'九蛇会',ko:'卡那市黑帮，光男之死的背后势力',why:'简体一季 39 话起稳定「九蛇会」，台版后段也是「九蛇會」；「邱蛇会」只在第二季汉化。',
+  c:[{v:'九蛇会',s:'简体一季·台版后段'},{v:'邱蛇会',s:'第二季·第三季'}],rec:0},
+ {g:'g2',id:'4',t:'血海／方大海',ko:'南尚仁的奶奶，前首席设计师',why:'简体一季资料卡：本名<b>方大海</b>、统称<b>血海</b>；台版反过来说本名「房血海」；第二季「血大海」两者都不是。',
+  c:[{v:'方大海（本名）／血海（统称）',s:'简体一季·卡'},{v:'血大海',s:'第二季·第三季'},{v:'房血海',s:'台版·卡'}],rec:0},
+ {g:'g3',id:'5',t:'主角的姓',ko:'장광남',why:'简体一季主用「庄」（30 余话）但 5 话写「张」；第二季「张」；台版「莊」。第二季是你定的基准。',
+  c:[{v:'张',s:'第二季·第三季'},{v:'庄',s:'简体一季主用'}],rec:0},
+ {g:'g3',id:'6',t:'光男／狂男哪个是本名',ko:'',why:'知识库：本名光男，狂男＝开票者身分名。简体一季 ep042 汉化注却说「狂男是真名，光男是谢谢知道的名字」。建议看 ep042 原图再定。',
+  c:[{v:'本名光男，狂男＝身分名',s:'知识库'},{v:'本名狂男，光男＝谢谢叫的名',s:'简体一季 ep042 注'},{v:'先不动，回看 ep042',s:''}],rec:0},
+ {g:'g3',id:'7',t:'暗党三大议员的名',ko:'슈빌／존나나／샹',why:'姓「战争手／舌／棒」三方一致。简体一季把名译成中文脏话谐音：<b>瓦考＝我靠、麻德＝妈的、曹＝操</b>，正对应韩文原名的脏话梗；台版音译丢了这层。',
+  c:[{v:'瓦考／麻德／曹',s:'简体一季·卡'},{v:'修宾／裘纳纳／香',s:'台版·第三季'}],rec:0},
+ {g:'g3',id:'8',t:'2 组组长 白西／白书',ko:'',why:'简体 ep083 交代词源「红东白西」（祭祀摆位）；「书」没有出处。',
+  c:[{v:'白西',s:'简体一季'},{v:'白书',s:'台版·第三季'}],rec:0},
+ {g:'g3',id:'9',t:'下界王',ko:'염 헬 2세',why:'헬＝Hell。意译「地狱」比音译「赫尔」贴合，且与作品名呼应。',
+  c:[{v:'阎地狱二世',s:'简体一季'},{v:'阎·赫尔二世',s:'第三季'}],rec:0},
+ {g:'g3',id:'10',t:'明党小议员／中议员',ko:'',why:'简体只按颜色称呼，台版给了名字。',
+  c:[{v:'初隆／布雷',s:'台版·第三季'},{v:'草绿／黑色',s:'简体一季'}],rec:0}
+];
+// 四：保留／改用
+var K=[
+ ['世世','谢谢'],['酒砂','酒疯'],['开平（法具 死牌）','头钱（法具 死斗）'],['林子','老婆子'],['黑祖','黑鸟'],['宋依','松伊'],
+ ['帕朱朱','帕祖祖'],['裘勒迪','乔乐迪'],['憨牛','献牛'],['「下面那位」','下边者'],['宾波／亚斯特隆','Beampole／Astrom'],['史克尔／基毒','SCAR／KILLDOG'],
+ ['基尔贝罗斯成员本名（泰硕、恩浩、朴炳俊、郑镇一、李齐宇、沈绍硕、金完柱）','简体一季写法（金泰锡、银浩、朴秉俊、郑构日／郑真日、李奇友、申小锡、金完周）']
+];
+// 五：纠错
+var F=[
+ ['下界三王＝三大议员','「下界三王」不是独立组织，就是瓦考／麻德／曹（ep182：V 的形被移植进三大议员）。独有清单把它单列了。'],
+ ['「灭亡」是开票者的隐名','ep180 明确。台版名册与独有清单错挂在 KISS12（亲亲12）名下。'],
+ ['献牛没死','ep184 他是乙洞队长候补；此前「被吃掉」的解读有误。']
+];
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var state=load();
+function load(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return{}}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}}
+function render(){
+  Q.forEach(function(q){
+    var el=document.createElement('div');el.className='item';el.id='item-'+q.id;
+    var h='<div class="head"><span class="num">'+esc(q.id)+'</span><span class="ttl">'+esc(q.t)+'</span>'+(q.ko?'<span class="ko">'+esc(q.ko)+'</span>':'')+'</div><p class="why">'+q.why+'</p><div class="chips">';
+    q.c.forEach(function(c,i){
+      var id='q'+q.id+'_'+i;
+      h+='<span class="chip"><input type="radio" name="q'+q.id+'" id="'+id+'" value="'+i+'"><label for="'+id+'">'+(i===q.rec?'<span class="rec">倾向</span>':'')+'<span class="v">'+esc(c.v)+'</span>'+(c.s?'<span class="src">'+esc(c.s)+'</span>':'')+'</label></span>';
+    });
+    h+='</div><div class="other"><span>其他写法／备注</span><input type="text" id="o'+q.id+'" placeholder="留空即用上面的选择"></div>';
+    el.innerHTML=h;document.getElementById(q.g).appendChild(el);
+  });
+  var g4=document.getElementById('g4'),h4='';
+  K.forEach(function(k,i){
+    h4+='<div class="row"><div class="pair"><span class="s3">'+esc(k[0])+'</span><span class="alt">简体一季：'+esc(k[1])+'</span></div><div class="chips">'+
+      '<span class="chip"><input type="radio" name="k'+i+'" id="k'+i+'_0" value="0"><label for="k'+i+'_0"><span class="v">保留</span></label></span>'+
+      '<span class="chip"><input type="radio" name="k'+i+'" id="k'+i+'_1" value="1"><label for="k'+i+'_1"><span class="v">改用简体一季</span></label></span></div></div>';
+  });
+  g4.innerHTML=h4;
+  var g5=document.getElementById('g5'),h5='';
+  F.forEach(function(f,i){h5+='<div class="fix"><input type="checkbox" id="f'+i+'"><label for="f'+i+'"><b>'+esc(f[0])+'</b><p class="why">'+esc(f[1])+'</p></label></div>'});
+  g5.innerHTML=h5;
+  document.getElementById('total').textContent=Q.length+K.length+F.length;
+}
+function apply(){
+  Q.forEach(function(q){var v=state['q'+q.id];if(v==null)v=q.rec;var r=document.getElementById('q'+q.id+'_'+v);if(r)r.checked=true;document.getElementById('o'+q.id).value=state['o'+q.id]||'';});
+  K.forEach(function(k,i){var v=state['k'+i]||0;document.getElementById('k'+i+'_'+v).checked=true});
+  F.forEach(function(f,i){document.getElementById('f'+i).checked=state['f'+i]!==false});
+  refresh();
+}
+function collect(){
+  Q.forEach(function(q){var r=document.querySelector('input[name=q'+q.id+']:checked');state['q'+q.id]=r?+r.value:q.rec;state['o'+q.id]=document.getElementById('o'+q.id).value.trim()});
+  K.forEach(function(k,i){var r=document.querySelector('input[name=k'+i+']:checked');state['k'+i]=r?+r.value:0});
+  F.forEach(function(f,i){state['f'+i]=document.getElementById('f'+i).checked});
+  save();
+}
+function text(){
+  var L=['HELLPER 译名裁决（简体一季对齐）',''];
+  var changed=0;
+  Q.forEach(function(q){
+    var v=state['q'+q.id];if(v==null||!q.c[v])v=q.rec;var o=state['o'+q.id]||'',pick=q.c[v].v,diff=(v!==q.rec)||!!o;
+    if(diff)changed++;
+    L.push(q.id+'. '+q.t+' → '+pick+(o?'　【备注：'+o+'】':'')+(diff?'':'　(倾向)'));
+    var el=document.getElementById('item-'+q.id);if(el)el.classList.toggle('done',diff);
+  });
+  L.push('','四、简体一季独有写法：');
+  var any=false;
+  K.forEach(function(k,i){if(state['k'+i]===1){any=true;changed++;L.push('  改用：'+k[0]+' → '+k[1])}});
+  if(!any)L.push('  全部保留第三季现用');
+  L.push('','五、设定纠错：');
+  F.forEach(function(f,i){var ok=state['f'+i]!==false;if(!ok)changed++;L.push('  ['+(ok?'改':'不改')+'] '+f[0])});
+  document.getElementById('changed').textContent=changed;
+  return L.join('\n');
+}
+function refresh(){document.getElementById('out').value=text()}
+function toast(m){var t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(function(){t.classList.remove('show')},1800)}
+render();apply();
+document.addEventListener('change',function(){collect();refresh()});
+document.addEventListener('input',function(e){if(e.target.type==='text'){collect();refresh()}});
+document.getElementById('copy').addEventListener('click',function(){
+  collect();var s=text();refresh();
+  var done=function(){toast('已复制，粘贴发回即可')};
+  fallback(s);if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(s).then(done,function(){toast('浏览器不允许自动复制，结果已全选，按 ⌘C / Ctrl+C')})}else{done()}
+});
+function fallback(s){var ta=document.getElementById('out');ta.value=s;ta.scrollIntoView({block:'center'});ta.focus();ta.select();try{document.execCommand('copy')}catch(e){}}
+document.getElementById('reset').addEventListener('click',function(){state={};save();apply();toast('已恢复为倾向')});
+</script>
+</body>
+</html>
